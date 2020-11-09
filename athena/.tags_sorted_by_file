@@ -1,0 +1,1880 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+BahdanauAttention	__init__.py	/^from .layers.attention import BahdanauAttention$/;"	i
+BaseModel	__init__.py	/^from .models.base import BaseModel$/;"	i
+BaseSolver	__init__.py	/^from .solver import BaseSolver$/;"	i
+BeamSearchDecoder	__init__.py	/^from .tools.beam_search import BeamSearchDecoder$/;"	i
+CTCAccuracy	__init__.py	/^from .metrics import CTCAccuracy$/;"	i
+CTCLoss	__init__.py	/^from .loss import CTCLoss$/;"	i
+Checkpoint	__init__.py	/^from .utils.checkpoint import Checkpoint$/;"	i
+Collapse4D	__init__.py	/^from .layers.commons import Collapse4D$/;"	i
+ConvertSolver	__init__.py	/^from .solver import ConvertSolver$/;"	i
+DecoderSolver	__init__.py	/^from .solver import DecoderSolver$/;"	i
+DeepSpeechModel	__init__.py	/^from .models.deep_speech import DeepSpeechModel$/;"	i
+FastSpeech	__init__.py	/^from .models.fastspeech import FastSpeech$/;"	i
+FeatureNormalizer	__init__.py	/^from .data import FeatureNormalizer$/;"	i
+GanSolver	__init__.py	/^from .solver import GanSolver$/;"	i
+Gelu	__init__.py	/^from .layers.commons import Gelu$/;"	i
+HParams	__init__.py	/^from .utils.hparam import HParams, register_and_parse_hparams$/;"	i
+HanAttention	__init__.py	/^from .layers.attention import HanAttention$/;"	i
+HorovodSolver	__init__.py	/^from .solver import HorovodSolver$/;"	i
+LanguageDatasetBuilder	__init__.py	/^from .data import LanguageDatasetBuilder$/;"	i
+MaskedPredictCoding	__init__.py	/^from .models.masked_pc import MaskedPredictCoding$/;"	i
+MatchAttention	__init__.py	/^from .layers.attention import MatchAttention$/;"	i
+MtlTransformerCtc	__init__.py	/^from .models.mtl_seq2seq import MtlTransformerCtc$/;"	i
+MultiHeadAttention	__init__.py	/^from .layers.attention import MultiHeadAttention$/;"	i
+NeuralTranslateTransformer	__init__.py	/^from .models.translate_transformer import NeuralTranslateTransformer$/;"	i
+PositionalEncoding	__init__.py	/^from .layers.commons import PositionalEncoding$/;"	i
+RNNLM	__init__.py	/^from .models.rnn_lm import RNNLM$/;"	i
+ResnetBasicBlock	__init__.py	/^from .layers.resnet_block import ResnetBasicBlock$/;"	i
+Seq2SeqSparseCategoricalAccuracy	__init__.py	/^from .metrics import Seq2SeqSparseCategoricalAccuracy$/;"	i
+Seq2SeqSparseCategoricalCrossentropy	__init__.py	/^from .loss import Seq2SeqSparseCategoricalCrossentropy$/;"	i
+SpeakerRecognitionDatasetBuilder	__init__.py	/^from .data import SpeakerRecognitionDatasetBuilder$/;"	i
+SpeakerResnet	__init__.py	/^from .models.speaker_resnet import SpeakerResnet$/;"	i
+SpeakerVerificationDatasetBuilder	__init__.py	/^from .data import SpeakerVerificationDatasetBuilder$/;"	i
+SpeechDatasetBuilder	__init__.py	/^from .data import SpeechDatasetBuilder$/;"	i
+SpeechDatasetKaldiIOBuilder	__init__.py	/^from .data import SpeechDatasetKaldiIOBuilder$/;"	i
+SpeechRecognitionDatasetBuilder	__init__.py	/^from .data import SpeechRecognitionDatasetBuilder$/;"	i
+SpeechRecognitionDatasetKaldiIOBuilder	__init__.py	/^from .data import SpeechRecognitionDatasetKaldiIOBuilder$/;"	i
+SpeechSynthesisDatasetBuilder	__init__.py	/^from .data import SpeechSynthesisDatasetBuilder$/;"	i
+SpeechTransformer	__init__.py	/^from .models.speech_transformer import SpeechTransformer, SpeechTransformer2$/;"	i
+SpeechTransformer2	__init__.py	/^from .models.speech_transformer import SpeechTransformer, SpeechTransformer2$/;"	i
+StarganLoss	__init__.py	/^from .loss import StarganLoss$/;"	i
+StarganModel	__init__.py	/^from .models.stargan_vc import StarganModel$/;"	i
+SynthesisSolver	__init__.py	/^from .solver import SynthesisSolver$/;"	i
+TTSTransformer	__init__.py	/^from .models.tts_transformer import TTSTransformer$/;"	i
+Tacotron2	__init__.py	/^from .models.tacotron2 import Tacotron2$/;"	i
+TdnnLayer	__init__.py	/^from .layers.commons import TdnnLayer$/;"	i
+TextFeaturizer	__init__.py	/^from .data.text_featurizer import TextFeaturizer$/;"	i
+Transformer	__init__.py	/^from .layers.transformer import Transformer$/;"	i
+TransformerDecoder	__init__.py	/^from .layers.transformer import TransformerDecoder$/;"	i
+TransformerDecoderLayer	__init__.py	/^from .layers.transformer import TransformerDecoderLayer$/;"	i
+TransformerEncoder	__init__.py	/^from .layers.transformer import TransformerEncoder$/;"	i
+TransformerEncoderLayer	__init__.py	/^from .layers.transformer import TransformerEncoderLayer$/;"	i
+VoiceConversionDatasetBuilder	__init__.py	/^from .data import VoiceConversionDatasetBuilder$/;"	i
+WarmUpAdam	__init__.py	/^from .utils.learning_rate import WarmUpLearningSchedule, WarmUpAdam$/;"	i
+WarmUpLearningSchedule	__init__.py	/^from .utils.learning_rate import WarmUpLearningSchedule, WarmUpAdam$/;"	i
+WorldFeatureNormalizer	__init__.py	/^from .data import WorldFeatureNormalizer$/;"	i
+collapse4d	__init__.py	/^from .layers.functional import collapse4d$/;"	i
+gelu	__init__.py	/^from .layers.functional import gelu$/;"	i
+generate_square_subsequent_mask	__init__.py	/^from .utils.misc import generate_square_subsequent_mask$/;"	i
+get_wave_file_length	__init__.py	/^from .utils.misc import get_wave_file_length$/;"	i
+make_positional_encoding	__init__.py	/^from .layers.functional import make_positional_encoding$/;"	i
+register_and_parse_hparams	__init__.py	/^from .utils.hparam import HParams, register_and_parse_hparams$/;"	i
+set_default_summary_writer	__init__.py	/^from .utils.misc import set_default_summary_writer$/;"	i
+SUPPORTED_DATASET_BUILDER	cmvn_main.py	/^from athena.main import parse_config, SUPPORTED_DATASET_BUILDER$/;"	i
+config	cmvn_main.py	/^        config = json.load(file)$/;"	v
+dataset_builder	cmvn_main.py	/^    dataset_builder = SUPPORTED_DATASET_BUILDER[p.dataset_builder](p.trainset_config)$/;"	v
+json	cmvn_main.py	/^import json$/;"	i
+logging	cmvn_main.py	/^from absl import logging$/;"	i
+p	cmvn_main.py	/^    p = parse_config(config)$/;"	v
+parse_config	cmvn_main.py	/^from athena.main import parse_config, SUPPORTED_DATASET_BUILDER$/;"	i
+sys	cmvn_main.py	/^import sys$/;"	i
+ConvertSolver	convert_main.py	/^from athena import ConvertSolver$/;"	i
+config	convert_main.py	/^        config = json.load(file)$/;"	v
+convert	convert_main.py	/^def convert(jsonfile):$/;"	f
+json	convert_main.py	/^import json$/;"	i
+jsonfile	convert_main.py	/^    jsonfile = sys.argv[1]$/;"	v
+logging	convert_main.py	/^from absl import logging$/;"	i
+p	convert_main.py	/^    p = parse_config(config)$/;"	v
+sys	convert_main.py	/^import sys$/;"	i
+tf	convert_main.py	/^import tensorflow as tf$/;"	i
+FeatureNormalizer	data/__init__.py	/^from .feature_normalizer import FeatureNormalizer$/;"	i
+LanguageDatasetBuilder	data/__init__.py	/^from .datasets.language_set import LanguageDatasetBuilder$/;"	i
+SentencePieceFeaturizer	data/__init__.py	/^from .text_featurizer import TextFeaturizer, SentencePieceFeaturizer$/;"	i
+SpeakerRecognitionDatasetBuilder	data/__init__.py	/^from .datasets.speaker_recognition import SpeakerRecognitionDatasetBuilder$/;"	i
+SpeakerVerificationDatasetBuilder	data/__init__.py	/^from .datasets.speaker_recognition import SpeakerVerificationDatasetBuilder$/;"	i
+SpeechDatasetBuilder	data/__init__.py	/^from .datasets.speech_set import SpeechDatasetBuilder$/;"	i
+SpeechDatasetKaldiIOBuilder	data/__init__.py	/^from .datasets.speech_set_kaldiio import SpeechDatasetKaldiIOBuilder$/;"	i
+SpeechRecognitionDatasetBuilder	data/__init__.py	/^from .datasets.speech_recognition import SpeechRecognitionDatasetBuilder$/;"	i
+SpeechRecognitionDatasetKaldiIOBuilder	data/__init__.py	/^from .datasets.speech_recognition_kaldiio import SpeechRecognitionDatasetKaldiIOBuilder$/;"	i
+SpeechSynthesisDatasetBuilder	data/__init__.py	/^from .datasets.speech_synthesis import SpeechSynthesisDatasetBuilder$/;"	i
+TextFeaturizer	data/__init__.py	/^from .text_featurizer import TextFeaturizer, SentencePieceFeaturizer$/;"	i
+VoiceConversionDatasetBuilder	data/__init__.py	/^from .datasets.voice_conversion import VoiceConversionDatasetBuilder$/;"	i
+WorldFeatureNormalizer	data/__init__.py	/^from .feature_normalizer import WorldFeatureNormalizer$/;"	i
+AudioFeaturizer	data/datasets/base.py	/^from athena.transform import AudioFeaturizer$/;"	i
+BaseDatasetBuilder	data/datasets/base.py	/^class BaseDatasetBuilder:$/;"	c
+DataQueue	data/datasets/base.py	/^from ...utils.data_queue import DataQueue$/;"	i
+FeatureNormalizer	data/datasets/base.py	/^from ..feature_normalizer import FeatureNormalizer$/;"	i
+SpeechBaseDatasetBuilder	data/datasets/base.py	/^class SpeechBaseDatasetBuilder(BaseDatasetBuilder):$/;"	c
+__getitem__	data/datasets/base.py	/^    def __getitem__(self, index):$/;"	m	class:BaseDatasetBuilder	file:
+__init__	data/datasets/base.py	/^    def __init__(self, config=None):$/;"	m	class:BaseDatasetBuilder
+__init__	data/datasets/base.py	/^    def __init__(self, config=None):$/;"	m	class:SpeechBaseDatasetBuilder
+__len__	data/datasets/base.py	/^    def __len__(self):$/;"	m	class:BaseDatasetBuilder	file:
+_gen_data	data/datasets/base.py	/^        def _gen_data():$/;"	f	function:data_loader
+as_dataset	data/datasets/base.py	/^    def as_dataset(self, batch_size=16, num_threads=1):$/;"	m	class:BaseDatasetBuilder
+batch_wise_shuffle	data/datasets/base.py	/^    def batch_wise_shuffle(self, batch_size=64):$/;"	m	class:BaseDatasetBuilder
+compute_cmvn_if_necessary	data/datasets/base.py	/^    def compute_cmvn_if_necessary(self, is_necessary=True):$/;"	m	class:BaseDatasetBuilder
+compute_cmvn_if_necessary	data/datasets/base.py	/^    def compute_cmvn_if_necessary(self, is_necessary=True):$/;"	m	class:SpeechBaseDatasetBuilder
+data_loader	data/datasets/base.py	/^def data_loader(dataset_builder, batch_size=16, num_threads=1):$/;"	f
+default_config	data/datasets/base.py	/^    default_config = {$/;"	v	class:SpeechBaseDatasetBuilder
+default_config	data/datasets/base.py	/^    default_config = {}$/;"	v	class:BaseDatasetBuilder
+logging	data/datasets/base.py	/^from absl import logging$/;"	i
+math	data/datasets/base.py	/^import math$/;"	i
+num_class	data/datasets/base.py	/^    def num_class(self):$/;"	m	class:SpeechBaseDatasetBuilder
+os	data/datasets/base.py	/^import os$/;"	i
+preprocess_data	data/datasets/base.py	/^    def preprocess_data(self, file_path):$/;"	m	class:BaseDatasetBuilder
+random	data/datasets/base.py	/^import random$/;"	i
+register_and_parse_hparams	data/datasets/base.py	/^from ...utils.hparam import register_and_parse_hparams$/;"	i
+reload_config	data/datasets/base.py	/^    def reload_config(self, config):$/;"	m	class:BaseDatasetBuilder
+sample_shape	data/datasets/base.py	/^    def sample_shape(self):$/;"	m	class:BaseDatasetBuilder
+sample_signature	data/datasets/base.py	/^    def sample_signature(self):$/;"	m	class:BaseDatasetBuilder
+sample_type	data/datasets/base.py	/^    def sample_type(self):$/;"	m	class:BaseDatasetBuilder
+shard	data/datasets/base.py	/^    def shard(self, num_shards, index):$/;"	m	class:BaseDatasetBuilder
+tf	data/datasets/base.py	/^import tensorflow as tf$/;"	i
+BaseDatasetBuilder	data/datasets/language_set.py	/^from .base import BaseDatasetBuilder$/;"	i
+LanguageDatasetBuilder	data/datasets/language_set.py	/^class LanguageDatasetBuilder(BaseDatasetBuilder):$/;"	c
+TextFeaturizer	data/datasets/language_set.py	/^from ..text_featurizer import TextFeaturizer$/;"	i
+__getitem__	data/datasets/language_set.py	/^    def __getitem__(self, index):$/;"	m	class:LanguageDatasetBuilder	file:
+__init__	data/datasets/language_set.py	/^    def __init__(self, config=None):$/;"	m	class:LanguageDatasetBuilder
+default_config	data/datasets/language_set.py	/^    default_config = {$/;"	v	class:LanguageDatasetBuilder
+input_vocab_size	data/datasets/language_set.py	/^    def input_vocab_size(self):$/;"	m	class:LanguageDatasetBuilder
+logging	data/datasets/language_set.py	/^from absl import logging$/;"	i
+num_class	data/datasets/language_set.py	/^    def num_class(self):$/;"	m	class:LanguageDatasetBuilder
+preprocess_data	data/datasets/language_set.py	/^    def preprocess_data(self, file_path):$/;"	m	class:LanguageDatasetBuilder
+sample_shape	data/datasets/language_set.py	/^    def sample_shape(self):$/;"	m	class:LanguageDatasetBuilder
+sample_signature	data/datasets/language_set.py	/^    def sample_signature(self):$/;"	m	class:LanguageDatasetBuilder
+sample_type	data/datasets/language_set.py	/^    def sample_type(self):$/;"	m	class:LanguageDatasetBuilder
+tf	data/datasets/language_set.py	/^import tensorflow as tf$/;"	i
+tqdm	data/datasets/language_set.py	/^import tqdm$/;"	i
+Image	data/datasets/preprocess.py	/^from PIL import Image$/;"	i
+SpecAugment	data/datasets/preprocess.py	/^class SpecAugment:$/;"	c
+__call__	data/datasets/preprocess.py	/^    def __call__(self, feat):$/;"	m	class:SpecAugment	file:
+__init__	data/datasets/preprocess.py	/^    def __init__(self, preprocess_config):$/;"	m	class:SpecAugment
+default_config	data/datasets/preprocess.py	/^    default_config = {$/;"	v	class:SpecAugment
+feat_masking	data/datasets/preprocess.py	/^    def feat_masking(self, feat, axis=0, mask_num=0):$/;"	m	class:SpecAugment
+feat_time_warping	data/datasets/preprocess.py	/^    def feat_time_warping(self, feat):$/;"	m	class:SpecAugment
+random	data/datasets/preprocess.py	/^import random$/;"	i
+register_and_parse_hparams	data/datasets/preprocess.py	/^from ...utils.hparam import register_and_parse_hparams$/;"	i
+tf	data/datasets/preprocess.py	/^import tensorflow as tf$/;"	i
+SpeakerRecognitionDatasetBuilder	data/datasets/speaker_recognition.py	/^class SpeakerRecognitionDatasetBuilder(SpeechBaseDatasetBuilder):$/;"	c
+SpeakerVerificationDatasetBuilder	data/datasets/speaker_recognition.py	/^class SpeakerVerificationDatasetBuilder(SpeakerRecognitionDatasetBuilder):$/;"	c
+SpeechBaseDatasetBuilder	data/datasets/speaker_recognition.py	/^from .base import SpeechBaseDatasetBuilder$/;"	i
+__getitem__	data/datasets/speaker_recognition.py	/^    def __getitem__(self, index):$/;"	m	class:SpeakerRecognitionDatasetBuilder	file:
+__getitem__	data/datasets/speaker_recognition.py	/^    def __getitem__(self, index):$/;"	m	class:SpeakerVerificationDatasetBuilder	file:
+__init__	data/datasets/speaker_recognition.py	/^    def __init__(self, config=None):$/;"	m	class:SpeakerRecognitionDatasetBuilder
+__init__	data/datasets/speaker_recognition.py	/^    def __init__(self, config=None):$/;"	m	class:SpeakerVerificationDatasetBuilder
+cut_features	data/datasets/speaker_recognition.py	/^    def cut_features(self, feature):$/;"	m	class:SpeakerRecognitionDatasetBuilder
+default_config	data/datasets/speaker_recognition.py	/^    default_config = {$/;"	v	class:SpeakerRecognitionDatasetBuilder
+logging	data/datasets/speaker_recognition.py	/^from absl import logging$/;"	i
+num_class	data/datasets/speaker_recognition.py	/^    def num_class(self):$/;"	m	class:SpeakerRecognitionDatasetBuilder
+preprocess_data	data/datasets/speaker_recognition.py	/^    def preprocess_data(self, file_path):$/;"	m	class:SpeakerRecognitionDatasetBuilder
+preprocess_data	data/datasets/speaker_recognition.py	/^    def preprocess_data(self, file_path):$/;"	m	class:SpeakerVerificationDatasetBuilder
+sample_shape	data/datasets/speaker_recognition.py	/^    def sample_shape(self):$/;"	m	class:SpeakerRecognitionDatasetBuilder
+sample_shape	data/datasets/speaker_recognition.py	/^    def sample_shape(self):$/;"	m	class:SpeakerVerificationDatasetBuilder
+sample_signature	data/datasets/speaker_recognition.py	/^    def sample_signature(self):$/;"	m	class:SpeakerRecognitionDatasetBuilder
+sample_signature	data/datasets/speaker_recognition.py	/^    def sample_signature(self):$/;"	m	class:SpeakerVerificationDatasetBuilder
+sample_type	data/datasets/speaker_recognition.py	/^    def sample_type(self):$/;"	m	class:SpeakerRecognitionDatasetBuilder
+sample_type	data/datasets/speaker_recognition.py	/^    def sample_type(self):$/;"	m	class:SpeakerVerificationDatasetBuilder
+tf	data/datasets/speaker_recognition.py	/^import tensorflow as tf$/;"	i
+SpeakerRecognitionDatasetBuilder	data/datasets/speaker_recognition_test.py	/^from athena import SpeakerRecognitionDatasetBuilder$/;"	i
+logging	data/datasets/speaker_recognition_test.py	/^from absl import logging$/;"	i
+test	data/datasets/speaker_recognition_test.py	/^def test():$/;"	f
+time	data/datasets/speaker_recognition_test.py	/^import time$/;"	i
+tqdm	data/datasets/speaker_recognition_test.py	/^import tqdm$/;"	i
+SpeechBaseDatasetBuilder	data/datasets/speech_recognition.py	/^from .base import SpeechBaseDatasetBuilder$/;"	i
+SpeechRecognitionDatasetBuilder	data/datasets/speech_recognition.py	/^class SpeechRecognitionDatasetBuilder(SpeechBaseDatasetBuilder):$/;"	c
+TextFeaturizer	data/datasets/speech_recognition.py	/^from ..text_featurizer import TextFeaturizer$/;"	i
+__getitem__	data/datasets/speech_recognition.py	/^    def __getitem__(self, index):$/;"	m	class:SpeechRecognitionDatasetBuilder	file:
+__init__	data/datasets/speech_recognition.py	/^    def __init__(self, config=None):$/;"	m	class:SpeechRecognitionDatasetBuilder
+default_config	data/datasets/speech_recognition.py	/^    default_config = {$/;"	v	class:SpeechRecognitionDatasetBuilder
+logging	data/datasets/speech_recognition.py	/^from absl import logging$/;"	i
+num_class	data/datasets/speech_recognition.py	/^    def num_class(self):$/;"	m	class:SpeechRecognitionDatasetBuilder
+preprocess_data	data/datasets/speech_recognition.py	/^    def preprocess_data(self, file_path):$/;"	m	class:SpeechRecognitionDatasetBuilder
+sample_shape	data/datasets/speech_recognition.py	/^    def sample_shape(self):$/;"	m	class:SpeechRecognitionDatasetBuilder
+sample_signature	data/datasets/speech_recognition.py	/^    def sample_signature(self):$/;"	m	class:SpeechRecognitionDatasetBuilder
+sample_type	data/datasets/speech_recognition.py	/^    def sample_type(self):$/;"	m	class:SpeechRecognitionDatasetBuilder
+tf	data/datasets/speech_recognition.py	/^import tensorflow as tf$/;"	i
+SpeechRecognitionDatasetBuilder	data/datasets/speech_recognition_kaldiio.py	/^from .speech_recognition import SpeechRecognitionDatasetBuilder$/;"	i
+SpeechRecognitionDatasetKaldiIOBuilder	data/datasets/speech_recognition_kaldiio.py	/^class SpeechRecognitionDatasetKaldiIOBuilder(SpeechRecognitionDatasetBuilder):$/;"	c
+__getitem__	data/datasets/speech_recognition_kaldiio.py	/^    def __getitem__(self, index):$/;"	m	class:SpeechRecognitionDatasetKaldiIOBuilder	file:
+__init__	data/datasets/speech_recognition_kaldiio.py	/^    def __init__(self, config=None):$/;"	m	class:SpeechRecognitionDatasetKaldiIOBuilder
+compute_cmvn_if_necessary	data/datasets/speech_recognition_kaldiio.py	/^    def compute_cmvn_if_necessary(self, is_necessary=True):$/;"	m	class:SpeechRecognitionDatasetKaldiIOBuilder
+default_config	data/datasets/speech_recognition_kaldiio.py	/^    default_config = {$/;"	v	class:SpeechRecognitionDatasetKaldiIOBuilder
+kaldiio	data/datasets/speech_recognition_kaldiio.py	/^import kaldiio$/;"	i
+logging	data/datasets/speech_recognition_kaldiio.py	/^from absl import logging$/;"	i
+os	data/datasets/speech_recognition_kaldiio.py	/^import os$/;"	i
+preprocess_data	data/datasets/speech_recognition_kaldiio.py	/^    def preprocess_data(self, file_dir, apply_sort_filter=True):$/;"	m	class:SpeechRecognitionDatasetKaldiIOBuilder
+sys	data/datasets/speech_recognition_kaldiio.py	/^import sys$/;"	i
+tf	data/datasets/speech_recognition_kaldiio.py	/^import tensorflow as tf$/;"	i
+SpeechRecognitionDatasetBuilder	data/datasets/speech_recognition_test.py	/^from athena import SpeechRecognitionDatasetBuilder$/;"	i
+logging	data/datasets/speech_recognition_test.py	/^from absl import logging$/;"	i
+test	data/datasets/speech_recognition_test.py	/^def test():$/;"	f
+time	data/datasets/speech_recognition_test.py	/^import time$/;"	i
+tqdm	data/datasets/speech_recognition_test.py	/^import tqdm$/;"	i
+SpeechBaseDatasetBuilder	data/datasets/speech_set.py	/^from .base import SpeechBaseDatasetBuilder$/;"	i
+SpeechDatasetBuilder	data/datasets/speech_set.py	/^class SpeechDatasetBuilder(SpeechBaseDatasetBuilder):$/;"	c
+__getitem__	data/datasets/speech_set.py	/^    def __getitem__(self, index):$/;"	m	class:SpeechDatasetBuilder	file:
+__init__	data/datasets/speech_set.py	/^    def __init__(self, config=None):$/;"	m	class:SpeechDatasetBuilder
+default_config	data/datasets/speech_set.py	/^    default_config = {$/;"	v	class:SpeechDatasetBuilder
+logging	data/datasets/speech_set.py	/^from absl import logging$/;"	i
+num_class	data/datasets/speech_set.py	/^    def num_class(self):$/;"	m	class:SpeechDatasetBuilder
+preprocess_data	data/datasets/speech_set.py	/^    def preprocess_data(self, file_path):$/;"	m	class:SpeechDatasetBuilder
+sample_shape	data/datasets/speech_set.py	/^    def sample_shape(self):$/;"	m	class:SpeechDatasetBuilder
+sample_signature	data/datasets/speech_set.py	/^    def sample_signature(self):$/;"	m	class:SpeechDatasetBuilder
+sample_type	data/datasets/speech_set.py	/^    def sample_type(self):$/;"	m	class:SpeechDatasetBuilder
+tf	data/datasets/speech_set.py	/^import tensorflow as tf$/;"	i
+SpeechDatasetBuilder	data/datasets/speech_set_kaldiio.py	/^from .speech_set import SpeechDatasetBuilder$/;"	i
+SpeechDatasetKaldiIOBuilder	data/datasets/speech_set_kaldiio.py	/^class SpeechDatasetKaldiIOBuilder(SpeechDatasetBuilder):$/;"	c
+__getitem__	data/datasets/speech_set_kaldiio.py	/^    def __getitem__(self, index):$/;"	m	class:SpeechDatasetKaldiIOBuilder	file:
+__init__	data/datasets/speech_set_kaldiio.py	/^    def __init__(self, config=None):$/;"	m	class:SpeechDatasetKaldiIOBuilder
+compute_cmvn_if_necessary	data/datasets/speech_set_kaldiio.py	/^    def compute_cmvn_if_necessary(self, is_necessary=True):$/;"	m	class:SpeechDatasetKaldiIOBuilder
+default_config	data/datasets/speech_set_kaldiio.py	/^    default_config = {$/;"	v	class:SpeechDatasetKaldiIOBuilder
+kaldiio	data/datasets/speech_set_kaldiio.py	/^import kaldiio$/;"	i
+logging	data/datasets/speech_set_kaldiio.py	/^from absl import logging$/;"	i
+os	data/datasets/speech_set_kaldiio.py	/^import os$/;"	i
+preprocess_data	data/datasets/speech_set_kaldiio.py	/^    def preprocess_data(self, file_path, apply_sort_filter=True):$/;"	m	class:SpeechDatasetKaldiIOBuilder
+tf	data/datasets/speech_set_kaldiio.py	/^import tensorflow as tf$/;"	i
+SpeechBaseDatasetBuilder	data/datasets/speech_synthesis.py	/^from .base import SpeechBaseDatasetBuilder$/;"	i
+SpeechSynthesisDatasetBuilder	data/datasets/speech_synthesis.py	/^class SpeechSynthesisDatasetBuilder(SpeechBaseDatasetBuilder):$/;"	c
+TextFeaturizer	data/datasets/speech_synthesis.py	/^from ..text_featurizer import TextFeaturizer$/;"	i
+__getitem__	data/datasets/speech_synthesis.py	/^    def __getitem__(self, index):$/;"	m	class:SpeechSynthesisDatasetBuilder	file:
+__init__	data/datasets/speech_synthesis.py	/^    def __init__(self, config=None):$/;"	m	class:SpeechSynthesisDatasetBuilder
+default_config	data/datasets/speech_synthesis.py	/^    default_config = {$/;"	v	class:SpeechSynthesisDatasetBuilder
+feat_dim	data/datasets/speech_synthesis.py	/^    def feat_dim(self):$/;"	m	class:SpeechSynthesisDatasetBuilder
+load_duration	data/datasets/speech_synthesis.py	/^    def load_duration(self, duration):$/;"	m	class:SpeechSynthesisDatasetBuilder
+logging	data/datasets/speech_synthesis.py	/^from absl import logging$/;"	i
+num_class	data/datasets/speech_synthesis.py	/^    def num_class(self):$/;"	m	class:SpeechSynthesisDatasetBuilder
+preprocess_data	data/datasets/speech_synthesis.py	/^    def preprocess_data(self, file_path):$/;"	m	class:SpeechSynthesisDatasetBuilder
+sample_shape	data/datasets/speech_synthesis.py	/^    def sample_shape(self):$/;"	m	class:SpeechSynthesisDatasetBuilder
+sample_signature	data/datasets/speech_synthesis.py	/^    def sample_signature(self):$/;"	m	class:SpeechSynthesisDatasetBuilder
+sample_type	data/datasets/speech_synthesis.py	/^    def sample_type(self):$/;"	m	class:SpeechSynthesisDatasetBuilder
+tf	data/datasets/speech_synthesis.py	/^import tensorflow as tf$/;"	i
+BaseDatasetBuilder	data/datasets/voice_conversion.py	/^from .base import BaseDatasetBuilder$/;"	i
+VoiceConversionDatasetBuilder	data/datasets/voice_conversion.py	/^class VoiceConversionDatasetBuilder(BaseDatasetBuilder):$/;"	c
+WorldFeatureNormalizer	data/datasets/voice_conversion.py	/^from ..feature_normalizer import WorldFeatureNormalizer$/;"	i
+__getitem__	data/datasets/voice_conversion.py	/^    def __getitem__(self, index):$/;"	m	class:VoiceConversionDatasetBuilder	file:
+__init__	data/datasets/voice_conversion.py	/^    def __init__(self, config=None):$/;"	m	class:VoiceConversionDatasetBuilder
+compute_cmvn_if_necessary	data/datasets/voice_conversion.py	/^    def compute_cmvn_if_necessary(self, is_necessary=True):$/;"	m	class:VoiceConversionDatasetBuilder
+default_config	data/datasets/voice_conversion.py	/^    default_config = {$/;"	v	class:VoiceConversionDatasetBuilder
+librosa	data/datasets/voice_conversion.py	/^import librosa$/;"	i
+load_from_disk	data/datasets/voice_conversion.py	/^    def load_from_disk(self, src_wav_filename, tar_wav_filename):$/;"	m	class:VoiceConversionDatasetBuilder
+logging	data/datasets/voice_conversion.py	/^from absl import logging$/;"	i
+np	data/datasets/voice_conversion.py	/^import numpy as np$/;"	i
+os	data/datasets/voice_conversion.py	/^import os$/;"	i
+preprocess_data	data/datasets/voice_conversion.py	/^    def preprocess_data(self, file_path):$/;"	m	class:VoiceConversionDatasetBuilder
+pyworld	data/datasets/voice_conversion.py	/^import pyworld$/;"	i
+random	data/datasets/voice_conversion.py	/^import random$/;"	i
+sample_shape	data/datasets/voice_conversion.py	/^    def sample_shape(self):$/;"	m	class:VoiceConversionDatasetBuilder
+sample_signature	data/datasets/voice_conversion.py	/^    def sample_signature(self):$/;"	m	class:VoiceConversionDatasetBuilder
+sample_type	data/datasets/voice_conversion.py	/^    def sample_type(self):$/;"	m	class:VoiceConversionDatasetBuilder
+speaker_list	data/datasets/voice_conversion.py	/^    def speaker_list(self):$/;"	m	class:VoiceConversionDatasetBuilder
+tf	data/datasets/voice_conversion.py	/^import tensorflow as tf$/;"	i
+world_feature_extract	data/datasets/voice_conversion.py	/^    def world_feature_extract(self, wav):$/;"	m	class:VoiceConversionDatasetBuilder
+FeatureNormalizer	data/feature_normalizer.py	/^class FeatureNormalizer:$/;"	c
+WorldFeatureNormalizer	data/feature_normalizer.py	/^class WorldFeatureNormalizer(FeatureNormalizer):$/;"	c
+__call__	data/feature_normalizer.py	/^    def __call__(self, feat_data, speaker, reverse=False):$/;"	m	class:FeatureNormalizer	file:
+__init__	data/feature_normalizer.py	/^    def __init__(self, cmvn_file=None):$/;"	m	class:FeatureNormalizer
+apply_cmvn	data/feature_normalizer.py	/^    def apply_cmvn(self, feat_data, speaker, reverse=False):$/;"	m	class:FeatureNormalizer
+compute_cmvn	data/feature_normalizer.py	/^    def compute_cmvn(self, entries, speakers, featurizer, feature_dim, num_cmvn_workers=1):$/;"	m	class:FeatureNormalizer
+compute_cmvn_by_chunk_for_all_speaker	data/feature_normalizer.py	/^    def compute_cmvn_by_chunk_for_all_speaker(self, feature_dim, speakers, featurizer, entries):$/;"	m	class:FeatureNormalizer
+compute_cmvn_kaldiio	data/feature_normalizer.py	/^    def compute_cmvn_kaldiio(self, entries, speakers, kaldi_io_feats, feature_dim):$/;"	m	class:FeatureNormalizer
+compute_world_cmvn	data/feature_normalizer.py	/^    def compute_world_cmvn(self, enable_load_from_disk, entries_person_wavs, sp_dim, fft_size, fs, speakers):$/;"	m	class:WorldFeatureNormalizer
+cpu_count	data/feature_normalizer.py	/^from multiprocessing import cpu_count$/;"	i
+json	data/feature_normalizer.py	/^import json$/;"	i
+librosa	data/feature_normalizer.py	/^import librosa$/;"	i
+load_cmvn	data/feature_normalizer.py	/^    def load_cmvn(self):$/;"	m	class:FeatureNormalizer
+load_cmvn	data/feature_normalizer.py	/^    def load_cmvn(self):$/;"	m	class:WorldFeatureNormalizer
+logging	data/feature_normalizer.py	/^from absl import logging$/;"	i
+mp	data/feature_normalizer.py	/^import multiprocessing as mp$/;"	i
+np	data/feature_normalizer.py	/^import numpy as np$/;"	i
+os	data/feature_normalizer.py	/^import os$/;"	i
+pandas	data/feature_normalizer.py	/^import pandas$/;"	i
+pyworld	data/feature_normalizer.py	/^import pyworld$/;"	i
+save_cmvn	data/feature_normalizer.py	/^    def save_cmvn(self, variable_list):$/;"	m	class:FeatureNormalizer
+tf	data/feature_normalizer.py	/^import tensorflow as tf$/;"	i
+time	data/feature_normalizer.py	/^import time$/;"	i
+tqdm	data/feature_normalizer.py	/^import tqdm$/;"	i
+EnglishVocabulary	data/text_featurizer.py	/^class EnglishVocabulary(Vocabulary):$/;"	c
+SentencePieceFeaturizer	data/text_featurizer.py	/^class SentencePieceFeaturizer:$/;"	c
+TextFeaturizer	data/text_featurizer.py	/^class TextFeaturizer:$/;"	c
+TextTokenizer	data/text_featurizer.py	/^class TextTokenizer:$/;"	c
+Vocabulary	data/text_featurizer.py	/^class Vocabulary:$/;"	c
+__call__	data/text_featurizer.py	/^    def __call__(self, inputs):$/;"	m	class:Vocabulary	file:
+__init__	data/text_featurizer.py	/^    def __init__(self, config=None):$/;"	m	class:TextFeaturizer
+__init__	data/text_featurizer.py	/^    def __init__(self, spm_file):$/;"	m	class:SentencePieceFeaturizer
+__init__	data/text_featurizer.py	/^    def __init__(self, text=None):$/;"	m	class:TextTokenizer
+__init__	data/text_featurizer.py	/^    def __init__(self, vocab_file):$/;"	m	class:EnglishVocabulary
+__init__	data/text_featurizer.py	/^    def __init__(self, vocab_file):$/;"	m	class:Vocabulary
+__len__	data/text_featurizer.py	/^    def __len__(self):$/;"	m	class:SentencePieceFeaturizer	file:
+__len__	data/text_featurizer.py	/^    def __len__(self):$/;"	m	class:TextFeaturizer	file:
+__len__	data/text_featurizer.py	/^    def __len__(self):$/;"	m	class:TextTokenizer	file:
+__len__	data/text_featurizer.py	/^    def __len__(self):$/;"	m	class:Vocabulary	file:
+_default_unk_index	data/text_featurizer.py	/^    def _default_unk_index(self):$/;"	m	class:Vocabulary
+_default_unk_symbol	data/text_featurizer.py	/^    def _default_unk_symbol(self):$/;"	m	class:Vocabulary
+decode	data/text_featurizer.py	/^    def decode(self, ids):$/;"	m	class:EnglishVocabulary
+decode	data/text_featurizer.py	/^    def decode(self, ids):$/;"	m	class:SentencePieceFeaturizer
+decode	data/text_featurizer.py	/^    def decode(self, ids):$/;"	m	class:Vocabulary
+decode	data/text_featurizer.py	/^    def decode(self, sequences):$/;"	m	class:TextFeaturizer
+decode	data/text_featurizer.py	/^    def decode(self, sequences):$/;"	m	class:TextTokenizer
+default_config	data/text_featurizer.py	/^    default_config = {$/;"	v	class:TextFeaturizer
+defaultdict	data/text_featurizer.py	/^from collections import defaultdict$/;"	i
+delete_punct	data/text_featurizer.py	/^    def delete_punct(self, tokens):$/;"	m	class:TextFeaturizer
+encode	data/text_featurizer.py	/^    def encode(self, sentence):$/;"	m	class:EnglishVocabulary
+encode	data/text_featurizer.py	/^    def encode(self, sentence):$/;"	m	class:SentencePieceFeaturizer
+encode	data/text_featurizer.py	/^    def encode(self, sentence):$/;"	m	class:Vocabulary
+encode	data/text_featurizer.py	/^    def encode(self, texts):$/;"	m	class:TextFeaturizer
+encode	data/text_featurizer.py	/^    def encode(self, texts):$/;"	m	class:TextTokenizer
+load_model	data/text_featurizer.py	/^    def load_model(self, model_file):$/;"	m	class:SentencePieceFeaturizer
+load_model	data/text_featurizer.py	/^    def load_model(self, model_file):$/;"	m	class:TextFeaturizer
+load_model	data/text_featurizer.py	/^    def load_model(self, text):$/;"	m	class:TextTokenizer
+load_model	data/text_featurizer.py	/^    def load_model(self, vocab_file):$/;"	m	class:Vocabulary
+model_type	data/text_featurizer.py	/^    def model_type(self):$/;"	m	class:TextFeaturizer
+os	data/text_featurizer.py	/^import os$/;"	i
+re	data/text_featurizer.py	/^import re$/;"	i
+register_and_parse_hparams	data/text_featurizer.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+spm	data/text_featurizer.py	/^import sentencepiece as spm$/;"	i
+supported_model	data/text_featurizer.py	/^    supported_model = {$/;"	v	class:TextFeaturizer
+tf	data/text_featurizer.py	/^import tensorflow as tf$/;"	i
+unk_index	data/text_featurizer.py	/^    def unk_index(self):$/;"	m	class:TextFeaturizer
+warnings	data/text_featurizer.py	/^import warnings$/;"	i
+FreezeFunctions	deploy_main.py	/^FreezeFunctions = {$/;"	v
+freeze_graph_tf1	deploy_main.py	/^def freeze_graph_tf1(json_file, frozen_graph_dir):$/;"	f
+freeze_saved_model	deploy_main.py	/^def freeze_saved_model(json_file, frozen_graph_dir):$/;"	f
+freeze_session	deploy_main.py	/^def freeze_session(session, output_names=None, clear_devices=True):$/;"	f
+inference	deploy_main.py	/^    def inference(x):$/;"	f	function:freeze_saved_model
+json	deploy_main.py	/^import json$/;"	i
+logging	deploy_main.py	/^from absl import logging$/;"	i
+os	deploy_main.py	/^import os$/;"	i
+sys	deploy_main.py	/^import sys$/;"	i
+tf	deploy_main.py	/^import tensorflow as tf$/;"	i
+HorovodSolver	horovod_main.py	/^from athena import HorovodSolver$/;"	i
+horovod	horovod_main.py	/^import horovod.tensorflow as hvd$/;"	i
+hvd	horovod_main.py	/^import horovod.tensorflow as hvd$/;"	i
+json	horovod_main.py	/^import json$/;"	i
+jsonfile	horovod_main.py	/^    jsonfile = sys.argv[1]$/;"	v
+logging	horovod_main.py	/^from absl import logging$/;"	i
+p	horovod_main.py	/^    p = parse_jsonfile(jsonfile)$/;"	v
+parse_jsonfile	horovod_main.py	/^from athena.main import parse_jsonfile, train$/;"	i
+sys	horovod_main.py	/^import sys$/;"	i
+tf	horovod_main.py	/^import tensorflow as tf$/;"	i
+train	horovod_main.py	/^from athena.main import parse_jsonfile, train$/;"	i
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+BaseSolver	inference.py	/^from athena import BaseSolver, DecoderSolver, SynthesisSolver, HorovodSolver, ConvertSolver$/;"	i
+ConvertSolver	inference.py	/^from athena import BaseSolver, DecoderSolver, SynthesisSolver, HorovodSolver, ConvertSolver$/;"	i
+DecoderSolver	inference.py	/^from athena import BaseSolver, DecoderSolver, SynthesisSolver, HorovodSolver, ConvertSolver$/;"	i
+HorovodSolver	inference.py	/^from athena import BaseSolver, DecoderSolver, SynthesisSolver, HorovodSolver, ConvertSolver$/;"	i
+SOLVERS	inference.py	/^SOLVERS = {$/;"	v
+SynthesisSolver	inference.py	/^from athena import BaseSolver, DecoderSolver, SynthesisSolver, HorovodSolver, ConvertSolver$/;"	i
+build_model_from_jsonfile_stargan	inference.py	/^from athena.stargan_main import build_model_from_jsonfile_stargan$/;"	i
+config	inference.py	/^        config = json.load(file)$/;"	v
+flags	inference.py	/^from absl import logging, flags$/;"	i
+horovod	inference.py	/^    import horovod.tensorflow as hvd$/;"	i
+hvd	inference.py	/^    import horovod.tensorflow as hvd$/;"	i
+inference	inference.py	/^def inference(jsonfile, config, rank_size=1, rank=0):$/;"	f
+json	inference.py	/^import json$/;"	i
+jsonfile	inference.py	/^    jsonfile = sys.argv[1]$/;"	v
+logging	inference.py	/^from absl import logging, flags$/;"	i
+p	inference.py	/^    p = parse_config(config)$/;"	v
+rank_index	inference.py	/^        rank_index = hvd.rank()$/;"	v
+rank_index	inference.py	/^    rank_index = 0$/;"	v
+rank_size	inference.py	/^        rank_size = hvd.size()$/;"	v
+rank_size	inference.py	/^    rank_size = 1$/;"	v
+sys	inference.py	/^import sys$/;"	i
+tf	inference.py	/^import tensorflow as tf$/;"	i
+BahdanauAttention	layers/attention.py	/^class BahdanauAttention(tf.keras.Model):$/;"	c
+HanAttention	layers/attention.py	/^class HanAttention(tf.keras.layers.Layer):$/;"	c
+LocationAttention	layers/attention.py	/^class LocationAttention(tf.keras.layers.Layer):$/;"	c
+MatchAttention	layers/attention.py	/^class MatchAttention(tf.keras.layers.Layer):$/;"	c
+MultiHeadAttention	layers/attention.py	/^class MultiHeadAttention(tf.keras.layers.Layer):$/;"	c
+ScaledDotProductAttention	layers/attention.py	/^class ScaledDotProductAttention(tf.keras.layers.Layer):$/;"	c
+StepwiseMonotonicAttention	layers/attention.py	/^class StepwiseMonotonicAttention(LocationAttention):$/;"	c
+__init__	layers/attention.py	/^    def __init__($/;"	m	class:HanAttention
+__init__	layers/attention.py	/^    def __init__(self, attn_dim, conv_channel, aconv_filts, scaling=1.0):$/;"	m	class:LocationAttention
+__init__	layers/attention.py	/^    def __init__(self, attn_dim, conv_channel, aconv_filts, sigmoid_noise=2.0,$/;"	m	class:StepwiseMonotonicAttention
+__init__	layers/attention.py	/^    def __init__(self, config, **kwargs):$/;"	m	class:MatchAttention
+__init__	layers/attention.py	/^    def __init__(self, d_model, num_heads, unidirectional=False, look_ahead=0):$/;"	m	class:MultiHeadAttention
+__init__	layers/attention.py	/^    def __init__(self, unidirectional=False, look_ahead=0):$/;"	m	class:ScaledDotProductAttention
+__init__	layers/attention.py	/^    def __init__(self, units, input_dim=1024):$/;"	m	class:BahdanauAttention
+_masked_softmax	layers/attention.py	/^    def _masked_softmax(self, logits, mask, axis):$/;"	m	class:HanAttention
+build	layers/attention.py	/^    def build(self, _):$/;"	m	class:StepwiseMonotonicAttention
+build	layers/attention.py	/^    def build(self, input_shape):$/;"	m	class:HanAttention
+call	layers/attention.py	/^    def call(self, attn_inputs, prev_states, training=True):$/;"	m	class:LocationAttention
+call	layers/attention.py	/^    def call(self, attn_inputs, prev_states, training=True):$/;"	m	class:StepwiseMonotonicAttention
+call	layers/attention.py	/^    def call(self, inputs, training=None, mask=None):$/;"	m	class:HanAttention
+call	layers/attention.py	/^    def call(self, q, k, v, mask):$/;"	m	class:ScaledDotProductAttention
+call	layers/attention.py	/^    def call(self, query, values):$/;"	m	class:BahdanauAttention
+call	layers/attention.py	/^    def call(self, tensors):$/;"	m	class:MatchAttention
+call	layers/attention.py	/^    def call(self, v, k, q, mask):$/;"	m	class:MultiHeadAttention
+compute_output_shape	layers/attention.py	/^    def compute_output_shape(self, input_shape):$/;"	m	class:HanAttention
+compute_score	layers/attention.py	/^    def compute_score(self, value, value_length, query, accum_attn_weight):$/;"	m	class:LocationAttention
+initialize_weights	layers/attention.py	/^    def initialize_weights(self, value_length, max_len):$/;"	m	class:LocationAttention
+initialize_weights	layers/attention.py	/^    def initialize_weights(self, value_length, max_len):$/;"	m	class:StepwiseMonotonicAttention
+logging	layers/attention.py	/^from absl import logging$/;"	i
+split_heads	layers/attention.py	/^    def split_heads(self, x, batch_size):$/;"	m	class:MultiHeadAttention
+step_monotonic_function	layers/attention.py	/^    def step_monotonic_function(self, sigmoid_probs, prev_weights):$/;"	m	class:StepwiseMonotonicAttention
+tf	layers/attention.py	/^import tensorflow as tf$/;"	i
+ACTIVATIONS	layers/commons.py	/^ACTIVATIONS = {$/;"	v
+Collapse4D	layers/commons.py	/^class Collapse4D(tf.keras.layers.Layer):$/;"	c
+ConditionalInstanceNormalisation	layers/commons.py	/^class ConditionalInstanceNormalisation(tf.keras.layers.Layer):$/;"	c
+Down2d	layers/commons.py	/^class Down2d(tf.keras.layers.Layer):$/;"	c
+Down2d_init	layers/commons.py	/^class Down2d_init(tf.keras.layers.Layer):$/;"	c
+DownSampleBlock	layers/commons.py	/^class DownSampleBlock(tf.keras.layers.Layer):$/;"	c
+Gelu	layers/commons.py	/^class Gelu(tf.keras.layers.Layer):$/;"	c
+GroupNormalization	layers/commons.py	/^class GroupNormalization(tf.keras.layers.Layer):$/;"	c
+InstanceNormalization	layers/commons.py	/^class InstanceNormalization(GroupNormalization):$/;"	c
+PositionalEncoding	layers/commons.py	/^class PositionalEncoding(tf.keras.layers.Layer):$/;"	c
+ResidualBlock	layers/commons.py	/^class ResidualBlock(tf.keras.layers.Layer):$/;"	c
+SUPPORTED_RNNS	layers/commons.py	/^SUPPORTED_RNNS = {$/;"	v
+ScaledPositionalEncoding	layers/commons.py	/^class ScaledPositionalEncoding(PositionalEncoding):$/;"	c
+TdnnLayer	layers/commons.py	/^class TdnnLayer(tf.keras.layers.Layer):$/;"	c
+Up2d	layers/commons.py	/^class Up2d(tf.keras.layers.Layer):$/;"	c
+UpSampleBlock	layers/commons.py	/^class UpSampleBlock(tf.keras.layers.Layer):$/;"	c
+ZoneOutCell	layers/commons.py	/^class ZoneOutCell(tf.keras.layers.LSTMCell):$/;"	c
+__init__	layers/commons.py	/^    def __init__($/;"	m	class:GroupNormalization
+__init__	layers/commons.py	/^    def __init__(self, **kwargs):$/;"	m	class:InstanceNormalization
+__init__	layers/commons.py	/^    def __init__(self, context, output_dim, use_bias=False, **kwargs):$/;"	m	class:TdnnLayer
+__init__	layers/commons.py	/^    def __init__(self, d_model, max_position=800):$/;"	m	class:ScaledPositionalEncoding
+__init__	layers/commons.py	/^    def __init__(self, d_model, max_position=800, scale=False):$/;"	m	class:PositionalEncoding
+__init__	layers/commons.py	/^    def __init__(self, filters , kernel_size, stride):$/;"	m	class:Down2d
+__init__	layers/commons.py	/^    def __init__(self, filters , kernel_size, stride):$/;"	m	class:Down2d_init
+__init__	layers/commons.py	/^    def __init__(self, filters, kernel_size, stride):$/;"	m	class:Up2d
+__init__	layers/commons.py	/^    def __init__(self, filters, kernel_size, strides):$/;"	m	class:DownSampleBlock
+__init__	layers/commons.py	/^    def __init__(self, filters, kernel_size, strides):$/;"	m	class:UpSampleBlock
+__init__	layers/commons.py	/^    def __init__(self, in_channel):$/;"	m	class:ConditionalInstanceNormalisation
+__init__	layers/commons.py	/^    def __init__(self, out_channel):$/;"	m	class:ResidualBlock
+__init__	layers/commons.py	/^    def __init__(self, zoneout_rate=0., **kwargs):$/;"	m	class:ZoneOutCell
+_add_beta_weight	layers/commons.py	/^    def _add_beta_weight(self, input_shape):$/;"	m	class:GroupNormalization
+_add_gamma_weight	layers/commons.py	/^    def _add_gamma_weight(self, input_shape):$/;"	m	class:GroupNormalization
+_apply_normalization	layers/commons.py	/^    def _apply_normalization(self, reshaped_inputs, input_shape):$/;"	m	class:GroupNormalization
+_check_axis	layers/commons.py	/^    def _check_axis(self):$/;"	m	class:GroupNormalization
+_check_if_input_shape_is_none	layers/commons.py	/^    def _check_if_input_shape_is_none(self, input_shape):$/;"	m	class:GroupNormalization
+_check_size_of_dimensions	layers/commons.py	/^    def _check_size_of_dimensions(self, input_shape):$/;"	m	class:GroupNormalization
+_create_broadcast_shape	layers/commons.py	/^    def _create_broadcast_shape(self, input_shape):$/;"	m	class:GroupNormalization
+_create_input_spec	layers/commons.py	/^    def _create_input_spec(self, input_shape):$/;"	m	class:GroupNormalization
+_get_reshaped_weights	layers/commons.py	/^    def _get_reshaped_weights(self, input_shape):$/;"	m	class:GroupNormalization
+_reshape_into_groups	layers/commons.py	/^    def _reshape_into_groups(self, inputs, input_shape, tensor_input_shape):$/;"	m	class:GroupNormalization
+_set_number_of_groups_for_instance_norm	layers/commons.py	/^    def _set_number_of_groups_for_instance_norm(self, input_shape):$/;"	m	class:GroupNormalization
+build	layers/commons.py	/^    def build(self, _):$/;"	m	class:ScaledPositionalEncoding
+build	layers/commons.py	/^    def build(self, input_shape):$/;"	m	class:GroupNormalization
+call	layers/commons.py	/^    def call(self, inputs):$/;"	m	class:GroupNormalization
+call	layers/commons.py	/^    def call(self, inputs, states, training=False):$/;"	m	class:ZoneOutCell
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:Collapse4D
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:Down2d
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:Down2d_init
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:DownSampleBlock
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:Gelu
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:PositionalEncoding
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:ScaledPositionalEncoding
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:Up2d
+call	layers/commons.py	/^    def call(self, x):$/;"	m	class:UpSampleBlock
+call	layers/commons.py	/^    def call(self, x, c):$/;"	m	class:ConditionalInstanceNormalisation
+call	layers/commons.py	/^    def call(self, x, c):$/;"	m	class:ResidualBlock
+call	layers/commons.py	/^    def call(self, x, training=None, mask=None):$/;"	m	class:TdnnLayer
+collapse4d	layers/commons.py	/^from athena.layers.functional import make_positional_encoding, collapse4d, gelu$/;"	i
+compute_output_shape	layers/commons.py	/^    def compute_output_shape(self, input_shape):$/;"	m	class:GroupNormalization
+gated_linear_layer	layers/commons.py	/^from athena.utils.misc import gated_linear_layer$/;"	i
+gelu	layers/commons.py	/^from athena.layers.functional import make_positional_encoding, collapse4d, gelu$/;"	i
+get_config	layers/commons.py	/^    def get_config(self):$/;"	m	class:GroupNormalization
+get_config	layers/commons.py	/^    def get_config(self):$/;"	m	class:ZoneOutCell
+make_positional_encoding	layers/commons.py	/^from athena.layers.functional import make_positional_encoding, collapse4d, gelu$/;"	i
+splice	layers/commons.py	/^from athena.layers.functional import splice$/;"	i
+tf	layers/commons.py	/^import tensorflow as tf$/;"	i
+collapse4d	layers/functional.py	/^def collapse4d(x, name=None):$/;"	f
+gelu	layers/functional.py	/^def gelu(x):$/;"	f
+get_angles	layers/functional.py	/^    def get_angles(pos, i, d_model):$/;"	f	function:make_positional_encoding
+make_positional_encoding	layers/functional.py	/^def make_positional_encoding(position, d_model):$/;"	f
+np	layers/functional.py	/^import numpy as np$/;"	i
+ops	layers/functional.py	/^from tensorflow.python.framework import ops$/;"	i
+splice	layers/functional.py	/^def splice(x, context):$/;"	f
+tensor_shape	layers/functional.py	/^from ..utils.misc import tensor_shape$/;"	i
+tf	layers/functional.py	/^import tensorflow as tf$/;"	i
+ResnetBasicBlock	layers/resnet_block.py	/^class ResnetBasicBlock(tf.keras.layers.Layer):$/;"	c
+__init__	layers/resnet_block.py	/^    def __init__(self, num_filter, stride=1):$/;"	m	class:ResnetBasicBlock
+call	layers/resnet_block.py	/^    def call(self, inputs):$/;"	m	class:ResnetBasicBlock
+make_downsample_layer	layers/resnet_block.py	/^    def make_downsample_layer(self, num_filter, stride):$/;"	m	class:ResnetBasicBlock
+tf	layers/resnet_block.py	/^import tensorflow as tf$/;"	i
+ACTIVATIONS	layers/transformer.py	/^from .commons import ACTIVATIONS$/;"	i
+MultiHeadAttention	layers/transformer.py	/^from .attention import MultiHeadAttention$/;"	i
+Transformer	layers/transformer.py	/^class Transformer(tf.keras.layers.Layer):$/;"	c
+TransformerDecoder	layers/transformer.py	/^class TransformerDecoder(tf.keras.layers.Layer):$/;"	c
+TransformerDecoderLayer	layers/transformer.py	/^class TransformerDecoderLayer(tf.keras.layers.Layer):$/;"	c
+TransformerEncoder	layers/transformer.py	/^class TransformerEncoder(tf.keras.layers.Layer):$/;"	c
+TransformerEncoderLayer	layers/transformer.py	/^class TransformerEncoderLayer(tf.keras.layers.Layer):$/;"	c
+__init__	layers/transformer.py	/^    def __init__($/;"	m	class:Transformer
+__init__	layers/transformer.py	/^    def __init__($/;"	m	class:TransformerDecoderLayer
+__init__	layers/transformer.py	/^    def __init__($/;"	m	class:TransformerEncoderLayer
+__init__	layers/transformer.py	/^    def __init__(self, decoder_layers):$/;"	m	class:TransformerDecoder
+__init__	layers/transformer.py	/^    def __init__(self, encoder_layers):$/;"	m	class:TransformerEncoder
+call	layers/transformer.py	/^    def call(self, src, src_mask=None, training=None):$/;"	m	class:TransformerEncoder
+call	layers/transformer.py	/^    def call(self, src, src_mask=None, training=None):$/;"	m	class:TransformerEncoderLayer
+call	layers/transformer.py	/^    def call(self, src, tgt, src_mask=None, tgt_mask=None, memory_mask=None,$/;"	m	class:Transformer
+call	layers/transformer.py	/^    def call(self, tgt, memory, tgt_mask=None, memory_mask=None, return_attention_weights=False,$/;"	m	class:TransformerDecoder
+call	layers/transformer.py	/^    def call(self, tgt, memory, tgt_mask=None, memory_mask=None, training=None):$/;"	m	class:TransformerDecoderLayer
+set_unidirectional	layers/transformer.py	/^    def set_unidirectional(self, uni=False):$/;"	m	class:TransformerEncoder
+set_unidirectional	layers/transformer.py	/^    def set_unidirectional(self, uni=False):$/;"	m	class:TransformerEncoderLayer
+tf	layers/transformer.py	/^import tensorflow as tf$/;"	i
+AAMSoftmaxLoss	loss.py	/^class AAMSoftmaxLoss(tf.keras.losses.Loss):$/;"	c
+AMSoftmaxLoss	loss.py	/^class AMSoftmaxLoss(tf.keras.losses.Loss):$/;"	c
+AngleProtoLoss	loss.py	/^class AngleProtoLoss(tf.keras.losses.Loss):$/;"	c
+CTCLoss	loss.py	/^class CTCLoss(tf.keras.losses.Loss):$/;"	c
+ClassifyLoss	loss.py	/^def ClassifyLoss(target_label_reshaped, domain_out_real):$/;"	f
+DiscriminatorLoss	loss.py	/^                                             domain_out_fake, gradient_penalty):$/;"	f
+FastSpeechLoss	loss.py	/^class FastSpeechLoss(tf.keras.losses.Loss):$/;"	c
+GE2ELoss	loss.py	/^class GE2ELoss(tf.keras.losses.Loss):$/;"	c
+GeneratorLoss	loss.py	/^                  domain_out_real, lambda_cycle, lambda_identity, lambda_classifier):$/;"	f
+GuidedAttentionLoss	loss.py	/^class GuidedAttentionLoss(tf.keras.losses.Loss):$/;"	c
+GuidedMultiHeadAttentionLoss	loss.py	/^class GuidedMultiHeadAttentionLoss(GuidedAttentionLoss):$/;"	c
+MPCLoss	loss.py	/^class MPCLoss(tf.keras.losses.Loss):$/;"	c
+ProtoLoss	loss.py	/^class ProtoLoss(tf.keras.losses.Loss):$/;"	c
+Seq2SeqSparseCategoricalCrossentropy	loss.py	/^class Seq2SeqSparseCategoricalCrossentropy(tf.keras.losses.CategoricalCrossentropy):$/;"	c
+SoftmaxLoss	loss.py	/^class SoftmaxLoss(tf.keras.losses.Loss):$/;"	c
+StarganLoss	loss.py	/^class StarganLoss(tf.keras.losses.Loss):$/;"	c
+Tacotron2Loss	loss.py	/^class Tacotron2Loss(tf.keras.losses.Loss):$/;"	c
+__call__	loss.py	/^    def __call__(self, att_ws_stack, samples):$/;"	m	class:GuidedAttentionLoss	file:
+__call__	loss.py	/^    def __call__(self, att_ws_stack, samples):$/;"	m	class:GuidedMultiHeadAttentionLoss	file:
+__call__	loss.py	/^    def __call__(self, logits, samples, logit_length=None):$/;"	m	class:CTCLoss	file:
+__call__	loss.py	/^    def __call__(self, logits, samples, logit_length=None):$/;"	m	class:MPCLoss	file:
+__call__	loss.py	/^    def __call__(self, logits, samples, logit_length=None):$/;"	m	class:Seq2SeqSparseCategoricalCrossentropy	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples):$/;"	m	class:FastSpeechLoss	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples, logit_length=None):$/;"	m	class:AAMSoftmaxLoss	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples, logit_length=None):$/;"	m	class:AMSoftmaxLoss	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples, logit_length=None):$/;"	m	class:SoftmaxLoss	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples, logit_length=None):$/;"	m	class:Tacotron2Loss	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples, logit_length=None, stage=None):$/;"	m	class:StarganLoss	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples=None, logit_length=None):$/;"	m	class:AngleProtoLoss	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples=None, logit_length=None):$/;"	m	class:GE2ELoss	file:
+__call__	loss.py	/^    def __call__(self, outputs, samples=None, logit_length=None):$/;"	m	class:ProtoLoss	file:
+__init__	loss.py	/^    def __init__(self, duration_predictor_loss_weight, eps=1.0, use_mask=True, teacher_guide=False):$/;"	m	class:FastSpeechLoss
+__init__	loss.py	/^    def __init__(self, embedding_size, num_classes, m=0.3, s=15, name="AMSoftmaxLoss"):$/;"	m	class:AMSoftmaxLoss
+__init__	loss.py	/^    def __init__(self, embedding_size, num_classes, name="SoftmaxLoss"):$/;"	m	class:SoftmaxLoss
+__init__	loss.py	/^    def __init__(self, embedding_size, num_classes,$/;"	m	class:AAMSoftmaxLoss
+__init__	loss.py	/^    def __init__(self, guided_attn_weight, reduction_factor, attn_sigma=0.4, num_heads=2,$/;"	m	class:GuidedMultiHeadAttentionLoss
+__init__	loss.py	/^    def __init__(self, guided_attn_weight, reduction_factor, attn_sigma=0.4,$/;"	m	class:GuidedAttentionLoss
+__init__	loss.py	/^    def __init__(self, init_w=10.0, init_b=-5.0, name="AngleProtoLoss"):$/;"	m	class:AngleProtoLoss
+__init__	loss.py	/^    def __init__(self, init_w=10.0, init_b=-5.0, name="GE2ELoss"):$/;"	m	class:GE2ELoss
+__init__	loss.py	/^    def __init__(self, lambda_cycle, lambda_identity, lambda_classifier, name="StarganLoss"):$/;"	m	class:StarganLoss
+__init__	loss.py	/^    def __init__(self, logits_time_major=False, blank_index=-1, name="CTCLoss"):$/;"	m	class:CTCLoss
+__init__	loss.py	/^    def __init__(self, model, guided_attn_loss_function, regularization_weight=0.0,$/;"	m	class:Tacotron2Loss
+__init__	loss.py	/^    def __init__(self, name="MPCLoss"):$/;"	m	class:MPCLoss
+__init__	loss.py	/^    def __init__(self, name="ProtoLoss"):$/;"	m	class:ProtoLoss
+__init__	loss.py	/^    def __init__(self, num_classes, eos=-1, by_token=False, by_sequence=True,$/;"	m	class:Seq2SeqSparseCategoricalCrossentropy
+_create_attention_masks	loss.py	/^    def _create_attention_masks(self, input_length, output_length):$/;"	m	class:GuidedAttentionLoss
+_create_length_masks	loss.py	/^    def _create_length_masks(self, input_length, output_length):$/;"	m	class:GuidedAttentionLoss
+insert_eos_in_labels	loss.py	/^from .utils.misc import insert_eos_in_labels$/;"	i
+math	loss.py	/^import math$/;"	i
+tf	loss.py	/^import tensorflow as tf$/;"	i
+DEFAULT_CONFIGS	main.py	/^DEFAULT_CONFIGS = {$/;"	v
+SUPPORTED_DATASET_BUILDER	main.py	/^SUPPORTED_DATASET_BUILDER = {$/;"	v
+SUPPORTED_MODEL	main.py	/^SUPPORTED_MODEL = {$/;"	v
+SUPPORTED_OPTIMIZER	main.py	/^SUPPORTED_OPTIMIZER = {$/;"	v
+build_model_from_jsonfile	main.py	/^def build_model_from_jsonfile(jsonfile, pre_run=True):$/;"	f
+json	main.py	/^import json$/;"	i
+jsonfile	main.py	/^    jsonfile = sys.argv[1]$/;"	v
+logging	main.py	/^from absl import logging$/;"	i
+p	main.py	/^    p = parse_jsonfile(jsonfile)$/;"	v
+parse_config	main.py	/^def parse_config(config):$/;"	f
+parse_jsonfile	main.py	/^def parse_jsonfile(jsonfile):$/;"	f
+sys	main.py	/^import sys$/;"	i
+tf	main.py	/^import tensorflow as tf$/;"	i
+train	main.py	/^def train(jsonfile, Solver, rank_size=1, rank=0):$/;"	f
+Accuracy	metrics.py	/^class Accuracy:$/;"	c
+CTCAccuracy	metrics.py	/^class CTCAccuracy(CharactorAccuracy):$/;"	c
+CharactorAccuracy	metrics.py	/^class CharactorAccuracy(Accuracy):$/;"	c
+ClassificationAccuracy	metrics.py	/^class ClassificationAccuracy(Accuracy):$/;"	c
+EqualErrorRate	metrics.py	/^class EqualErrorRate:$/;"	c
+Seq2SeqSparseCategoricalAccuracy	metrics.py	/^class Seq2SeqSparseCategoricalAccuracy(CharactorAccuracy):$/;"	c
+__call__	metrics.py	/^    def __call__(self, logits, samples, logit_length=None):$/;"	m	class:Accuracy	file:
+__call__	metrics.py	/^    def __call__(self, logits, samples, logit_length=None):$/;"	m	class:CTCAccuracy	file:
+__call__	metrics.py	/^    def __call__(self, logits, samples, logit_length=None):$/;"	m	class:EqualErrorRate	file:
+__call__	metrics.py	/^    def __call__(self, logits, samples, logit_length=None):$/;"	m	class:Seq2SeqSparseCategoricalAccuracy	file:
+__init__	metrics.py	/^    def __init__(self, eos, name="Seq2SeqSparseCategoricalAccuracy"):$/;"	m	class:Seq2SeqSparseCategoricalAccuracy
+__init__	metrics.py	/^    def __init__(self, name="Accuracy", rank_size=1):$/;"	m	class:Accuracy
+__init__	metrics.py	/^    def __init__(self, name="CTCAccuracy"):$/;"	m	class:CTCAccuracy
+__init__	metrics.py	/^    def __init__(self, name="CharactorAccuracy", rank_size=1):$/;"	m	class:CharactorAccuracy
+__init__	metrics.py	/^    def __init__(self, name="ClassificationAccuracy", rank_size=1):$/;"	m	class:ClassificationAccuracy
+__init__	metrics.py	/^    def __init__(self, name="EqualErrorRate"):$/;"	m	class:EqualErrorRate
+brentq	metrics.py	/^from scipy.optimize import brentq$/;"	i
+horovod	metrics.py	/^    import horovod.tensorflow as hvd$/;"	i
+hvd	metrics.py	/^    import horovod.tensorflow as hvd$/;"	i
+interp1d	metrics.py	/^from scipy.interpolate import interp1d$/;"	i
+logging	metrics.py	/^from absl import logging$/;"	i
+np	metrics.py	/^import numpy as np$/;"	i
+reset_states	metrics.py	/^    def reset_states(self):$/;"	m	class:Accuracy
+reset_states	metrics.py	/^    def reset_states(self):$/;"	m	class:EqualErrorRate
+result	metrics.py	/^    def result(self):$/;"	m	class:Accuracy
+result	metrics.py	/^    def result(self):$/;"	m	class:EqualErrorRate
+roc_curve	metrics.py	/^from sklearn.metrics import roc_curve$/;"	i
+tf	metrics.py	/^import tensorflow as tf$/;"	i
+update_state	metrics.py	/^    def update_state(self, predictions, samples, logit_length=None):$/;"	m	class:Accuracy
+update_state	metrics.py	/^    def update_state(self, predictions, samples, logit_length=None):$/;"	m	class:CharactorAccuracy
+update_state	metrics.py	/^    def update_state(self, predictions, samples, logit_length=None):$/;"	m	class:ClassificationAccuracy
+update_state	metrics.py	/^    def update_state(self, predictions, samples, logit_length=None):$/;"	m	class:EqualErrorRate
+validate_seqs	metrics.py	/^from .utils.misc import validate_seqs$/;"	i
+BaseModel	models/base.py	/^class BaseModel(tf.keras.Model):$/;"	c
+__init__	models/base.py	/^    def __init__(self, **kwargs):$/;"	m	class:BaseModel
+call	models/base.py	/^    def call(self, samples, training=None):$/;"	m	class:BaseModel
+compute_logit_length	models/base.py	/^    def compute_logit_length(self, samples):$/;"	m	class:BaseModel
+decode	models/base.py	/^    def decode(self, samples, hparams, decoder):$/;"	m	class:BaseModel
+get_loss	models/base.py	/^    def get_loss(self, outputs, samples, training=None):$/;"	m	class:BaseModel
+logging	models/base.py	/^from absl import logging$/;"	i
+prepare_samples	models/base.py	/^    def prepare_samples(self, samples):$/;"	m	class:BaseModel
+reset_metrics	models/base.py	/^    def reset_metrics(self):$/;"	m	class:BaseModel
+restore_from_pretrained_model	models/base.py	/^    def restore_from_pretrained_model(self, pretrained_model, model_type=""):$/;"	m	class:BaseModel
+tf	models/base.py	/^import tensorflow as tf$/;"	i
+BaseModel	models/deep_speech.py	/^from .base import BaseModel$/;"	i
+CTCAccuracy	models/deep_speech.py	/^from ..metrics import CTCAccuracy$/;"	i
+CTCLoss	models/deep_speech.py	/^from ..loss import CTCLoss$/;"	i
+DeepSpeechModel	models/deep_speech.py	/^class DeepSpeechModel(BaseModel):$/;"	c
+SUPPORTED_RNNS	models/deep_speech.py	/^from ..layers.commons import SUPPORTED_RNNS$/;"	i
+__init__	models/deep_speech.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:DeepSpeechModel
+call	models/deep_speech.py	/^    def call(self, samples, training=None):$/;"	m	class:DeepSpeechModel
+compute_logit_length	models/deep_speech.py	/^    def compute_logit_length(self, samples):$/;"	m	class:DeepSpeechModel
+default_config	models/deep_speech.py	/^    default_config = {$/;"	v	class:DeepSpeechModel
+logging	models/deep_speech.py	/^from absl import logging$/;"	i
+register_and_parse_hparams	models/deep_speech.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+tf	models/deep_speech.py	/^import tensorflow as tf$/;"	i
+BaseModel	models/fastspeech.py	/^from .base import BaseModel$/;"	i
+DurationCalculator	models/fastspeech.py	/^class DurationCalculator(tf.keras.layers.Layer):$/;"	c
+FastSpeech	models/fastspeech.py	/^class FastSpeech(BaseModel):$/;"	c
+FastSpeechLoss	models/fastspeech.py	/^from ..loss import FastSpeechLoss$/;"	i
+LengthRegulator	models/fastspeech.py	/^class LengthRegulator(tf.keras.layers.Layer):$/;"	c
+ScaledPositionalEncoding	models/fastspeech.py	/^from ..layers.commons import ScaledPositionalEncoding$/;"	i
+TransformerEncoder	models/fastspeech.py	/^from ..layers.transformer import TransformerEncoderLayer, TransformerEncoder$/;"	i
+TransformerEncoderLayer	models/fastspeech.py	/^from ..layers.transformer import TransformerEncoderLayer, TransformerEncoder$/;"	i
+__init__	models/fastspeech.py	/^    def __init__(self):$/;"	m	class:LengthRegulator
+__init__	models/fastspeech.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:FastSpeech
+__init__	models/fastspeech.py	/^    def __init__(self, teacher_model=None, teacher_type=None):$/;"	m	class:DurationCalculator
+_calculate_t2_attentions	models/fastspeech.py	/^    def _calculate_t2_attentions(self, samples):$/;"	m	class:DurationCalculator
+_calculate_transformer_attentions	models/fastspeech.py	/^    def _calculate_transformer_attentions(self, samples):$/;"	m	class:DurationCalculator
+_feedforward_decoder	models/fastspeech.py	/^    def _feedforward_decoder(self, encoder_output, duration_indexes, duration_sequences,$/;"	m	class:FastSpeech
+call	models/fastspeech.py	/^    def call(self, phoneme_sequences, duration_indexes, output_length):$/;"	m	class:LengthRegulator
+call	models/fastspeech.py	/^    def call(self, samples):$/;"	m	class:DurationCalculator
+call	models/fastspeech.py	/^    def call(self, samples, training: bool = None):$/;"	m	class:FastSpeech
+count_duration	models/fastspeech.py	/^        def count_duration(index):$/;"	f	function:DurationCalculator.call
+create_multihead_mask	models/fastspeech.py	/^from ..utils.misc import create_multihead_mask$/;"	i
+default_config	models/fastspeech.py	/^    default_config = {$/;"	v	class:FastSpeech
+expand_phoneme	models/fastspeech.py	/^        def expand_phoneme(batch_i):$/;"	f	function:LengthRegulator.inference
+get_loss	models/fastspeech.py	/^    def get_loss(self, outputs, samples, training=None):$/;"	m	class:FastSpeech
+inference	models/fastspeech.py	/^    def inference(self, phoneme_sequences, duration_sequences, alpha=1.0):$/;"	m	class:LengthRegulator
+logging	models/fastspeech.py	/^from absl import logging$/;"	i
+register_and_parse_hparams	models/fastspeech.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+restore_from_pretrained_model	models/fastspeech.py	/^    def restore_from_pretrained_model(self, pretrained_model, model_type=""):$/;"	m	class:FastSpeech
+set_teacher_model	models/fastspeech.py	/^    def set_teacher_model(self, teacher_model, teacher_type):$/;"	m	class:FastSpeech
+synthesize	models/fastspeech.py	/^    def synthesize(self, samples):$/;"	m	class:FastSpeech
+tf	models/fastspeech.py	/^import tensorflow as tf$/;"	i
+BaseModel	models/masked_pc.py	/^from .base import BaseModel$/;"	i
+MPCLoss	models/masked_pc.py	/^from ..loss import MPCLoss$/;"	i
+MaskedPredictCoding	models/masked_pc.py	/^class MaskedPredictCoding(BaseModel):$/;"	c
+PositionalEncoding	models/masked_pc.py	/^from ..layers.commons import PositionalEncoding$/;"	i
+TransformerEncoder	models/masked_pc.py	/^from ..layers.transformer import TransformerEncoder, TransformerEncoderLayer$/;"	i
+TransformerEncoderLayer	models/masked_pc.py	/^from ..layers.transformer import TransformerEncoder, TransformerEncoderLayer$/;"	i
+__init__	models/masked_pc.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:MaskedPredictCoding
+call	models/masked_pc.py	/^    def call(self, samples, training: bool = None):$/;"	m	class:MaskedPredictCoding
+compute_logit_length	models/masked_pc.py	/^    def compute_logit_length(self, samples):$/;"	m	class:MaskedPredictCoding
+default_config	models/masked_pc.py	/^    default_config = {$/;"	v	class:MaskedPredictCoding
+generate_mpc_mask	models/masked_pc.py	/^    def generate_mpc_mask(self, input_data):$/;"	m	class:MaskedPredictCoding
+get_loss	models/masked_pc.py	/^    def get_loss(self, logits, samples, training=None):$/;"	m	class:MaskedPredictCoding
+prepare_samples	models/masked_pc.py	/^    def prepare_samples(self, samples):$/;"	m	class:MaskedPredictCoding
+register_and_parse_hparams	models/masked_pc.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+tf	models/masked_pc.py	/^import tensorflow as tf$/;"	i
+BaseModel	models/mtl_seq2seq.py	/^from .base import BaseModel$/;"	i
+CTCAccuracy	models/mtl_seq2seq.py	/^from ..metrics import CTCAccuracy$/;"	i
+CTCLoss	models/mtl_seq2seq.py	/^from ..loss import CTCLoss$/;"	i
+Dense	models/mtl_seq2seq.py	/^from tensorflow.keras.layers import Dense$/;"	i
+MtlTransformerCtc	models/mtl_seq2seq.py	/^class MtlTransformerCtc(BaseModel):$/;"	c
+SUPPORTED_MODEL	models/mtl_seq2seq.py	/^    SUPPORTED_MODEL = {$/;"	v	class:MtlTransformerCtc
+SpeechTransformer	models/mtl_seq2seq.py	/^from .speech_transformer import SpeechTransformer, SpeechTransformer2$/;"	i
+SpeechTransformer2	models/mtl_seq2seq.py	/^from .speech_transformer import SpeechTransformer, SpeechTransformer2$/;"	i
+__init__	models/mtl_seq2seq.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:MtlTransformerCtc
+call	models/mtl_seq2seq.py	/^    def call(self, samples, training=None):$/;"	m	class:MtlTransformerCtc
+compute_logit_length	models/mtl_seq2seq.py	/^    def compute_logit_length(self, samples):$/;"	m	class:MtlTransformerCtc
+decode	models/mtl_seq2seq.py	/^    def decode(self, samples, hparams, decoder):$/;"	m	class:MtlTransformerCtc
+default_config	models/mtl_seq2seq.py	/^    default_config = {$/;"	v	class:MtlTransformerCtc
+deploy	models/mtl_seq2seq.py	/^    def deploy(self):$/;"	m	class:MtlTransformerCtc
+get_loss	models/mtl_seq2seq.py	/^    def get_loss(self, outputs, samples, training=None):$/;"	m	class:MtlTransformerCtc
+io	models/mtl_seq2seq.py	/^import io$/;"	i
+register_and_parse_hparams	models/mtl_seq2seq.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+reset_metrics	models/mtl_seq2seq.py	/^    def reset_metrics(self):$/;"	m	class:MtlTransformerCtc
+restore_from_pretrained_model	models/mtl_seq2seq.py	/^    def restore_from_pretrained_model(self, pretrained_model, model_type=""):$/;"	m	class:MtlTransformerCtc
+tf	models/mtl_seq2seq.py	/^import tensorflow as tf$/;"	i
+BaseModel	models/rnn_lm.py	/^from .base import BaseModel$/;"	i
+RNNLM	models/rnn_lm.py	/^class RNNLM(BaseModel):$/;"	c
+SUPPORTED_RNNS	models/rnn_lm.py	/^from ..layers.commons import SUPPORTED_RNNS$/;"	i
+__init__	models/rnn_lm.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:RNNLM
+call	models/rnn_lm.py	/^    def call(self, samples, training: bool = None):$/;"	m	class:RNNLM
+default_config	models/rnn_lm.py	/^    default_config = {$/;"	v	class:RNNLM
+get_loss	models/rnn_lm.py	/^    def get_loss(self, logits, samples, training=None):$/;"	m	class:RNNLM
+insert_eos_in_labels	models/rnn_lm.py	/^from ..utils.misc import insert_eos_in_labels, insert_sos_in_labels$/;"	i
+insert_sos_in_labels	models/rnn_lm.py	/^from ..utils.misc import insert_eos_in_labels, insert_sos_in_labels$/;"	i
+register_and_parse_hparams	models/rnn_lm.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+save_model	models/rnn_lm.py	/^    def save_model(self, path):$/;"	m	class:RNNLM
+tf	models/rnn_lm.py	/^import tensorflow as tf$/;"	i
+AAMSoftmaxLoss	models/speaker_resnet.py	/^from ..loss import SoftmaxLoss, AMSoftmaxLoss, AAMSoftmaxLoss, ProtoLoss, AngleProtoLoss, GE2ELoss$/;"	i
+AMSoftmaxLoss	models/speaker_resnet.py	/^from ..loss import SoftmaxLoss, AMSoftmaxLoss, AAMSoftmaxLoss, ProtoLoss, AngleProtoLoss, GE2ELoss$/;"	i
+AngleProtoLoss	models/speaker_resnet.py	/^from ..loss import SoftmaxLoss, AMSoftmaxLoss, AAMSoftmaxLoss, ProtoLoss, AngleProtoLoss, GE2ELoss$/;"	i
+BaseModel	models/speaker_resnet.py	/^from .base import BaseModel$/;"	i
+ClassificationAccuracy	models/speaker_resnet.py	/^from ..metrics import ClassificationAccuracy, EqualErrorRate$/;"	i
+EqualErrorRate	models/speaker_resnet.py	/^from ..metrics import ClassificationAccuracy, EqualErrorRate$/;"	i
+GE2ELoss	models/speaker_resnet.py	/^from ..loss import SoftmaxLoss, AMSoftmaxLoss, AAMSoftmaxLoss, ProtoLoss, AngleProtoLoss, GE2ELoss$/;"	i
+ProtoLoss	models/speaker_resnet.py	/^from ..loss import SoftmaxLoss, AMSoftmaxLoss, AAMSoftmaxLoss, ProtoLoss, AngleProtoLoss, GE2ELoss$/;"	i
+ResnetBasicBlock	models/speaker_resnet.py	/^from ..layers.resnet_block import ResnetBasicBlock$/;"	i
+SUPPORTED_LOSS	models/speaker_resnet.py	/^SUPPORTED_LOSS = {$/;"	v
+SoftmaxLoss	models/speaker_resnet.py	/^from ..loss import SoftmaxLoss, AMSoftmaxLoss, AAMSoftmaxLoss, ProtoLoss, AngleProtoLoss, GE2ELoss$/;"	i
+SpeakerResnet	models/speaker_resnet.py	/^class SpeakerResnet(BaseModel):$/;"	c
+__init__	models/speaker_resnet.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:SpeakerResnet
+call	models/speaker_resnet.py	/^    def call(self, samples, training=None):$/;"	m	class:SpeakerResnet
+default_config	models/speaker_resnet.py	/^    default_config = {$/;"	v	class:SpeakerResnet
+get_eer	models/speaker_resnet.py	/^    def get_eer(self, outputs, samples, training=False):$/;"	m	class:SpeakerResnet
+get_loss	models/speaker_resnet.py	/^    def get_loss(self, outputs, samples, training=None):$/;"	m	class:SpeakerResnet
+init_loss	models/speaker_resnet.py	/^    def init_loss(self, loss):$/;"	m	class:SpeakerResnet
+make_resnet_block_layer	models/speaker_resnet.py	/^    def make_resnet_block_layer(self, num_filter, num_blocks, stride=1):$/;"	m	class:SpeakerResnet
+register_and_parse_hparams	models/speaker_resnet.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+tf	models/speaker_resnet.py	/^import tensorflow as tf$/;"	i
+BaseModel	models/speech_transformer.py	/^from .base import BaseModel$/;"	i
+PositionalEncoding	models/speech_transformer.py	/^from ..layers.commons import PositionalEncoding$/;"	i
+Seq2SeqSparseCategoricalAccuracy	models/speech_transformer.py	/^from ..metrics import Seq2SeqSparseCategoricalAccuracy$/;"	i
+Seq2SeqSparseCategoricalCrossentropy	models/speech_transformer.py	/^from ..loss import Seq2SeqSparseCategoricalCrossentropy$/;"	i
+SpeechTransformer	models/speech_transformer.py	/^class SpeechTransformer(BaseModel):$/;"	c
+SpeechTransformer2	models/speech_transformer.py	/^class SpeechTransformer2(SpeechTransformer):$/;"	c
+Transformer	models/speech_transformer.py	/^from ..layers.transformer import Transformer$/;"	i
+__init__	models/speech_transformer.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:SpeechTransformer
+call	models/speech_transformer.py	/^    def call(self, samples, training: bool = None):$/;"	m	class:SpeechTransformer
+call	models/speech_transformer.py	/^    def call(self, samples, training: bool = None):$/;"	m	class:SpeechTransformer2
+compute_logit_length	models/speech_transformer.py	/^    def compute_logit_length(self, samples):$/;"	m	class:SpeechTransformer
+create_multihead_mask	models/speech_transformer.py	/^from ..utils.misc import generate_square_subsequent_mask, insert_sos_in_labels, create_multihead_mask$/;"	i
+decode	models/speech_transformer.py	/^    def decode(self, samples, hparams, decoder, return_encoder=False):$/;"	m	class:SpeechTransformer
+default_config	models/speech_transformer.py	/^    default_config = {$/;"	v	class:SpeechTransformer
+deploy	models/speech_transformer.py	/^    def deploy(self):$/;"	m	class:SpeechTransformer
+generate_square_subsequent_mask	models/speech_transformer.py	/^from ..utils.misc import generate_square_subsequent_mask, insert_sos_in_labels, create_multihead_mask$/;"	i
+inference_one_step	models/speech_transformer.py	/^    def inference_one_step(self, enc_outputs, cur_input, inner_packed_states_array):$/;"	m	class:SpeechTransformer
+insert_sos_in_labels	models/speech_transformer.py	/^from ..utils.misc import generate_square_subsequent_mask, insert_sos_in_labels, create_multihead_mask$/;"	i
+logging	models/speech_transformer.py	/^from absl import logging$/;"	i
+mix_target_sequence	models/speech_transformer.py	/^    def mix_target_sequence(self, gold_token, predicted_token, training, top_k=5):$/;"	m	class:SpeechTransformer2
+register_and_parse_hparams	models/speech_transformer.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+restore_from_pretrained_model	models/speech_transformer.py	/^    def restore_from_pretrained_model(self, pretrained_model, model_type=""):$/;"	m	class:SpeechTransformer
+tf	models/speech_transformer.py	/^import tensorflow as tf$/;"	i
+time_propagate	models/speech_transformer.py	/^    def time_propagate(self, history_logits, history_predictions, step, enc_outputs):$/;"	m	class:SpeechTransformer
+BaseModel	models/stargan_vc.py	/^from .base import BaseModel$/;"	i
+Classifier	models/stargan_vc.py	/^class Classifier(BaseModel):$/;"	c
+Discriminator	models/stargan_vc.py	/^class Discriminator(BaseModel):$/;"	c
+DownSampleBlock	models/stargan_vc.py	/^from ..layers.commons import DownSampleBlock, UpSampleBlock$/;"	i
+Generator	models/stargan_vc.py	/^class Generator(BaseModel):$/;"	c
+StarganLoss	models/stargan_vc.py	/^from ..loss import StarganLoss$/;"	i
+StarganModel	models/stargan_vc.py	/^class StarganModel(BaseModel):$/;"	c
+UpSampleBlock	models/stargan_vc.py	/^from ..layers.commons import DownSampleBlock, UpSampleBlock$/;"	i
+WarmUpAdam	models/stargan_vc.py	/^from ..utils.learning_rate import  WarmUpAdam$/;"	i
+__init__	models/stargan_vc.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:StarganModel
+__init__	models/stargan_vc.py	/^    def __init__(self, optimizer_config=None):$/;"	m	class:Discriminator
+__init__	models/stargan_vc.py	/^    def __init__(self, optimizer_config=None):$/;"	m	class:Generator
+__init__	models/stargan_vc.py	/^    def __init__(self, speaker_num=2, optimizer_config=None):$/;"	m	class:Classifier
+call	models/stargan_vc.py	/^    def call(self, inner, spk=None):$/;"	m	class:Discriminator
+call	models/stargan_vc.py	/^    def call(self, inputs):$/;"	m	class:Classifier
+call	models/stargan_vc.py	/^    def call(self, inputs, spk):$/;"	m	class:Generator
+call	models/stargan_vc.py	/^    def call(self, samples, training: bool = None, stage=None):$/;"	m	class:StarganModel
+convert	models/stargan_vc.py	/^    def convert(self, src_coded_sp, tar_speaker):$/;"	m	class:StarganModel
+default_config	models/stargan_vc.py	/^    default_config = {$/;"	v	class:StarganModel
+get_loss	models/stargan_vc.py	/^    def get_loss(self, outputs, samples, training=None, stage="classifier"):$/;"	m	class:StarganModel
+get_stage_model	models/stargan_vc.py	/^    def get_stage_model(self, stage):$/;"	m	class:StarganModel
+register_and_parse_hparams	models/stargan_vc.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+restore_from_pretrained_model	models/stargan_vc.py	/^    def restore_from_pretrained_model(self, pretrained_model, model_type=""):$/;"	m	class:StarganModel
+tf	models/stargan_vc.py	/^import tensorflow as tf$/;"	i
+BaseModel	models/tacotron2.py	/^from .base import BaseModel$/;"	i
+GuidedAttentionLoss	models/tacotron2.py	/^from ..loss import Tacotron2Loss, GuidedAttentionLoss$/;"	i
+LocationAttention	models/tacotron2.py	/^from ..layers.attention import LocationAttention, StepwiseMonotonicAttention, MultiHeadAttention$/;"	i
+MultiHeadAttention	models/tacotron2.py	/^from ..layers.attention import LocationAttention, StepwiseMonotonicAttention, MultiHeadAttention$/;"	i
+StepwiseMonotonicAttention	models/tacotron2.py	/^from ..layers.attention import LocationAttention, StepwiseMonotonicAttention, MultiHeadAttention$/;"	i
+Tacotron2	models/tacotron2.py	/^class Tacotron2(BaseModel):$/;"	c
+Tacotron2Loss	models/tacotron2.py	/^from ..loss import Tacotron2Loss, GuidedAttentionLoss$/;"	i
+ZoneOutCell	models/tacotron2.py	/^from ..layers.commons import ZoneOutCell$/;"	i
+__init__	models/tacotron2.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:Tacotron2
+_pad_and_reshape	models/tacotron2.py	/^    def _pad_and_reshape(self, outputs, ori_lens, reverse=False):$/;"	m	class:Tacotron2
+_synthesize_post_net	models/tacotron2.py	/^    def _synthesize_post_net(self, before_outs, logits_stack):$/;"	m	class:Tacotron2
+call	models/tacotron2.py	/^    def call(self, samples, training: bool = None):$/;"	m	class:Tacotron2
+collapse4d	models/tacotron2.py	/^from ..layers.functional import collapse4d$/;"	i
+concat_speaker_embedding	models/tacotron2.py	/^    def concat_speaker_embedding(self, encoder_output, speaker_embedding):$/;"	m	class:Tacotron2
+cut_acoustic_feature	models/tacotron2.py	/^    def cut_acoustic_feature(self, feature, len):$/;"	m	class:Tacotron2
+default_config	models/tacotron2.py	/^    default_config = {$/;"	v	class:Tacotron2
+get_loss	models/tacotron2.py	/^    def get_loss(self, outputs, samples, training=None):$/;"	m	class:Tacotron2
+initialize_input_y	models/tacotron2.py	/^    def initialize_input_y(self, y):$/;"	m	class:Tacotron2
+initialize_states	models/tacotron2.py	/^    def initialize_states(self, encoder_output, input_length):$/;"	m	class:Tacotron2
+register_and_parse_hparams	models/tacotron2.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+restore_from_pretrained_model	models/tacotron2.py	/^    def restore_from_pretrained_model(self, pretrained_model, model_type):$/;"	m	class:Tacotron2
+synthesize	models/tacotron2.py	/^    def synthesize(self, samples):$/;"	m	class:Tacotron2
+tf	models/tacotron2.py	/^import tensorflow as tf$/;"	i
+time_propagate	models/tacotron2.py	/^    def time_propagate(self, encoder_output, input_length, prev_y,$/;"	m	class:Tacotron2
+BaseModel	models/translate_transformer.py	/^from .base import BaseModel$/;"	i
+NeuralTranslateTransformer	models/translate_transformer.py	/^class NeuralTranslateTransformer(BaseModel):$/;"	c
+PositionalEncoding	models/translate_transformer.py	/^from ..layers.commons import PositionalEncoding$/;"	i
+Seq2SeqSparseCategoricalAccuracy	models/translate_transformer.py	/^from ..metrics import Seq2SeqSparseCategoricalAccuracy$/;"	i
+Seq2SeqSparseCategoricalCrossentropy	models/translate_transformer.py	/^from ..loss import Seq2SeqSparseCategoricalCrossentropy$/;"	i
+Transformer	models/translate_transformer.py	/^from ..layers.transformer import Transformer$/;"	i
+__init__	models/translate_transformer.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:NeuralTranslateTransformer
+_create_masks	models/translate_transformer.py	/^    def _create_masks(x, y):$/;"	m	class:NeuralTranslateTransformer
+call	models/translate_transformer.py	/^    def call(self, samples, training=None):$/;"	m	class:NeuralTranslateTransformer
+create_padding_mask	models/translate_transformer.py	/^        def create_padding_mask(seq):$/;"	f	function:NeuralTranslateTransformer._create_masks
+default_config	models/translate_transformer.py	/^    default_config = {$/;"	v	class:NeuralTranslateTransformer
+generate_square_subsequent_mask	models/translate_transformer.py	/^from ..utils.misc import generate_square_subsequent_mask, insert_sos_in_labels$/;"	i
+insert_sos_in_labels	models/translate_transformer.py	/^from ..utils.misc import generate_square_subsequent_mask, insert_sos_in_labels$/;"	i
+register_and_parse_hparams	models/translate_transformer.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+tf	models/translate_transformer.py	/^import tensorflow as tf$/;"	i
+GuidedMultiHeadAttentionLoss	models/tts_transformer.py	/^from ..loss import Tacotron2Loss, GuidedMultiHeadAttentionLoss$/;"	i
+ScaledPositionalEncoding	models/tts_transformer.py	/^from ..layers.commons import ScaledPositionalEncoding$/;"	i
+TTSTransformer	models/tts_transformer.py	/^class TTSTransformer(Tacotron2):$/;"	c
+Tacotron2	models/tts_transformer.py	/^from .tacotron2 import Tacotron2$/;"	i
+Tacotron2Loss	models/tts_transformer.py	/^from ..loss import Tacotron2Loss, GuidedMultiHeadAttentionLoss$/;"	i
+Transformer	models/tts_transformer.py	/^from ..layers.transformer import Transformer$/;"	i
+__init__	models/tts_transformer.py	/^    def __init__(self, data_descriptions, config=None):$/;"	m	class:TTSTransformer
+call	models/tts_transformer.py	/^    def call(self, samples, training: bool = None):$/;"	m	class:TTSTransformer
+create_multihead_mask	models/tts_transformer.py	/^from ..utils.misc import generate_square_subsequent_mask, create_multihead_mask$/;"	i
+default_config	models/tts_transformer.py	/^    default_config = {$/;"	v	class:TTSTransformer
+generate_square_subsequent_mask	models/tts_transformer.py	/^from ..utils.misc import generate_square_subsequent_mask, create_multihead_mask$/;"	i
+register_and_parse_hparams	models/tts_transformer.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+synthesize	models/tts_transformer.py	/^    def synthesize(self, samples):$/;"	m	class:TTSTransformer
+tf	models/tts_transformer.py	/^import tensorflow as tf$/;"	i
+time_propagate	models/tts_transformer.py	/^    def time_propagate(self, encoder_output, memory_mask, outs, step):$/;"	m	class:TTSTransformer
+BaseSolver	solver.py	/^class BaseSolver(tf.keras.Model):$/;"	c
+BeamSearchDecoder	solver.py	/^from .tools.beam_search import BeamSearchDecoder$/;"	i
+CharactorAccuracy	solver.py	/^from .metrics import CharactorAccuracy$/;"	i
+ConvertSolver	solver.py	/^class ConvertSolver(BaseSolver):$/;"	c
+DecoderSolver	solver.py	/^class DecoderSolver(BaseSolver):$/;"	c
+GanSolver	solver.py	/^class GanSolver(BaseSolver):$/;"	c
+GriffinLim	solver.py	/^from .tools.vocoder import GriffinLim$/;"	i
+HorovodSolver	solver.py	/^class HorovodSolver(BaseSolver):$/;"	c
+MetricChecker	solver.py	/^from .utils.metric_check import MetricChecker$/;"	i
+SynthesisSolver	solver.py	/^class SynthesisSolver(BaseSolver):$/;"	c
+WFSTDecoder	solver.py	/^    from pydecoders import WFSTDecoder$/;"	i
+__init__	solver.py	/^    def __init__(self, model, data_descriptions=None, config=None):$/;"	m	class:DecoderSolver
+__init__	solver.py	/^    def __init__(self, model, data_descriptions=None, config=None):$/;"	m	class:SynthesisSolver
+__init__	solver.py	/^    def __init__(self, model, optimizer, sample_signature, eval_sample_signature=None,$/;"	m	class:BaseSolver
+__init__	solver.py	/^    def __init__(self, model, sample_signature, config=None):$/;"	m	class:GanSolver
+__init__	solver.py	/^    def __init__(self, model=None, data_descriptions=None, config=None):$/;"	m	class:ConvertSolver
+apply_f0_cmvn	solver.py	/^            def apply_f0_cmvn(cmvn_dict, feat_data, src_speaker, tar_speaker):$/;"	f	function:ConvertSolver.inference
+build_model_from_jsonfile	solver.py	/^            from athena.main import build_model_from_jsonfile$/;"	i
+clip_by_norm	solver.py	/^    def clip_by_norm(grads, norm):$/;"	m	class:BaseSolver
+default_config	solver.py	/^    default_config = {$/;"	v	class:BaseSolver
+default_config	solver.py	/^    default_config = {$/;"	v	class:ConvertSolver
+default_config	solver.py	/^    default_config = {$/;"	v	class:DecoderSolver
+default_config	solver.py	/^    default_config = {$/;"	v	class:GanSolver
+default_config	solver.py	/^    default_config = {$/;"	v	class:SynthesisSolver
+evaluate	solver.py	/^    def evaluate(self, dataset, epoch):$/;"	m	class:BaseSolver
+evaluate	solver.py	/^    def evaluate(self, dataset, epoch=0):$/;"	m	class:GanSolver
+evaluate	solver.py	/^    def evaluate(self, dataset, epoch=0):$/;"	m	class:HorovodSolver
+evaluate_step	solver.py	/^    def evaluate_step(self, samples):$/;"	m	class:BaseSolver
+evaluate_step	solver.py	/^    def evaluate_step(self, samples):$/;"	m	class:GanSolver
+horovod	solver.py	/^    import horovod.tensorflow as hvd$/;"	i
+hvd	solver.py	/^    import horovod.tensorflow as hvd$/;"	i
+inference	solver.py	/^    def inference(self, dataset, rank_size=1):$/;"	m	class:ConvertSolver
+inference	solver.py	/^    def inference(self, dataset, rank_size=1):$/;"	m	class:DecoderSolver
+inference	solver.py	/^    def inference(self, dataset, rank_size=1):$/;"	m	class:SynthesisSolver
+initialize_devices	solver.py	/^    def initialize_devices(solver_gpus=None):$/;"	m	class:BaseSolver
+initialize_devices	solver.py	/^    def initialize_devices(solver_gpus=None):$/;"	m	class:HorovodSolver
+librosa	solver.py	/^import librosa$/;"	i
+logging	solver.py	/^from absl import logging$/;"	i
+np	solver.py	/^import numpy as np$/;"	i
+os	solver.py	/^import os$/;"	i
+pyworld	solver.py	/^import pyworld$/;"	i
+register_and_parse_hparams	solver.py	/^from .utils.hparam import register_and_parse_hparams$/;"	i
+tf	solver.py	/^import tensorflow as tf$/;"	i
+time	solver.py	/^import time$/;"	i
+train	solver.py	/^    def train(self, dataset, total_batches=-1):$/;"	m	class:BaseSolver
+train	solver.py	/^    def train(self, dataset, total_batches=-1):$/;"	m	class:GanSolver
+train	solver.py	/^    def train(self, dataset, total_batches=-1):$/;"	m	class:HorovodSolver
+train_step	solver.py	/^    def train_step(self, samples):$/;"	m	class:BaseSolver
+train_step	solver.py	/^    def train_step(self, samples):$/;"	m	class:GanSolver
+train_step	solver.py	/^    def train_step(self, samples):$/;"	m	class:HorovodSolver
+validate_seqs	solver.py	/^from .utils.misc import validate_seqs$/;"	i
+warnings	solver.py	/^import warnings$/;"	i
+DEFAULT_CONFIGS	stargan_main.py	/^DEFAULT_CONFIGS = {$/;"	v
+SUPPORTED_DATASET_BUILDER	stargan_main.py	/^SUPPORTED_DATASET_BUILDER = {$/;"	v
+SUPPORTED_MODEL	stargan_main.py	/^SUPPORTED_MODEL = {$/;"	v
+SUPPORTED_OPTIMIZER	stargan_main.py	/^SUPPORTED_OPTIMIZER = {$/;"	v
+build_model_from_jsonfile_stargan	stargan_main.py	/^def build_model_from_jsonfile_stargan(jsonfile, pre_run=True):$/;"	f
+config	stargan_main.py	/^        config = json.load(f)$/;"	v
+config	stargan_main.py	/^    config = None$/;"	v
+json	stargan_main.py	/^import json$/;"	i
+json_file	stargan_main.py	/^    json_file = sys.argv[1]$/;"	v
+logging	stargan_main.py	/^from absl import logging$/;"	i
+p	stargan_main.py	/^    p = parse_config(config)$/;"	v
+parse_config	stargan_main.py	/^def parse_config(config):$/;"	f
+sys	stargan_main.py	/^import sys$/;"	i
+tf	stargan_main.py	/^import tensorflow as tf$/;"	i
+train	stargan_main.py	/^def train(jsonfile, Solver, rank_size=1, rank=0):$/;"	f
+BeamSearchDecoder	tools/beam_search.py	/^class BeamSearchDecoder:$/;"	c
+CTCPrefixScorer	tools/beam_search.py	/^from .ctc_scorer import CTCPrefixScorer$/;"	i
+CandidateHolder	tools/beam_search.py	/^CandidateHolder = namedtuple($/;"	v
+NGramScorer	tools/beam_search.py	/^from .lm_scorer import NGramScorer, RNNScorer$/;"	i
+RNNScorer	tools/beam_search.py	/^from .lm_scorer import NGramScorer, RNNScorer$/;"	i
+__call__	tools/beam_search.py	/^    def __call__(self, cand_seqs, cand_states, init_states, encoder_outputs):$/;"	m	class:BeamSearchDecoder	file:
+__init__	tools/beam_search.py	/^    def __init__(self, num_class, sos, eos, beam_size):$/;"	m	class:BeamSearchDecoder
+beam_search_score	tools/beam_search.py	/^    def beam_search_score(self, candidate_holder, encoder_outputs):$/;"	m	class:BeamSearchDecoder
+build_decoder	tools/beam_search.py	/^    def build_decoder(hparams, num_class, sos, eos, decoder_one_step, lm_model=None):$/;"	m	class:BeamSearchDecoder
+deal_with_completed	tools/beam_search.py	/^    def deal_with_completed($/;"	m	class:BeamSearchDecoder
+deal_with_uncompleted	tools/beam_search.py	/^    def deal_with_uncompleted($/;"	m	class:BeamSearchDecoder
+namedtuple	tools/beam_search.py	/^from collections import namedtuple$/;"	i
+set_ctc_scorer	tools/beam_search.py	/^    def set_ctc_scorer(self, ctc_scorer):$/;"	m	class:BeamSearchDecoder
+set_lm_model	tools/beam_search.py	/^    def set_lm_model(self, lm_model):$/;"	m	class:BeamSearchDecoder
+tf	tools/beam_search.py	/^import tensorflow as tf$/;"	i
+CTCPrefixScorer	tools/ctc_scorer.py	/^class CTCPrefixScorer:$/;"	c
+__init__	tools/ctc_scorer.py	/^    def __init__(self, eos, ctc_beam, num_classes, blank=-1, ctc_weight=0.25):$/;"	m	class:CTCPrefixScorer
+cand_score	tools/ctc_scorer.py	/^    def cand_score(self, y, cs, r_prev):$/;"	m	class:CTCPrefixScorer
+initial_state	tools/ctc_scorer.py	/^    def initial_state(self, init_cand_states, x):$/;"	m	class:CTCPrefixScorer
+np	tools/ctc_scorer.py	/^import numpy as np$/;"	i
+score	tools/ctc_scorer.py	/^    def score(self, candidate_holder, new_scores):$/;"	m	class:CTCPrefixScorer
+tf	tools/ctc_scorer.py	/^import tensorflow as tf$/;"	i
+NGramScorer	tools/lm_scorer.py	/^class NGramScorer(object):$/;"	c
+RNNScorer	tools/lm_scorer.py	/^class RNNScorer(object):$/;"	c
+__init__	tools/lm_scorer.py	/^    def __init__(self, lm_model, lm_weight=0.1):$/;"	m	class:RNNScorer
+__init__	tools/lm_scorer.py	/^    def __init__(self, lm_path, sos, eos, num_syms, lm_weight=0.1):$/;"	m	class:NGramScorer
+get_score	tools/lm_scorer.py	/^    def get_score(self, cand_parents, cand_syms, lang_model):$/;"	m	class:NGramScorer
+kenlm	tools/lm_scorer.py	/^import kenlm$/;"	i
+np	tools/lm_scorer.py	/^import numpy as np$/;"	i
+reset	tools/lm_scorer.py	/^    def reset(self):$/;"	m	class:NGramScorer
+reset	tools/lm_scorer.py	/^    def reset(self):$/;"	m	class:RNNScorer
+score	tools/lm_scorer.py	/^    def score(self, candidate_holder, new_scores):$/;"	m	class:NGramScorer
+score	tools/lm_scorer.py	/^    def score(self, candidate_holder, new_scores):$/;"	m	class:RNNScorer
+tf	tools/lm_scorer.py	/^import tensorflow as tf$/;"	i
+codecs	tools/process_decode_result.py	/^import codecs$/;"	i
+process_files	tools/process_decode_result.py	/^def process_files(decode_log_file, vocab_file):$/;"	f
+sys	tools/process_decode_result.py	/^import sys$/;"	i
+argparse	tools/split_hyp_ref.py	/^import argparse$/;"	i
+args	tools/split_hyp_ref.py	/^    args = parser.parse_args()$/;"	v
+main	tools/split_hyp_ref.py	/^def main(args):$/;"	f
+os	tools/split_hyp_ref.py	/^import os$/;"	i
+parser	tools/split_hyp_ref.py	/^    parser = argparse.ArgumentParser()$/;"	v
+re	tools/split_hyp_ref.py	/^import re$/;"	i
+GriffinLim	tools/vocoder.py	/^class GriffinLim:$/;"	c
+__call__	tools/vocoder.py	/^    def __call__(self, feats, hparams, name=None):$/;"	m	class:GriffinLim	file:
+__init__	tools/vocoder.py	/^    def __init__(self, data_descriptions):$/;"	m	class:GriffinLim
+_get_nfft	tools/vocoder.py	/^    def _get_nfft(self, window_length):$/;"	m	class:GriffinLim
+_griffin_lim	tools/vocoder.py	/^    def _griffin_lim(self, linear_feats, gl_iters):$/;"	m	class:GriffinLim
+_logmel_to_linear	tools/vocoder.py	/^    def _logmel_to_linear(self, feats):$/;"	m	class:GriffinLim
+librosa	tools/vocoder.py	/^import librosa$/;"	i
+np	tools/vocoder.py	/^import numpy as np$/;"	i
+os	tools/vocoder.py	/^import os$/;"	i
+write_wav	tools/vocoder.py	/^from scipy.io.wavfile import write as write_wav$/;"	i
+AudioFeaturizer	transform/__init__.py	/^from athena.transform.audio_featurizer import AudioFeaturizer$/;"	i
+audio_featurizer	transform/__init__.py	/^from athena.transform import audio_featurizer$/;"	i
+compute_cmvn	transform/__init__.py	/^from athena.transform.feats.cmvn import compute_cmvn$/;"	i
+read_wav	transform/__init__.py	/^from athena.transform.feats.read_wav import read_wav$/;"	i
+AudioFeaturizer	transform/audio_featurizer.py	/^class AudioFeaturizer:$/;"	c
+__call__	transform/audio_featurizer.py	/^    def __call__(self, audio=None, sr=None, speed=1.0):$/;"	m	class:AudioFeaturizer	file:
+__impl	transform/audio_featurizer.py	/^    def __impl(self, audio=None, sr=None, speed=1.0):$/;"	m	class:AudioFeaturizer	file:
+__init__	transform/audio_featurizer.py	/^    def __init__(self, config={"type": "Fbank"}):$/;"	m	class:AudioFeaturizer
+dim	transform/audio_featurizer.py	/^    def dim(self):$/;"	m	class:AudioFeaturizer
+feats	transform/audio_featurizer.py	/^from athena.transform import feats$/;"	i
+num_channels	transform/audio_featurizer.py	/^    def num_channels(self):$/;"	m	class:AudioFeaturizer
+tf	transform/audio_featurizer.py	/^import tensorflow as tf$/;"	i
+CMVN	transform/feats/__init__.py	/^from athena.transform.feats.cmvn import CMVN, compute_cmvn$/;"	i
+Fbank	transform/feats/__init__.py	/^from athena.transform.feats.fbank import Fbank$/;"	i
+FbankPitch	transform/feats/__init__.py	/^from athena.transform.feats.fbank_pitch import FbankPitch$/;"	i
+Framepow	transform/feats/__init__.py	/^from athena.transform.feats.framepow import Framepow$/;"	i
+MelSpectrum	transform/feats/__init__.py	/^from athena.transform.feats.mel_spectrum import MelSpectrum$/;"	i
+Mfcc	transform/feats/__init__.py	/^from athena.transform.feats.mfcc import Mfcc$/;"	i
+Pitch	transform/feats/__init__.py	/^from athena.transform.feats.pitch import Pitch$/;"	i
+ReadWav	transform/feats/__init__.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+Spectrum	transform/feats/__init__.py	/^from athena.transform.feats.spectrum import Spectrum$/;"	i
+WriteWav	transform/feats/__init__.py	/^from athena.transform.feats.write_wav import WriteWav$/;"	i
+compute_cmvn	transform/feats/__init__.py	/^from athena.transform.feats.cmvn import CMVN, compute_cmvn$/;"	i
+ABCFrontend	transform/feats/base_frontend.py	/^class ABCFrontend(metaclass=abc.ABCMeta):$/;"	c
+BaseFrontend	transform/feats/base_frontend.py	/^class BaseFrontend(ABCFrontend):$/;"	c
+__call__	transform/feats/base_frontend.py	/^    def __call__(self, *args):$/;"	m	class:BaseFrontend	file:
+__init__	transform/feats/base_frontend.py	/^    def __init__(self, config):$/;"	m	class:ABCFrontend
+__init__	transform/feats/base_frontend.py	/^    def __init__(self, config: dict):$/;"	m	class:BaseFrontend
+abc	transform/feats/base_frontend.py	/^import abc$/;"	i
+call	transform/feats/base_frontend.py	/^    def call(self, *args):$/;"	m	class:ABCFrontend
+config	transform/feats/base_frontend.py	/^    def config(self):$/;"	m	class:BaseFrontend
+dim	transform/feats/base_frontend.py	/^    def dim(self):$/;"	m	class:BaseFrontend
+num_channels	transform/feats/base_frontend.py	/^    def num_channels(self):$/;"	m	class:BaseFrontend
+params	transform/feats/base_frontend.py	/^    def params(cls, config=None):$/;"	m	class:BaseFrontend
+tf	transform/feats/base_frontend.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/cmvn.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+CMVN	transform/feats/cmvn.py	/^class CMVN(BaseFrontend):$/;"	c
+HParams	transform/feats/cmvn.py	/^from athena.utils.hparam import HParams$/;"	i
+__init__	transform/feats/cmvn.py	/^    def __init__(self, config: dict):$/;"	m	class:CMVN
+call	transform/feats/cmvn.py	/^    def call(self, audio_feature, speed=1.0):$/;"	m	class:CMVN
+compute_cmvn	transform/feats/cmvn.py	/^def compute_cmvn(audio_feature, mean=None, variance=None, local_cmvn=False):$/;"	f
+dim	transform/feats/cmvn.py	/^    def dim(self):$/;"	m	class:CMVN
+np	transform/feats/cmvn.py	/^import numpy as np$/;"	i
+params	transform/feats/cmvn.py	/^    def params(cls, config=None):$/;"	m	class:CMVN
+tf	transform/feats/cmvn.py	/^import tensorflow as tf$/;"	i
+CMVN	transform/feats/cmvn_test.py	/^from athena.transform.feats.cmvn import CMVN$/;"	i
+CMVNTest	transform/feats/cmvn_test.py	/^class CMVNTest(tf.test.TestCase):$/;"	c
+np	transform/feats/cmvn_test.py	/^import numpy as np$/;"	i
+test_cmvn	transform/feats/cmvn_test.py	/^    def test_cmvn(self):$/;"	m	class:CMVNTest
+tf	transform/feats/cmvn_test.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/fbank.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+CMVN	transform/feats/fbank.py	/^from athena.transform.feats.cmvn import CMVN$/;"	i
+Fbank	transform/feats/fbank.py	/^class Fbank(BaseFrontend):$/;"	c
+HParams	transform/feats/fbank.py	/^from athena.utils.hparam import HParams$/;"	i
+Spectrum	transform/feats/fbank.py	/^from athena.transform.feats.spectrum import Spectrum$/;"	i
+__init__	transform/feats/fbank.py	/^    def __init__(self, config: dict):$/;"	m	class:Fbank
+call	transform/feats/fbank.py	/^    def call(self, audio_data, sample_rate):$/;"	m	class:Fbank
+dim	transform/feats/fbank.py	/^    def dim(self):$/;"	m	class:Fbank
+num_channels	transform/feats/fbank.py	/^    def num_channels(self):$/;"	m	class:Fbank
+params	transform/feats/fbank.py	/^    def params(cls, config=None):$/;"	m	class:Fbank
+py_x_ops	transform/feats/fbank.py	/^from athena.transform.feats.ops import py_x_ops$/;"	i
+tf	transform/feats/fbank.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/fbank_pitch.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+CMVN	transform/feats/fbank_pitch.py	/^from athena.transform.feats.cmvn import CMVN$/;"	i
+Fbank	transform/feats/fbank_pitch.py	/^from athena.transform.feats.fbank import Fbank$/;"	i
+FbankPitch	transform/feats/fbank_pitch.py	/^class FbankPitch(BaseFrontend):$/;"	c
+HParams	transform/feats/fbank_pitch.py	/^from athena.utils.hparam import HParams$/;"	i
+Pitch	transform/feats/fbank_pitch.py	/^from athena.transform.feats.pitch import Pitch$/;"	i
+__init__	transform/feats/fbank_pitch.py	/^    def __init__(self, config: dict):$/;"	m	class:FbankPitch
+call	transform/feats/fbank_pitch.py	/^    def call(self, audio_data, sample_rate):$/;"	m	class:FbankPitch
+dim	transform/feats/fbank_pitch.py	/^    def dim(self):$/;"	m	class:FbankPitch
+params	transform/feats/fbank_pitch.py	/^    def params(cls, config=None):$/;"	m	class:FbankPitch
+tf	transform/feats/fbank_pitch.py	/^import tensorflow as tf$/;"	i
+FbankPitch	transform/feats/fbank_pitch_test.py	/^from athena.transform.feats.fbank_pitch import FbankPitch$/;"	i
+FbankPitchTest	transform/feats/fbank_pitch_test.py	/^class FbankPitchTest(tf.test.TestCase):$/;"	c
+Path	transform/feats/fbank_pitch_test.py	/^from pathlib import Path$/;"	i
+ReadWav	transform/feats/fbank_pitch_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+disable_eager_execution	transform/feats/fbank_pitch_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/fbank_pitch_test.py	/^    is_eager = True$/;"	v	class:FbankPitchTest
+os	transform/feats/fbank_pitch_test.py	/^import os$/;"	i
+test_FbankPitch	transform/feats/fbank_pitch_test.py	/^    def test_FbankPitch(self):$/;"	m	class:FbankPitchTest
+tf	transform/feats/fbank_pitch_test.py	/^import tensorflow as tf$/;"	i
+Fbank	transform/feats/fbank_test.py	/^from athena.transform.feats.fbank import Fbank$/;"	i
+FbankTest	transform/feats/fbank_test.py	/^class FbankTest(tf.test.TestCase):$/;"	c
+Path	transform/feats/fbank_test.py	/^from pathlib import Path$/;"	i
+ReadWav	transform/feats/fbank_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+disable_eager_execution	transform/feats/fbank_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/fbank_test.py	/^    is_eager = True$/;"	v	class:FbankTest
+np	transform/feats/fbank_test.py	/^import numpy as np$/;"	i
+os	transform/feats/fbank_test.py	/^import os$/;"	i
+test_fbank	transform/feats/fbank_test.py	/^    def test_fbank(self):$/;"	m	class:FbankTest
+tf	transform/feats/fbank_test.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/framepow.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+Framepow	transform/feats/framepow.py	/^class Framepow(BaseFrontend):$/;"	c
+HParams	transform/feats/framepow.py	/^from athena.utils.hparam import HParams$/;"	i
+__init__	transform/feats/framepow.py	/^    def __init__(self, config: dict):$/;"	m	class:Framepow
+call	transform/feats/framepow.py	/^    def call(self, audio_data, sample_rate):$/;"	m	class:Framepow
+dim	transform/feats/framepow.py	/^    def dim(self):$/;"	m	class:Framepow
+params	transform/feats/framepow.py	/^    def params(cls, config=None):$/;"	m	class:Framepow
+py_x_ops	transform/feats/framepow.py	/^from athena.transform.feats.ops import py_x_ops$/;"	i
+tf	transform/feats/framepow.py	/^import tensorflow as tf$/;"	i
+FramePowTest	transform/feats/framepow_test.py	/^class FramePowTest(tf.test.TestCase):$/;"	c
+Framepow	transform/feats/framepow_test.py	/^from athena.transform.feats.framepow import Framepow$/;"	i
+Path	transform/feats/framepow_test.py	/^from pathlib import Path$/;"	i
+ReadWav	transform/feats/framepow_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+disable_eager_execution	transform/feats/framepow_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/framepow_test.py	/^    is_eager = True$/;"	v	class:FramePowTest
+np	transform/feats/framepow_test.py	/^import numpy as np$/;"	i
+os	transform/feats/framepow_test.py	/^import os$/;"	i
+test_framepow	transform/feats/framepow_test.py	/^    def test_framepow(self):$/;"	m	class:FramePowTest
+tf	transform/feats/framepow_test.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/mel_spectrum.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+CMVN	transform/feats/mel_spectrum.py	/^from athena.transform.feats.cmvn import CMVN$/;"	i
+HParams	transform/feats/mel_spectrum.py	/^from athena.utils.hparam import HParams$/;"	i
+MelSpectrum	transform/feats/mel_spectrum.py	/^class MelSpectrum(BaseFrontend):$/;"	c
+Spectrum	transform/feats/mel_spectrum.py	/^from athena.transform.feats.spectrum import Spectrum$/;"	i
+__init__	transform/feats/mel_spectrum.py	/^    def __init__(self, config: dict):$/;"	m	class:MelSpectrum
+call	transform/feats/mel_spectrum.py	/^    def call(self, audio_data, sample_rate):$/;"	m	class:MelSpectrum
+dim	transform/feats/mel_spectrum.py	/^    def dim(self):$/;"	m	class:MelSpectrum
+num_channels	transform/feats/mel_spectrum.py	/^    def num_channels(self):$/;"	m	class:MelSpectrum
+params	transform/feats/mel_spectrum.py	/^    def params(cls, config=None):$/;"	m	class:MelSpectrum
+py_x_ops	transform/feats/mel_spectrum.py	/^from athena.transform.feats.ops import py_x_ops$/;"	i
+tf	transform/feats/mel_spectrum.py	/^import tensorflow as tf$/;"	i
+MelSpectrum	transform/feats/mel_spectrum_test.py	/^from athena.transform.feats.mel_spectrum import MelSpectrum$/;"	i
+MelSpectrumTest	transform/feats/mel_spectrum_test.py	/^class MelSpectrumTest(tf.test.TestCase):$/;"	c
+Path	transform/feats/mel_spectrum_test.py	/^from pathlib import Path$/;"	i
+ReadWav	transform/feats/mel_spectrum_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+disable_eager_execution	transform/feats/mel_spectrum_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/mel_spectrum_test.py	/^    is_eager = True$/;"	v	class:MelSpectrumTest
+np	transform/feats/mel_spectrum_test.py	/^import numpy as np$/;"	i
+os	transform/feats/mel_spectrum_test.py	/^import os$/;"	i
+test_mel_spectrum	transform/feats/mel_spectrum_test.py	/^    def test_mel_spectrum(self):$/;"	m	class:MelSpectrumTest
+tf	transform/feats/mel_spectrum_test.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/mfcc.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+CMVN	transform/feats/mfcc.py	/^from athena.transform.feats.cmvn import CMVN$/;"	i
+Fbank	transform/feats/mfcc.py	/^from athena.transform.feats.fbank import Fbank$/;"	i
+Framepow	transform/feats/mfcc.py	/^from athena.transform.feats.framepow import Framepow$/;"	i
+HParams	transform/feats/mfcc.py	/^from athena.utils.hparam import HParams$/;"	i
+Mfcc	transform/feats/mfcc.py	/^class Mfcc(BaseFrontend):$/;"	c
+__init__	transform/feats/mfcc.py	/^    def __init__(self, config: dict):$/;"	m	class:Mfcc
+call	transform/feats/mfcc.py	/^    def call(self, audio_data, sample_rate):$/;"	m	class:Mfcc
+dim	transform/feats/mfcc.py	/^    def dim(self):$/;"	m	class:Mfcc
+params	transform/feats/mfcc.py	/^    def params(cls, config=None):$/;"	m	class:Mfcc
+py_x_ops	transform/feats/mfcc.py	/^from athena.transform.feats.ops import py_x_ops$/;"	i
+tf	transform/feats/mfcc.py	/^import tensorflow as tf$/;"	i
+Mfcc	transform/feats/mfcc_test.py	/^from athena.transform.feats.mfcc import Mfcc$/;"	i
+MfccTest	transform/feats/mfcc_test.py	/^class MfccTest(tf.test.TestCase):$/;"	c
+Path	transform/feats/mfcc_test.py	/^from pathlib import Path$/;"	i
+ReadWav	transform/feats/mfcc_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+disable_eager_execution	transform/feats/mfcc_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/mfcc_test.py	/^    is_eager = True$/;"	v	class:MfccTest
+np	transform/feats/mfcc_test.py	/^import numpy as np$/;"	i
+os	transform/feats/mfcc_test.py	/^import os$/;"	i
+test_mfcc	transform/feats/mfcc_test.py	/^    def test_mfcc(self):$/;"	m	class:MfccTest
+tf	transform/feats/mfcc_test.py	/^import tensorflow as tf$/;"	i
+AR	transform/feats/ops/Makefile	/^AR :=$/;"	m
+BINDIR	transform/feats/ops/Makefile	/^BINDIR := $(TGTDIR)bin\/$/;"	m
+CC	transform/feats/ops/Makefile	/^CC :=$/;"	m
+CORE_CC_EXCLUDE_SRCS	transform/feats/ops/Makefile	/^CORE_CC_EXCLUDE_SRCS := \\$/;"	m
+CXX	transform/feats/ops/Makefile	/^CXX := g++ $/;"	m
+CXXFLAGS	transform/feats/ops/Makefile	/^CXXFLAGS :=$/;"	m
+GENDIR	transform/feats/ops/Makefile	/^GENDIR := $(MAKEFILE_DIR)\/gen\/$/;"	m
+HOST_ARCH	transform/feats/ops/Makefile	/^HOST_ARCH=x86_64$/;"	m
+HOST_OS	transform/feats/ops/Makefile	/^		HOST_OS := ios$/;"	m
+HOST_OS	transform/feats/ops/Makefile	/^		HOST_OS := linux$/;"	m
+HOST_OS	transform/feats/ops/Makefile	/^	HOST_OS = windows$/;"	m
+HOST_OS	transform/feats/ops/Makefile	/^HOST_OS :=$/;"	m
+INCLUDES	transform/feats/ops/Makefile	/^INCLUDES := -I$(MAIN_ROOT) \\$/;"	m
+LDFLAGS	transform/feats/ops/Makefile	/^LDFLAGS :=$/;"	m
+LIBDIR	transform/feats/ops/Makefile	/^LIBDIR := $(TGTDIR)lib\/$/;"	m
+LIB_OBJS	transform/feats/ops/Makefile	/^LIB_OBJS := $(addprefix $(OBJDIR), $(patsubst %.cc, %.o, $(patsubst %.c, %.o, $(LIB_SRCS))))$/;"	m
+LIB_SRCS	transform/feats/ops/Makefile	/^LIB_SRCS := $(filter-out $(CORE_CC_EXCLUDE_SRCS), $(LIB_SRCS_ALL))$/;"	m
+LIB_SRCS_ALL	transform/feats/ops/Makefile	/^LIB_SRCS_ALL := $(wildcard kernels\/*.cc)$/;"	m
+MAIN_ROOT	transform/feats/ops/Makefile	/^MAIN_ROOT := $(realpath $(MAKEFILE_DIR)\/..\/..\/)$/;"	m
+MAKEFILE_DIR	transform/feats/ops/Makefile	/^MAKEFILE_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))$/;"	m
+NVCC	transform/feats/ops/Makefile	/^NVCC := nvcc$/;"	m
+OBJDIR	transform/feats/ops/Makefile	/^OBJDIR := $(TGTDIR)obj\/$/;"	m
+PYTHON_BIN_PATH	transform/feats/ops/Makefile	/^PYTHON_BIN_PATH= python3$/;"	m
+SHARED_LIB	transform/feats/ops/Makefile	/^SHARED_LIB := x_ops.so$/;"	m
+STDLIB	transform/feats/ops/Makefile	/^STDLIB :=$/;"	m
+TARGET	transform/feats/ops/Makefile	/^TARGET := $(HOST_OS)$/;"	m
+TARGET_ARCH	transform/feats/ops/Makefile	/^TARGET_ARCH := $(HOST_ARCH)$/;"	m
+TEST_BIN	transform/feats/ops/Makefile	/^TEST_BIN := $(addprefix $(BINDIR), $(patsubst %.cc, $(OBJS_DIR)%.bin, $(TEST_SRC)))$/;"	m
+TEST_OBJ	transform/feats/ops/Makefile	/^TEST_OBJ := $(addprefix $(OBJDIR), $(patsubst %.cc, $(OBJS_DIR)%.o, $(TEST_SRC)))$/;"	m
+TEST_SRC	transform/feats/ops/Makefile	/^TEST_SRC := $(wildcard kernels\/*_test.cc)$/;"	m
+TF_CFLAGS	transform/feats/ops/Makefile	/^TF_CFLAGS := $(shell $(PYTHON_BIN_PATH) -c 'import tensorflow as tf; print(" ".join(tf.sysconfig.get_compile_flags()))')$/;"	m
+TF_LFLAGS	transform/feats/ops/Makefile	/^TF_LFLAGS := $(shell $(PYTHON_BIN_PATH) -c 'import tensorflow as tf; print(" ".join(tf.sysconfig.get_link_flags()))' | sed "s\/-l:libtensorflow_framework.1.dylib\/-ltensorflow_framework.1\/")$/;"	m
+TF_LIBS	transform/feats/ops/Makefile	/^TF_LIBS := $(shell $(PYTHON_BIN_PATH) -c 'import tensorflow as tf; print(tf.sysconfig.get_lib())')$/;"	m
+TGTDIR	transform/feats/ops/Makefile	/^TGTDIR := $(GENDIR)$(TARGET)_$(TARGET_ARCH)\/$/;"	m
+UNAME_S	transform/feats/ops/Makefile	/^	UNAME_S := $(shell uname -s)$/;"	m
+DCOMPLEX	transform/feats/ops/kernels/complex_defines.h	/^typedef struct DCOMPLEX {$/;"	s
+DELTA_LAYERS_OPS_KERNELS_COMPLEX_DEFINES_H_	transform/feats/ops/kernels/complex_defines.h	/^#define DELTA_LAYERS_OPS_KERNELS_COMPLEX_DEFINES_H_$/;"	d
+FCOMPLEX	transform/feats/ops/kernels/complex_defines.h	/^typedef struct FCOMPLEX {$/;"	s
+ICOMPLEX	transform/feats/ops/kernels/complex_defines.h	/^typedef struct ICOMPLEX {$/;"	s
+complex_abs	transform/feats/ops/kernels/complex_defines.h	/^inline xt complex_abs(xcomplex z) {$/;"	f
+complex_abs2	transform/feats/ops/kernels/complex_defines.h	/^inline xt complex_abs2(xcomplex cp) {$/;"	f
+complex_add	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_add(xcomplex a, xcomplex b) {$/;"	f
+complex_avg_vec	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_avg_vec(xcomplex *cpVec, int cpVecLen) {$/;"	f
+complex_conjg	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_conjg(xcomplex z) {$/;"	f
+complex_conv	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_conv(int len, xcomplex *hat, xcomplex *buf) {$/;"	f
+complex_data_push	transform/feats/ops/kernels/complex_defines.h	/^inline void complex_data_push(int len, xcomplex xin, xcomplex *buf) {$/;"	f
+complex_div	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_div(xcomplex a, xcomplex b) {$/;"	f
+complex_div2	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_div2(xcomplex a, xcomplex b) {$/;"	f
+complex_div_real	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_div_real(xcomplex cp, xt r) {$/;"	f
+complex_gen	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_gen(xt re, xt im) {$/;"	f
+complex_mul	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_mul(xcomplex a, xcomplex b) {$/;"	f
+complex_real_complex_mul	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_real_complex_mul(xt x, xcomplex a) {$/;"	f
+complex_sqrt	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_sqrt(xcomplex z) {$/;"	f
+complex_sub	transform/feats/ops/kernels/complex_defines.h	/^inline xcomplex complex_sub(xcomplex a, xcomplex b) {$/;"	f
+dcomplex	transform/feats/ops/kernels/complex_defines.h	/^} dcomplex;$/;"	t	typeref:struct:DCOMPLEX
+fcomplex	transform/feats/ops/kernels/complex_defines.h	/^} fcomplex;$/;"	t	typeref:struct:FCOMPLEX
+i	transform/feats/ops/kernels/complex_defines.h	/^  double r, i;$/;"	m	struct:DCOMPLEX
+i	transform/feats/ops/kernels/complex_defines.h	/^  float r, i;$/;"	m	struct:FCOMPLEX
+i	transform/feats/ops/kernels/complex_defines.h	/^  int r, i;$/;"	m	struct:ICOMPLEX
+icomplex	transform/feats/ops/kernels/complex_defines.h	/^} icomplex;$/;"	t	typeref:struct:ICOMPLEX
+r	transform/feats/ops/kernels/complex_defines.h	/^  double r, i;$/;"	m	struct:DCOMPLEX
+r	transform/feats/ops/kernels/complex_defines.h	/^  float r, i;$/;"	m	struct:FCOMPLEX
+r	transform/feats/ops/kernels/complex_defines.h	/^  int r, i;$/;"	m	struct:ICOMPLEX
+xcomplex	transform/feats/ops/kernels/complex_defines.h	/^typedef fcomplex xcomplex;$/;"	t
+xt	transform/feats/ops/kernels/complex_defines.h	/^typedef float xt;$/;"	t
+Compute	transform/feats/ops/kernels/delta_delta.cc	/^void DeltaDelta::Compute(const Tensor& input_feats, int frame,$/;"	f	class:delta::DeltaDelta
+DeltaDelta	transform/feats/ops/kernels/delta_delta.cc	/^DeltaDelta::DeltaDelta()$/;"	f	class:delta::DeltaDelta
+Initialize	transform/feats/ops/kernels/delta_delta.cc	/^bool DeltaDelta::Initialize(int order, int window) {$/;"	f	class:delta::DeltaDelta
+delta	transform/feats/ops/kernels/delta_delta.cc	/^namespace delta {$/;"	n	file:
+kOrder	transform/feats/ops/kernels/delta_delta.cc	/^const int kOrder = 2;$/;"	m	namespace:delta	file:
+kWindow	transform/feats/ops/kernels/delta_delta.cc	/^const int kWindow = 2;$/;"	m	namespace:delta	file:
+~DeltaDelta	transform/feats/ops/kernels/delta_delta.cc	/^DeltaDelta::~DeltaDelta() {$/;"	f	class:delta::DeltaDelta
+DELTA_LAYERS_OPS_KERNELS_DELTA_DELTA_H_	transform/feats/ops/kernels/delta_delta.h	/^#define DELTA_LAYERS_OPS_KERNELS_DELTA_DELTA_H_$/;"	d
+DeltaDelta	transform/feats/ops/kernels/delta_delta.h	/^class DeltaDelta {$/;"	c	namespace:delta
+delta	transform/feats/ops/kernels/delta_delta.h	/^namespace delta {$/;"	n
+initialized_	transform/feats/ops/kernels/delta_delta.h	/^  bool initialized_;$/;"	m	class:delta::DeltaDelta
+order_	transform/feats/ops/kernels/delta_delta.h	/^  int order_;$/;"	m	class:delta::DeltaDelta
+scales_	transform/feats/ops/kernels/delta_delta.h	/^  std::vector<std::vector<double> > scales_;$/;"	m	class:delta::DeltaDelta
+set_order	transform/feats/ops/kernels/delta_delta.h	/^  void set_order(int order) {$/;"	f	class:delta::DeltaDelta
+set_window	transform/feats/ops/kernels/delta_delta.h	/^  void set_window(int window) {$/;"	f	class:delta::DeltaDelta
+window_	transform/feats/ops/kernels/delta_delta.h	/^  int window_;$/;"	m	class:delta::DeltaDelta
+DeltaDeltaOp	transform/feats/ops/kernels/delta_delta_op.cc	/^  explicit DeltaDeltaOp(OpKernelConstruction* context) : OpKernel(context) {$/;"	f	class:delta::DeltaDeltaOp
+DeltaDeltaOp	transform/feats/ops/kernels/delta_delta_op.cc	/^REGISTER_KERNEL_BUILDER(Name("DeltaDelta").Device(DEVICE_CPU), DeltaDeltaOp);$/;"	m	namespace:delta	file:
+DeltaDeltaOp	transform/feats/ops/kernels/delta_delta_op.cc	/^class DeltaDeltaOp : public OpKernel {$/;"	c	namespace:delta	file:
+delta	transform/feats/ops/kernels/delta_delta_op.cc	/^namespace delta {$/;"	n	file:
+order_	transform/feats/ops/kernels/delta_delta_op.cc	/^  int order_;$/;"	m	class:delta::DeltaDeltaOp	file:
+window_	transform/feats/ops/kernels/delta_delta_op.cc	/^  int window_;$/;"	m	class:delta::DeltaDeltaOp	file:
+DeltaDeltaOpTest	transform/feats/ops/kernels/delta_delta_op_test.py	/^class DeltaDeltaOpTest(tf.test.TestCase):$/;"	c
+WriteHelper	transform/feats/ops/kernels/delta_delta_op_test.py	/^from kaldiio import WriteHelper$/;"	i
+logging	transform/feats/ops/kernels/delta_delta_op_test.py	/^from absl import logging$/;"	i
+np	transform/feats/ops/kernels/delta_delta_op_test.py	/^import numpy as np$/;"	i
+py_x_ops	transform/feats/ops/kernels/delta_delta_op_test.py	/^from delta.layers.ops import py_x_ops$/;"	i
+setUp	transform/feats/ops/kernels/delta_delta_op_test.py	/^    def setUp(self):$/;"	m	class:DeltaDeltaOpTest
+tempfile	transform/feats/ops/kernels/delta_delta_op_test.py	/^import tempfile$/;"	i
+test_detla_delta	transform/feats/ops/kernels/delta_delta_op_test.py	/^    def test_detla_delta(self):$/;"	m	class:DeltaDeltaOpTest
+tf	transform/feats/ops/kernels/delta_delta_op_test.py	/^import tensorflow as tf$/;"	i
+Compute	transform/feats/ops/kernels/fbank.cc	/^void Fbank::Compute(const std::vector<double>& spectrogram_frame,$/;"	f	class:delta::Fbank
+Fbank	transform/feats/ops/kernels/fbank.cc	/^Fbank::Fbank()$/;"	f	class:delta::Fbank
+Initialize	transform/feats/ops/kernels/fbank.cc	/^bool Fbank::Initialize(int input_length, double input_sample_rate) {$/;"	f	class:delta::Fbank
+delta	transform/feats/ops/kernels/fbank.cc	/^namespace delta {$/;"	n	file:
+kDefaultFilterbankChannelCount	transform/feats/ops/kernels/fbank.cc	/^const int kDefaultFilterbankChannelCount = 40;$/;"	m	namespace:delta	file:
+kDefaultIsLog10	transform/feats/ops/kernels/fbank.cc	/^const bool kDefaultIsLog10 = false;$/;"	m	namespace:delta	file:
+kDefaultLowerFrequencyLimit	transform/feats/ops/kernels/fbank.cc	/^const double kDefaultLowerFrequencyLimit = 20;$/;"	m	namespace:delta	file:
+kDefaultUpperFrequencyLimit	transform/feats/ops/kernels/fbank.cc	/^const double kDefaultUpperFrequencyLimit = 4000;$/;"	m	namespace:delta	file:
+kFilterbankFloor	transform/feats/ops/kernels/fbank.cc	/^const double kFilterbankFloor = 1e-12;$/;"	m	namespace:delta	file:
+~Fbank	transform/feats/ops/kernels/fbank.cc	/^Fbank::~Fbank() {}$/;"	f	class:delta::Fbank
+DELTA_LAYERS_OPS_KERNELS_FBANK_H_	transform/feats/ops/kernels/fbank.h	/^#define DELTA_LAYERS_OPS_KERNELS_FBANK_H_$/;"	d
+Fbank	transform/feats/ops/kernels/fbank.h	/^class Fbank {$/;"	c	namespace:delta
+delta	transform/feats/ops/kernels/fbank.h	/^namespace delta {$/;"	n
+filterbank_channel_count_	transform/feats/ops/kernels/fbank.h	/^  int filterbank_channel_count_;$/;"	m	class:delta::Fbank
+initialized_	transform/feats/ops/kernels/fbank.h	/^  bool initialized_;$/;"	m	class:delta::Fbank
+input_length_	transform/feats/ops/kernels/fbank.h	/^  int input_length_;$/;"	m	class:delta::Fbank
+is_log10_	transform/feats/ops/kernels/fbank.h	/^  bool is_log10_;$/;"	m	class:delta::Fbank
+lower_frequency_limit_	transform/feats/ops/kernels/fbank.h	/^  double lower_frequency_limit_;$/;"	m	class:delta::Fbank
+mel_filterbank_	transform/feats/ops/kernels/fbank.h	/^  MfccMelFilterbank mel_filterbank_;$/;"	m	class:delta::Fbank
+set_filterbank_channel_count	transform/feats/ops/kernels/fbank.h	/^  void set_filterbank_channel_count(int filterbank_channel_count) {$/;"	f	class:delta::Fbank
+set_is_log10	transform/feats/ops/kernels/fbank.h	/^  void set_is_log10(bool is_log10) {$/;"	f	class:delta::Fbank
+set_lower_frequency_limit	transform/feats/ops/kernels/fbank.h	/^  void set_lower_frequency_limit(double lower_frequency_limit) {$/;"	f	class:delta::Fbank
+set_upper_frequency_limit	transform/feats/ops/kernels/fbank.h	/^  void set_upper_frequency_limit(double upper_frequency_limit) {$/;"	f	class:delta::Fbank
+upper_frequency_limit_	transform/feats/ops/kernels/fbank.h	/^  double upper_frequency_limit_;$/;"	m	class:delta::Fbank
+FbankOp	transform/feats/ops/kernels/fbank_op.cc	/^  explicit FbankOp(OpKernelConstruction* context) : OpKernel(context) {$/;"	f	class:delta::FbankOp
+FbankOp	transform/feats/ops/kernels/fbank_op.cc	/^REGISTER_KERNEL_BUILDER(Name("Fbank").Device(DEVICE_CPU), FbankOp);$/;"	m	namespace:delta	file:
+FbankOp	transform/feats/ops/kernels/fbank_op.cc	/^class FbankOp : public OpKernel {$/;"	c	namespace:delta	file:
+delta	transform/feats/ops/kernels/fbank_op.cc	/^namespace delta {$/;"	n	file:
+filterbank_channel_count_	transform/feats/ops/kernels/fbank_op.cc	/^  int32 filterbank_channel_count_;$/;"	m	class:delta::FbankOp	file:
+is_log10_	transform/feats/ops/kernels/fbank_op.cc	/^  bool is_log10_;$/;"	m	class:delta::FbankOp	file:
+lower_frequency_limit_	transform/feats/ops/kernels/fbank_op.cc	/^  float lower_frequency_limit_;$/;"	m	class:delta::FbankOp	file:
+upper_frequency_limit_	transform/feats/ops/kernels/fbank_op.cc	/^  float upper_frequency_limit_;$/;"	m	class:delta::FbankOp	file:
+FbankOpTest	transform/feats/ops/kernels/fbank_op_test.py	/^class FbankOpTest(tf.test.TestCase):$/;"	c
+np	transform/feats/ops/kernels/fbank_op_test.py	/^import numpy as np$/;"	i
+py_x_ops	transform/feats/ops/kernels/fbank_op_test.py	/^from delta.layers.ops import py_x_ops$/;"	i
+setUp	transform/feats/ops/kernels/fbank_op_test.py	/^    def setUp(self):$/;"	m	class:FbankOpTest
+tearDown	transform/feats/ops/kernels/fbank_op_test.py	/^    def tearDown(self):$/;"	m	class:FbankOpTest
+test_fbank	transform/feats/ops/kernels/fbank_op_test.py	/^    def test_fbank(self):$/;"	m	class:FbankOpTest
+tf	transform/feats/ops/kernels/fbank_op_test.py	/^import tensorflow as tf$/;"	i
+FramePow	transform/feats/ops/kernels/framepow.cc	/^FramePow::FramePow() {$/;"	f	class:delta::FramePow
+delta	transform/feats/ops/kernels/framepow.cc	/^namespace delta {$/;"	n	file:
+frame_length_sec	transform/feats/ops/kernels/framepow.cc	/^const float frame_length_sec = 0.010;$/;"	m	namespace:delta	file:
+get_eng	transform/feats/ops/kernels/framepow.cc	/^int FramePow::get_eng(float* output) {$/;"	f	class:delta::FramePow
+init_eng	transform/feats/ops/kernels/framepow.cc	/^int FramePow::init_eng(int input_size, float sample_rate) {$/;"	f	class:delta::FramePow
+proc_eng	transform/feats/ops/kernels/framepow.cc	/^int FramePow::proc_eng(const float* mic_buf, int input_size) {$/;"	f	class:delta::FramePow
+set_frame_length_sec	transform/feats/ops/kernels/framepow.cc	/^void FramePow::set_frame_length_sec(float frame_length_sec) {$/;"	f	class:delta::FramePow
+set_remove_dc_offset	transform/feats/ops/kernels/framepow.cc	/^void FramePow::set_remove_dc_offset(bool remove_dc_offset) {$/;"	f	class:delta::FramePow
+set_snip_edges	transform/feats/ops/kernels/framepow.cc	/^void FramePow::set_snip_edges(int snip_edges) { i_snip_edges = snip_edges; }$/;"	f	class:delta::FramePow
+set_window_length_sec	transform/feats/ops/kernels/framepow.cc	/^void FramePow::set_window_length_sec(float window_length_sec) {$/;"	f	class:delta::FramePow
+window_length_sec	transform/feats/ops/kernels/framepow.cc	/^const float window_length_sec = 0.025;$/;"	m	namespace:delta	file:
+write_eng	transform/feats/ops/kernels/framepow.cc	/^int FramePow::write_eng() {$/;"	f	class:delta::FramePow
+~FramePow	transform/feats/ops/kernels/framepow.cc	/^FramePow::~FramePow() { free(pf_FrmEng); }$/;"	f	class:delta::FramePow
+DELTA_LAYERS_OPS_KERNELS_FRAMEPOW_H_	transform/feats/ops/kernels/framepow.h	/^#define DELTA_LAYERS_OPS_KERNELS_FRAMEPOW_H_$/;"	d
+FramePow	transform/feats/ops/kernels/framepow.h	/^class FramePow {$/;"	c	namespace:delta
+delta	transform/feats/ops/kernels/framepow.h	/^namespace delta {$/;"	n
+f_SamRat	transform/feats/ops/kernels/framepow.h	/^  float f_SamRat;$/;"	m	class:delta::FramePow
+frame_length_sec_	transform/feats/ops/kernels/framepow.h	/^  float frame_length_sec_;$/;"	m	class:delta::FramePow
+i_FrmLen	transform/feats/ops/kernels/framepow.h	/^  int i_FrmLen;$/;"	m	class:delta::FramePow
+i_NumFrm	transform/feats/ops/kernels/framepow.h	/^  int i_NumFrm;$/;"	m	class:delta::FramePow
+i_WinLen	transform/feats/ops/kernels/framepow.h	/^  int i_WinLen;$/;"	m	class:delta::FramePow
+i_remove_dc_offset	transform/feats/ops/kernels/framepow.h	/^  bool i_remove_dc_offset;$/;"	m	class:delta::FramePow
+i_snip_edges	transform/feats/ops/kernels/framepow.h	/^  int i_snip_edges;$/;"	m	class:delta::FramePow
+pf_FrmEng	transform/feats/ops/kernels/framepow.h	/^  float* pf_FrmEng;$/;"	m	class:delta::FramePow
+window_length_sec_	transform/feats/ops/kernels/framepow.h	/^  float window_length_sec_;$/;"	m	class:delta::FramePow
+FramePowOp	transform/feats/ops/kernels/framepow_op.cc	/^  explicit FramePowOp(OpKernelConstruction* context) : OpKernel(context) {$/;"	f	class:delta::FramePowOp
+FramePowOp	transform/feats/ops/kernels/framepow_op.cc	/^REGISTER_KERNEL_BUILDER(Name("FramePow").Device(DEVICE_CPU), FramePowOp);$/;"	m	namespace:delta	file:
+FramePowOp	transform/feats/ops/kernels/framepow_op.cc	/^class FramePowOp : public OpKernel {$/;"	c	namespace:delta	file:
+delta	transform/feats/ops/kernels/framepow_op.cc	/^namespace delta {$/;"	n	file:
+frame_length_	transform/feats/ops/kernels/framepow_op.cc	/^  float frame_length_;$/;"	m	class:delta::FramePowOp	file:
+remove_dc_offset_	transform/feats/ops/kernels/framepow_op.cc	/^  bool remove_dc_offset_;$/;"	m	class:delta::FramePowOp	file:
+snip_edges_	transform/feats/ops/kernels/framepow_op.cc	/^  int snip_edges_;$/;"	m	class:delta::FramePowOp	file:
+window_length_	transform/feats/ops/kernels/framepow_op.cc	/^  float window_length_;$/;"	m	class:delta::FramePowOp	file:
+Compute	transform/feats/ops/kernels/mel_spectrum.cc	/^void MelSpectrum::Compute(const std::vector<double> &input,$/;"	f	class:delta::MelSpectrum
+FreqToMel	transform/feats/ops/kernels/mel_spectrum.cc	/^double MelSpectrum::FreqToMel(double freq) const {$/;"	f	class:delta::MelSpectrum
+Initialize	transform/feats/ops/kernels/mel_spectrum.cc	/^bool MelSpectrum::Initialize(int input_length, double input_sample_rate,$/;"	f	class:delta::MelSpectrum
+MelSpectrum	transform/feats/ops/kernels/mel_spectrum.cc	/^MelSpectrum::MelSpectrum() : initialized_(false) {}$/;"	f	class:delta::MelSpectrum
+MelToFreq	transform/feats/ops/kernels/mel_spectrum.cc	/^double MelSpectrum::MelToFreq(double mel) const {$/;"	f	class:delta::MelSpectrum
+delta	transform/feats/ops/kernels/mel_spectrum.cc	/^namespace delta {$/;"	n	file:
+~MelSpectrum	transform/feats/ops/kernels/mel_spectrum.cc	/^MelSpectrum::~MelSpectrum() {$/;"	f	class:delta::MelSpectrum
+DELTA_LAYERS_OPS_KERNELS_MEL_SPECTRUM_H_	transform/feats/ops/kernels/mel_spectrum.h	/^#define DELTA_LAYERS_OPS_KERNELS_MEL_SPECTRUM_H_$/;"	d
+MelSpectrum	transform/feats/ops/kernels/mel_spectrum.h	/^class MelSpectrum {$/;"	c	namespace:delta
+delta	transform/feats/ops/kernels/mel_spectrum.h	/^namespace delta {$/;"	n
+end_index_	transform/feats/ops/kernels/mel_spectrum.h	/^  int end_index_;    \/\/ Highest FFT bin used to calculate mel spectrum.$/;"	m	class:delta::MelSpectrum
+filterbank	transform/feats/ops/kernels/mel_spectrum.h	/^  std::vector<std::vector<double>> filterbank;$/;"	m	class:delta::MelSpectrum
+initialized_	transform/feats/ops/kernels/mel_spectrum.h	/^  bool initialized_;$/;"	m	class:delta::MelSpectrum
+input_length_	transform/feats/ops/kernels/mel_spectrum.h	/^  int input_length_;$/;"	m	class:delta::MelSpectrum
+num_channels_	transform/feats/ops/kernels/mel_spectrum.h	/^  int num_channels_;$/;"	m	class:delta::MelSpectrum
+sample_rate_	transform/feats/ops/kernels/mel_spectrum.h	/^  double sample_rate_;$/;"	m	class:delta::MelSpectrum
+start_index_	transform/feats/ops/kernels/mel_spectrum.h	/^  int start_index_;  \/\/ Lowest FFT bin used to calculate mel spectrum.$/;"	m	class:delta::MelSpectrum
+MelSpectrumOp	transform/feats/ops/kernels/mel_spectrum_op.cc	/^  explicit MelSpectrumOp(OpKernelConstruction* context) : OpKernel(context) {$/;"	f	class:delta::MelSpectrumOp
+MelSpectrumOp	transform/feats/ops/kernels/mel_spectrum_op.cc	/^REGISTER_KERNEL_BUILDER(Name("MelSpectrum").Device(DEVICE_CPU), MelSpectrumOp);$/;"	m	namespace:delta	file:
+MelSpectrumOp	transform/feats/ops/kernels/mel_spectrum_op.cc	/^class MelSpectrumOp : public OpKernel {$/;"	c	namespace:delta	file:
+delta	transform/feats/ops/kernels/mel_spectrum_op.cc	/^namespace delta {$/;"	n	file:
+filterbank_channel_count_	transform/feats/ops/kernels/mel_spectrum_op.cc	/^  int32 filterbank_channel_count_;$/;"	m	class:delta::MelSpectrumOp	file:
+lower_frequency_limit_	transform/feats/ops/kernels/mel_spectrum_op.cc	/^  float lower_frequency_limit_;$/;"	m	class:delta::MelSpectrumOp	file:
+upper_frequency_limit_	transform/feats/ops/kernels/mel_spectrum_op.cc	/^  float upper_frequency_limit_;$/;"	m	class:delta::MelSpectrumOp	file:
+Compute	transform/feats/ops/kernels/mfcc_dct.cc	/^void MfccDct::Compute(const std::vector<double> &input,$/;"	f	class:delta::MfccDct
+Initialize	transform/feats/ops/kernels/mfcc_dct.cc	/^bool MfccDct::Initialize(int input_length, int coefficient_count) {$/;"	f	class:delta::MfccDct
+MfccDct	transform/feats/ops/kernels/mfcc_dct.cc	/^MfccDct::MfccDct()$/;"	f	class:delta::MfccDct
+delta	transform/feats/ops/kernels/mfcc_dct.cc	/^namespace delta {$/;"	n	file:
+kDefaultCepstralLifter	transform/feats/ops/kernels/mfcc_dct.cc	/^const float kDefaultCepstralLifter = 22;$/;"	m	namespace:delta	file:
+kDefaultCoefficientCount	transform/feats/ops/kernels/mfcc_dct.cc	/^const int kDefaultCoefficientCount = 13;$/;"	m	namespace:delta	file:
+set_cepstral_lifter	transform/feats/ops/kernels/mfcc_dct.cc	/^void MfccDct::set_cepstral_lifter(float cepstral_lifter) {$/;"	f	class:delta::MfccDct
+set_coefficient_count	transform/feats/ops/kernels/mfcc_dct.cc	/^void MfccDct::set_coefficient_count(int coefficient_count) {$/;"	f	class:delta::MfccDct
+MfccDct	transform/feats/ops/kernels/mfcc_dct.h	/^class MfccDct {$/;"	c	namespace:delta
+PI	transform/feats/ops/kernels/mfcc_dct.h	/^#define PI /;"	d
+TENSORFLOW_CORE_KERNELS_MFCC_DCT_H_	transform/feats/ops/kernels/mfcc_dct.h	/^#define TENSORFLOW_CORE_KERNELS_MFCC_DCT_H_ /;"	d
+cepstral_lifter_	transform/feats/ops/kernels/mfcc_dct.h	/^  float cepstral_lifter_;$/;"	m	class:delta::MfccDct
+coefficient_count_	transform/feats/ops/kernels/mfcc_dct.h	/^  int coefficient_count_;$/;"	m	class:delta::MfccDct
+cosines_	transform/feats/ops/kernels/mfcc_dct.h	/^  std::vector<std::vector<double> > cosines_;$/;"	m	class:delta::MfccDct
+delta	transform/feats/ops/kernels/mfcc_dct.h	/^namespace delta {$/;"	n
+initialized_	transform/feats/ops/kernels/mfcc_dct.h	/^  bool initialized_;$/;"	m	class:delta::MfccDct
+input_length_	transform/feats/ops/kernels/mfcc_dct.h	/^  int input_length_;$/;"	m	class:delta::MfccDct
+lifter_coeffs_	transform/feats/ops/kernels/mfcc_dct.h	/^  std::vector<double> lifter_coeffs_;$/;"	m	class:delta::MfccDct
+MfccDctOp	transform/feats/ops/kernels/mfcc_dct_op.cc	/^  explicit MfccDctOp(OpKernelConstruction* context) : OpKernel(context) {$/;"	f	class:delta::MfccDctOp
+MfccDctOp	transform/feats/ops/kernels/mfcc_dct_op.cc	/^REGISTER_KERNEL_BUILDER(Name("MfccDct").Device(DEVICE_CPU), MfccDctOp);$/;"	m	namespace:delta	file:
+MfccDctOp	transform/feats/ops/kernels/mfcc_dct_op.cc	/^class MfccDctOp : public OpKernel {$/;"	c	namespace:delta	file:
+cepstral_lifter_	transform/feats/ops/kernels/mfcc_dct_op.cc	/^  float cepstral_lifter_;$/;"	m	class:delta::MfccDctOp	file:
+coefficient_count_	transform/feats/ops/kernels/mfcc_dct_op.cc	/^  int coefficient_count_;$/;"	m	class:delta::MfccDctOp	file:
+delta	transform/feats/ops/kernels/mfcc_dct_op.cc	/^namespace delta {$/;"	n	file:
+use_energy_	transform/feats/ops/kernels/mfcc_dct_op.cc	/^  bool use_energy_;$/;"	m	class:delta::MfccDctOp	file:
+Compute	transform/feats/ops/kernels/mfcc_mel_filterbank.cc	/^void MfccMelFilterbank::Compute(const std::vector<double> &input,$/;"	f	class:tensorflow::MfccMelFilterbank
+FreqToMel	transform/feats/ops/kernels/mfcc_mel_filterbank.cc	/^double MfccMelFilterbank::FreqToMel(double freq) const {$/;"	f	class:tensorflow::MfccMelFilterbank
+Initialize	transform/feats/ops/kernels/mfcc_mel_filterbank.cc	/^bool MfccMelFilterbank::Initialize(int input_length, double input_sample_rate,$/;"	f	class:tensorflow::MfccMelFilterbank
+MfccMelFilterbank	transform/feats/ops/kernels/mfcc_mel_filterbank.cc	/^MfccMelFilterbank::MfccMelFilterbank() : initialized_(false) {}$/;"	f	class:tensorflow::MfccMelFilterbank
+tensorflow	transform/feats/ops/kernels/mfcc_mel_filterbank.cc	/^namespace tensorflow {$/;"	n	file:
+~MfccMelFilterbank	transform/feats/ops/kernels/mfcc_mel_filterbank.cc	/^MfccMelFilterbank::~MfccMelFilterbank() {$/;"	f	class:tensorflow::MfccMelFilterbank
+DELTA_LAYERS_OPS_KERNELS_MFCC_MEL_FILTERBANK_H_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^#define DELTA_LAYERS_OPS_KERNELS_MFCC_MEL_FILTERBANK_H_$/;"	d
+MfccMelFilterbank	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^class MfccMelFilterbank {$/;"	c	namespace:tensorflow
+band_mapper_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  std::vector<int> band_mapper_;$/;"	m	class:tensorflow::MfccMelFilterbank
+center_frequencies_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  std::vector<double> center_frequencies_;  \/\/ In mel, for each mel channel.$/;"	m	class:tensorflow::MfccMelFilterbank
+end_index_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  int end_index_;    \/\/ Highest FFT bin used to calculate mel spectrum.$/;"	m	class:tensorflow::MfccMelFilterbank
+initialized_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  bool initialized_;$/;"	m	class:tensorflow::MfccMelFilterbank
+input_length_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  int input_length_;$/;"	m	class:tensorflow::MfccMelFilterbank
+num_channels_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  int num_channels_;$/;"	m	class:tensorflow::MfccMelFilterbank
+sample_rate_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  double sample_rate_;$/;"	m	class:tensorflow::MfccMelFilterbank
+start_index_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  int start_index_;  \/\/ Lowest FFT bin used to calculate mel spectrum.$/;"	m	class:tensorflow::MfccMelFilterbank
+tensorflow	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^namespace tensorflow {$/;"	n
+weights_	transform/feats/ops/kernels/mfcc_mel_filterbank.h	/^  std::vector<double> weights_;  \/\/ Right-side weight for this fft  bin.$/;"	m	class:tensorflow::MfccMelFilterbank
+AcceptWaveform	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeature::AcceptWaveform($/;"	f	class:delta::OnlinePitchFeature
+AcceptWaveform	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeatureImpl::AcceptWaveform($/;"	f	class:delta::OnlinePitchFeatureImpl
+Cleanup	transform/feats/ops/kernels/pitch.cc	/^void PitchFrameInfo::Cleanup(PitchFrameInfo *prev_frame) {$/;"	f	class:delta::PitchFrameInfo
+ComputeBacktraces	transform/feats/ops/kernels/pitch.cc	/^void PitchFrameInfo::ComputeBacktraces($/;"	f	class:delta::PitchFrameInfo
+ComputeCorrelation	transform/feats/ops/kernels/pitch.cc	/^void ComputeCorrelation(const vector<BaseFloat> &wave,$/;"	f	namespace:delta
+ComputeKaldiPitch	transform/feats/ops/kernels/pitch.cc	/^void ComputeKaldiPitch(const PitchExtractionOptions &opts,$/;"	f	namespace:delta
+ComputeKaldiPitchFirstPass	transform/feats/ops/kernels/pitch.cc	/^void ComputeKaldiPitchFirstPass($/;"	f	namespace:delta
+ComputeLatency	transform/feats/ops/kernels/pitch.cc	/^int PitchFrameInfo::ComputeLatency(int max_latency) {$/;"	f	class:delta::PitchFrameInfo
+ComputeLocalCost	transform/feats/ops/kernels/pitch.cc	/^void ComputeLocalCost(const vector<BaseFloat> &nccf_pitch,$/;"	f	namespace:delta
+ComputeNccf	transform/feats/ops/kernels/pitch.cc	/^void ComputeNccf(const vector<BaseFloat> &inner_prod,$/;"	f	namespace:delta
+Dim	transform/feats/ops/kernels/pitch.cc	/^  int Dim() const { return 2; }$/;"	f	class:delta::OnlinePitchFeatureImpl
+ExtractFrame	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeatureImpl::ExtractFrame($/;"	f	class:delta::OnlinePitchFeatureImpl
+FrameShiftInSeconds	transform/feats/ops/kernels/pitch.cc	/^BaseFloat OnlinePitchFeature::FrameShiftInSeconds() const {$/;"	f	class:delta::OnlinePitchFeature
+FrameShiftInSeconds	transform/feats/ops/kernels/pitch.cc	/^BaseFloat OnlinePitchFeatureImpl::FrameShiftInSeconds() const {$/;"	f	class:delta::OnlinePitchFeatureImpl
+GetFrame	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeature::GetFrame(int frame, vector<BaseFloat> *feat) {$/;"	f	class:delta::OnlinePitchFeature
+GetFrame	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeatureImpl::GetFrame(int frame,$/;"	f	class:delta::OnlinePitchFeatureImpl
+InputFinished	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeature::InputFinished() {$/;"	f	class:delta::OnlinePitchFeature
+InputFinished	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeatureImpl::InputFinished() {$/;"	f	class:delta::OnlinePitchFeatureImpl
+IsLastFrame	transform/feats/ops/kernels/pitch.cc	/^bool OnlinePitchFeature::IsLastFrame(int frame) const {$/;"	f	class:delta::OnlinePitchFeature
+IsLastFrame	transform/feats/ops/kernels/pitch.cc	/^bool OnlinePitchFeatureImpl::IsLastFrame(int frame) const {$/;"	f	class:delta::OnlinePitchFeatureImpl
+NccfInfo	transform/feats/ops/kernels/pitch.cc	/^  NccfInfo(BaseFloat avg_norm_prod,$/;"	f	struct:delta::NccfInfo
+NccfInfo	transform/feats/ops/kernels/pitch.cc	/^struct NccfInfo {$/;"	s	namespace:delta	file:
+NccfToPov	transform/feats/ops/kernels/pitch.cc	/^BaseFloat NccfToPov(BaseFloat n) {$/;"	f	namespace:delta
+NccfToPovFeature	transform/feats/ops/kernels/pitch.cc	/^BaseFloat NccfToPovFeature(BaseFloat n) {$/;"	f	namespace:delta
+NumFramesAvailable	transform/feats/ops/kernels/pitch.cc	/^int OnlinePitchFeatureImpl::NumFramesAvailable($/;"	f	class:delta::OnlinePitchFeatureImpl
+NumFramesReady	transform/feats/ops/kernels/pitch.cc	/^int OnlinePitchFeature::NumFramesReady() const {$/;"	f	class:delta::OnlinePitchFeature
+NumFramesReady	transform/feats/ops/kernels/pitch.cc	/^int OnlinePitchFeatureImpl::NumFramesReady() const {$/;"	f	class:delta::OnlinePitchFeatureImpl
+OnlinePitchFeature	transform/feats/ops/kernels/pitch.cc	/^OnlinePitchFeature::OnlinePitchFeature(const PitchExtractionOptions &opts)$/;"	f	class:delta::OnlinePitchFeature
+OnlinePitchFeatureImpl	transform/feats/ops/kernels/pitch.cc	/^OnlinePitchFeatureImpl::OnlinePitchFeatureImpl($/;"	f	class:delta::OnlinePitchFeatureImpl
+OnlinePitchFeatureImpl	transform/feats/ops/kernels/pitch.cc	/^class OnlinePitchFeatureImpl {$/;"	c	namespace:delta	file:
+PitchFrameInfo	transform/feats/ops/kernels/pitch.cc	/^PitchFrameInfo::PitchFrameInfo(PitchFrameInfo *prev_info):$/;"	f	class:delta::PitchFrameInfo
+PitchFrameInfo	transform/feats/ops/kernels/pitch.cc	/^PitchFrameInfo::PitchFrameInfo(int num_states)$/;"	f	class:delta::PitchFrameInfo
+PitchFrameInfo	transform/feats/ops/kernels/pitch.cc	/^class PitchFrameInfo {$/;"	c	namespace:delta	file:
+RecomputeBacktraces	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeatureImpl::RecomputeBacktraces() {$/;"	f	class:delta::OnlinePitchFeatureImpl
+SelectLags	transform/feats/ops/kernels/pitch.cc	/^void SelectLags(const PitchExtractionOptions &opts,$/;"	f	namespace:delta
+SetBestState	transform/feats/ops/kernels/pitch.cc	/^void PitchFrameInfo::SetBestState($/;"	f	class:delta::PitchFrameInfo
+SetNccfPov	transform/feats/ops/kernels/pitch.cc	/^void PitchFrameInfo::SetNccfPov(const vector<BaseFloat> &nccf_pov) {$/;"	f	class:delta::PitchFrameInfo
+StateInfo	transform/feats/ops/kernels/pitch.cc	/^    StateInfo(): backpointer(0), pov_nccf(0.0) { }$/;"	f	struct:delta::PitchFrameInfo::StateInfo
+StateInfo	transform/feats/ops/kernels/pitch.cc	/^  struct StateInfo {$/;"	s	class:delta::PitchFrameInfo	file:
+UpdateRemainder	transform/feats/ops/kernels/pitch.cc	/^void OnlinePitchFeatureImpl::UpdateRemainder($/;"	f	class:delta::OnlinePitchFeatureImpl
+avg_norm_prod	transform/feats/ops/kernels/pitch.cc	/^  BaseFloat avg_norm_prod; \/\/ average value of e1 * e2.$/;"	m	struct:delta::NccfInfo	file:
+backpointer	transform/feats/ops/kernels/pitch.cc	/^    int backpointer;$/;"	m	struct:delta::PitchFrameInfo::StateInfo	file:
+cur_best_state_	transform/feats/ops/kernels/pitch.cc	/^  int cur_best_state_;$/;"	m	class:delta::PitchFrameInfo	file:
+delta	transform/feats/ops/kernels/pitch.cc	/^namespace delta {$/;"	n	file:
+downsampled_samples_processed_	transform/feats/ops/kernels/pitch.cc	/^  int downsampled_samples_processed_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+downsampled_signal_remainder_	transform/feats/ops/kernels/pitch.cc	/^  vector<BaseFloat> downsampled_signal_remainder_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+forward_cost_	transform/feats/ops/kernels/pitch.cc	/^  vector<BaseFloat> forward_cost_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+forward_cost_remainder_	transform/feats/ops/kernels/pitch.cc	/^  double forward_cost_remainder_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+frame_info_	transform/feats/ops/kernels/pitch.cc	/^  std::vector<PitchFrameInfo*> frame_info_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+frames_latency_	transform/feats/ops/kernels/pitch.cc	/^  int frames_latency_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+input_finished_	transform/feats/ops/kernels/pitch.cc	/^  bool input_finished_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+lag_nccf_	transform/feats/ops/kernels/pitch.cc	/^  std::vector<std::pair<int, BaseFloat> > lag_nccf_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+lags_	transform/feats/ops/kernels/pitch.cc	/^  vector<BaseFloat> lags_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+mean_square_energy	transform/feats/ops/kernels/pitch.cc	/^  BaseFloat mean_square_energy;  \/\/ mean_square energy we used when computing the$/;"	m	struct:delta::NccfInfo	file:
+nccf_first_lag_	transform/feats/ops/kernels/pitch.cc	/^  int nccf_first_lag_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+nccf_info_	transform/feats/ops/kernels/pitch.cc	/^  std::vector<NccfInfo*> nccf_info_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+nccf_last_lag_	transform/feats/ops/kernels/pitch.cc	/^  int nccf_last_lag_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+nccf_pitch_resampled	transform/feats/ops/kernels/pitch.cc	/^  vector<BaseFloat> nccf_pitch_resampled;  \/\/ resampled nccf_pitch$/;"	m	struct:delta::NccfInfo	file:
+nccf_resampler_	transform/feats/ops/kernels/pitch.cc	/^  ArbitraryResample *nccf_resampler_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+opts_	transform/feats/ops/kernels/pitch.cc	/^  PitchExtractionOptions opts_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+pitch_use_naive_search	transform/feats/ops/kernels/pitch.cc	/^bool pitch_use_naive_search = false;  \/\/ This is used in unit-tests.$/;"	m	namespace:delta	file:
+pov_nccf	transform/feats/ops/kernels/pitch.cc	/^    BaseFloat pov_nccf;$/;"	m	struct:delta::PitchFrameInfo::StateInfo	file:
+prev_info_	transform/feats/ops/kernels/pitch.cc	/^  PitchFrameInfo *prev_info_;$/;"	m	class:delta::PitchFrameInfo	file:
+signal_resampler_	transform/feats/ops/kernels/pitch.cc	/^  LinearResample *signal_resampler_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+signal_sum_	transform/feats/ops/kernels/pitch.cc	/^  double signal_sum_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+signal_sumsq_	transform/feats/ops/kernels/pitch.cc	/^  double signal_sumsq_;$/;"	m	class:delta::OnlinePitchFeatureImpl	file:
+state_info_	transform/feats/ops/kernels/pitch.cc	/^  std::vector<StateInfo> state_info_;$/;"	m	class:delta::PitchFrameInfo	file:
+state_offset_	transform/feats/ops/kernels/pitch.cc	/^  int state_offset_;$/;"	m	class:delta::PitchFrameInfo	file:
+vector_Min	transform/feats/ops/kernels/pitch.cc	/^BaseFloat vector_Min(const std::vector<BaseFloat> &input) {$/;"	f	namespace:delta
+vector_sum	transform/feats/ops/kernels/pitch.cc	/^BaseFloat vector_sum(const std::vector<BaseFloat> &input){$/;"	f	namespace:delta
+~OnlinePitchFeature	transform/feats/ops/kernels/pitch.cc	/^OnlinePitchFeature::~OnlinePitchFeature() {$/;"	f	class:delta::OnlinePitchFeature
+~OnlinePitchFeatureImpl	transform/feats/ops/kernels/pitch.cc	/^OnlinePitchFeatureImpl::~OnlinePitchFeatureImpl() {$/;"	f	class:delta::OnlinePitchFeatureImpl
+DELTA_LAYERS_OPS_KERNELS_PITCH_H_	transform/feats/ops/kernels/pitch.h	/^#define DELTA_LAYERS_OPS_KERNELS_PITCH_H_$/;"	d
+Dim	transform/feats/ops/kernels/pitch.h	/^  virtual int Dim() const { return 2; \/* (NCCF, pitch) *\/ }$/;"	f	class:delta::OnlinePitchFeature
+GetFrames	transform/feats/ops/kernels/pitch.h	/^  virtual void GetFrames(const std::vector<int> &frames,$/;"	f	class:delta::OnlineFeatureInterface
+NccfWindowShift	transform/feats/ops/kernels/pitch.h	/^  int NccfWindowShift() const {$/;"	f	struct:delta::PitchExtractionOptions
+NccfWindowSize	transform/feats/ops/kernels/pitch.h	/^  int NccfWindowSize() const {$/;"	f	struct:delta::PitchExtractionOptions
+OnlineBaseFeature	transform/feats/ops/kernels/pitch.h	/^class OnlineBaseFeature: public OnlineFeatureInterface {$/;"	c	namespace:delta
+OnlineFeatureInterface	transform/feats/ops/kernels/pitch.h	/^class OnlineFeatureInterface {$/;"	c	namespace:delta
+OnlinePitchFeature	transform/feats/ops/kernels/pitch.h	/^class OnlinePitchFeature: public OnlineBaseFeature {$/;"	c	namespace:delta
+PitchExtractionOptions	transform/feats/ops/kernels/pitch.h	/^  PitchExtractionOptions():$/;"	f	struct:delta::PitchExtractionOptions
+PitchExtractionOptions	transform/feats/ops/kernels/pitch.h	/^struct PitchExtractionOptions {$/;"	s	namespace:delta
+delta	transform/feats/ops/kernels/pitch.h	/^namespace delta {$/;"	n
+delta_pitch	transform/feats/ops/kernels/pitch.h	/^  BaseFloat delta_pitch;        \/\/ the pitch tolerance in pruning lags$/;"	m	struct:delta::PitchExtractionOptions
+frame_length_ms	transform/feats/ops/kernels/pitch.h	/^  BaseFloat frame_length_ms;    \/\/ in milliseconds.$/;"	m	struct:delta::PitchExtractionOptions
+frame_shift_ms	transform/feats/ops/kernels/pitch.h	/^  BaseFloat frame_shift_ms;     \/\/ in milliseconds.$/;"	m	struct:delta::PitchExtractionOptions
+frames_per_chunk	transform/feats/ops/kernels/pitch.h	/^  int frames_per_chunk;$/;"	m	struct:delta::PitchExtractionOptions
+impl_	transform/feats/ops/kernels/pitch.h	/^  OnlinePitchFeatureImpl *impl_;$/;"	m	class:delta::OnlinePitchFeature
+lowpass_cutoff	transform/feats/ops/kernels/pitch.h	/^  BaseFloat lowpass_cutoff;     \/\/ cutoff frequency for Low pass filter$/;"	m	struct:delta::PitchExtractionOptions
+lowpass_filter_width	transform/feats/ops/kernels/pitch.h	/^  int lowpass_filter_width;   \/\/ Integer that determines filter width of$/;"	m	struct:delta::PitchExtractionOptions
+max_f0	transform/feats/ops/kernels/pitch.h	/^  BaseFloat max_f0;             \/\/ max f0 to search (Hz)$/;"	m	struct:delta::PitchExtractionOptions
+max_frames_latency	transform/feats/ops/kernels/pitch.h	/^  int max_frames_latency;$/;"	m	struct:delta::PitchExtractionOptions
+min_f0	transform/feats/ops/kernels/pitch.h	/^  BaseFloat min_f0;             \/\/ min f0 to search (Hz)$/;"	m	struct:delta::PitchExtractionOptions
+nccf_ballast	transform/feats/ops/kernels/pitch.h	/^  BaseFloat nccf_ballast;       \/\/ Increasing this factor reduces NCCF for$/;"	m	struct:delta::PitchExtractionOptions
+nccf_ballast_online	transform/feats/ops/kernels/pitch.h	/^  bool nccf_ballast_online;$/;"	m	struct:delta::PitchExtractionOptions
+penalty_factor	transform/feats/ops/kernels/pitch.h	/^  BaseFloat penalty_factor;     \/\/ cost factor for FO change$/;"	m	struct:delta::PitchExtractionOptions
+preemph_coeff	transform/feats/ops/kernels/pitch.h	/^  BaseFloat preemph_coeff;      \/\/ Preemphasis coefficient. [use is deprecated.]$/;"	m	struct:delta::PitchExtractionOptions
+recompute_frame	transform/feats/ops/kernels/pitch.h	/^  int recompute_frame;$/;"	m	struct:delta::PitchExtractionOptions
+resample_freq	transform/feats/ops/kernels/pitch.h	/^  BaseFloat resample_freq;      \/\/ Integer that determines filter width when$/;"	m	struct:delta::PitchExtractionOptions
+samp_freq	transform/feats/ops/kernels/pitch.h	/^  BaseFloat samp_freq;          \/\/ sample frequency in hertz$/;"	m	struct:delta::PitchExtractionOptions
+set_delta_pitch	transform/feats/ops/kernels/pitch.h	/^  void set_delta_pitch(BaseFloat delta_pitch_) { delta_pitch = delta_pitch_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_frame_length_ms	transform/feats/ops/kernels/pitch.h	/^  void set_frame_length_ms(BaseFloat window_length) { frame_length_ms = window_length * 1000; }$/;"	f	struct:delta::PitchExtractionOptions
+set_frame_shift_ms	transform/feats/ops/kernels/pitch.h	/^  void set_frame_shift_ms(BaseFloat frame_shift) { frame_shift_ms = frame_shift * 1000; }$/;"	f	struct:delta::PitchExtractionOptions
+set_frames_per_chunk	transform/feats/ops/kernels/pitch.h	/^  void set_frames_per_chunk(int frames_per_chunk_) { frames_per_chunk = frames_per_chunk_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_lowpass_cutoff	transform/feats/ops/kernels/pitch.h	/^  void set_lowpass_cutoff(BaseFloat lowpass_cutoff_) { lowpass_cutoff = lowpass_cutoff_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_lowpass_filter_width	transform/feats/ops/kernels/pitch.h	/^  void set_lowpass_filter_width(int lowpass_filter_width_) { lowpass_filter_width = lowpass_filter_width_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_max_f0	transform/feats/ops/kernels/pitch.h	/^  void set_max_f0(BaseFloat max_f0_) { max_f0 = max_f0_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_max_frames_latency	transform/feats/ops/kernels/pitch.h	/^  void set_max_frames_latency(int max_frames_latency_) { max_frames_latency = max_frames_latency_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_min_f0	transform/feats/ops/kernels/pitch.h	/^  void set_min_f0(BaseFloat min_f0_) { min_f0 = min_f0_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_nccf_ballast	transform/feats/ops/kernels/pitch.h	/^  void set_nccf_ballast(BaseFloat nccf_ballast_) { nccf_ballast = nccf_ballast_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_nccf_ballast_online	transform/feats/ops/kernels/pitch.h	/^  void set_nccf_ballast_online(bool nccf_ballast_online_) { nccf_ballast_online = nccf_ballast_online_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_penalty_factor	transform/feats/ops/kernels/pitch.h	/^  void set_penalty_factor(BaseFloat penalty_factor_) { penalty_factor = penalty_factor_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_preemph_coeff	transform/feats/ops/kernels/pitch.h	/^  void set_preemph_coeff(BaseFloat preemph_coeff_) { preemph_coeff = preemph_coeff_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_recompute_frame	transform/feats/ops/kernels/pitch.h	/^  void set_recompute_frame(int recompute_frame_) { recompute_frame = recompute_frame_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_resample_freq	transform/feats/ops/kernels/pitch.h	/^  void set_resample_freq(BaseFloat resample_freq_) { resample_freq = resample_freq_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_samp_freq	transform/feats/ops/kernels/pitch.h	/^  void set_samp_freq(BaseFloat sample_rate) { samp_freq = sample_rate; }$/;"	f	struct:delta::PitchExtractionOptions
+set_simulate_first_pass_online	transform/feats/ops/kernels/pitch.h	/^  void set_simulate_first_pass_online(bool simulate_first_pass_online_) { simulate_first_pass_online = simulate_first_pass_online_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_snip_edges	transform/feats/ops/kernels/pitch.h	/^  void set_snip_edges(bool snip_edges_) { snip_edges = snip_edges_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_soft_min_f0	transform/feats/ops/kernels/pitch.h	/^  void set_soft_min_f0(BaseFloat soft_min_f0_) { soft_min_f0 = soft_min_f0_; }$/;"	f	struct:delta::PitchExtractionOptions
+set_upsample_filter_width	transform/feats/ops/kernels/pitch.h	/^  void set_upsample_filter_width(int upsample_filter_width_) { upsample_filter_width = upsample_filter_width_; }$/;"	f	struct:delta::PitchExtractionOptions
+simulate_first_pass_online	transform/feats/ops/kernels/pitch.h	/^  bool simulate_first_pass_online;$/;"	m	struct:delta::PitchExtractionOptions
+snip_edges	transform/feats/ops/kernels/pitch.h	/^  bool snip_edges;$/;"	m	struct:delta::PitchExtractionOptions
+soft_min_f0	transform/feats/ops/kernels/pitch.h	/^  BaseFloat soft_min_f0;        \/\/ Minimum f0, applied in soft way, must not$/;"	m	struct:delta::PitchExtractionOptions
+upsample_filter_width	transform/feats/ops/kernels/pitch.h	/^  int upsample_filter_width;  \/\/ Integer that determines filter width when$/;"	m	struct:delta::PitchExtractionOptions
+~OnlineFeatureInterface	transform/feats/ops/kernels/pitch.h	/^  virtual ~OnlineFeatureInterface() { }$/;"	f	class:delta::OnlineFeatureInterface
+PitchOp	transform/feats/ops/kernels/pitch_op.cc	/^  explicit PitchOp(OpKernelConstruction* context) : OpKernel(context) {$/;"	f	class:delta::PitchOp
+PitchOp	transform/feats/ops/kernels/pitch_op.cc	/^REGISTER_KERNEL_BUILDER(Name("Pitch").Device(DEVICE_CPU), PitchOp);$/;"	m	namespace:delta	file:
+PitchOp	transform/feats/ops/kernels/pitch_op.cc	/^class PitchOp : public OpKernel {$/;"	c	namespace:delta	file:
+delta	transform/feats/ops/kernels/pitch_op.cc	/^namespace delta {$/;"	n	file:
+delta_pitch_	transform/feats/ops/kernels/pitch_op.cc	/^  float delta_pitch_;$/;"	m	class:delta::PitchOp	file:
+frame_length_	transform/feats/ops/kernels/pitch_op.cc	/^  float frame_length_;$/;"	m	class:delta::PitchOp	file:
+frames_per_chunk_	transform/feats/ops/kernels/pitch_op.cc	/^  int frames_per_chunk_;$/;"	m	class:delta::PitchOp	file:
+lowpass_cutoff_	transform/feats/ops/kernels/pitch_op.cc	/^  float lowpass_cutoff_;$/;"	m	class:delta::PitchOp	file:
+lowpass_filter_width_	transform/feats/ops/kernels/pitch_op.cc	/^  int lowpass_filter_width_;$/;"	m	class:delta::PitchOp	file:
+max_f0_	transform/feats/ops/kernels/pitch_op.cc	/^  float max_f0_;$/;"	m	class:delta::PitchOp	file:
+max_frames_latency_	transform/feats/ops/kernels/pitch_op.cc	/^  int max_frames_latency_;$/;"	m	class:delta::PitchOp	file:
+min_f0_	transform/feats/ops/kernels/pitch_op.cc	/^  float min_f0_;$/;"	m	class:delta::PitchOp	file:
+nccf_ballast_	transform/feats/ops/kernels/pitch_op.cc	/^  float nccf_ballast_;$/;"	m	class:delta::PitchOp	file:
+nccf_ballast_online_	transform/feats/ops/kernels/pitch_op.cc	/^  bool nccf_ballast_online_;$/;"	m	class:delta::PitchOp	file:
+penalty_factor_	transform/feats/ops/kernels/pitch_op.cc	/^  float penalty_factor_;$/;"	m	class:delta::PitchOp	file:
+preemph_coeff_	transform/feats/ops/kernels/pitch_op.cc	/^  float preemph_coeff_;$/;"	m	class:delta::PitchOp	file:
+recompute_frame_	transform/feats/ops/kernels/pitch_op.cc	/^  int recompute_frame_;$/;"	m	class:delta::PitchOp	file:
+resample_freq_	transform/feats/ops/kernels/pitch_op.cc	/^  float resample_freq_;$/;"	m	class:delta::PitchOp	file:
+simulate_first_pass_online_	transform/feats/ops/kernels/pitch_op.cc	/^  bool simulate_first_pass_online_;$/;"	m	class:delta::PitchOp	file:
+snip_edges_	transform/feats/ops/kernels/pitch_op.cc	/^  bool snip_edges_;$/;"	m	class:delta::PitchOp	file:
+soft_min_f0_	transform/feats/ops/kernels/pitch_op.cc	/^  float soft_min_f0_;$/;"	m	class:delta::PitchOp	file:
+upsample_filter_width_	transform/feats/ops/kernels/pitch_op.cc	/^  int upsample_filter_width_;$/;"	m	class:delta::PitchOp	file:
+window_length_	transform/feats/ops/kernels/pitch_op.cc	/^  float window_length_;$/;"	m	class:delta::PitchOp	file:
+ArbitraryResample	transform/feats/ops/kernels/resample.cc	/^ArbitraryResample::ArbitraryResample($/;"	f	class:delta::ArbitraryResample
+FilterFunc	transform/feats/ops/kernels/resample.cc	/^BaseFloat ArbitraryResample::FilterFunc(BaseFloat t) const {$/;"	f	class:delta::ArbitraryResample
+FilterFunc	transform/feats/ops/kernels/resample.cc	/^BaseFloat LinearResample::FilterFunc(BaseFloat t) const {$/;"	f	class:delta::LinearResample
+GetIndexes	transform/feats/ops/kernels/resample.cc	/^void LinearResample::GetIndexes(int samp_out,$/;"	f	class:delta::LinearResample
+GetNumOutputSamples	transform/feats/ops/kernels/resample.cc	/^int LinearResample::GetNumOutputSamples(int input_num_samp,$/;"	f	class:delta::LinearResample
+LinearResample	transform/feats/ops/kernels/resample.cc	/^LinearResample::LinearResample(int samp_rate_in_hz,$/;"	f	class:delta::LinearResample
+Resample	transform/feats/ops/kernels/resample.cc	/^void ArbitraryResample::Resample(const std::vector<vector<BaseFloat> > &input,$/;"	f	class:delta::ArbitraryResample
+Resample	transform/feats/ops/kernels/resample.cc	/^void ArbitraryResample::Resample(const vector<BaseFloat> &input,$/;"	f	class:delta::ArbitraryResample
+Resample	transform/feats/ops/kernels/resample.cc	/^void LinearResample::Resample(const vector<BaseFloat> &input,$/;"	f	class:delta::LinearResample
+ResampleWaveform	transform/feats/ops/kernels/resample.cc	/^void ResampleWaveform(BaseFloat orig_freq, const vector<BaseFloat> &wave,$/;"	f	namespace:delta
+Reset	transform/feats/ops/kernels/resample.cc	/^void LinearResample::Reset() {$/;"	f	class:delta::LinearResample
+SetIndexes	transform/feats/ops/kernels/resample.cc	/^void ArbitraryResample::SetIndexes(const vector<BaseFloat> &sample_points) {$/;"	f	class:delta::ArbitraryResample
+SetIndexesAndWeights	transform/feats/ops/kernels/resample.cc	/^void LinearResample::SetIndexesAndWeights() {$/;"	f	class:delta::LinearResample
+SetRemainder	transform/feats/ops/kernels/resample.cc	/^void LinearResample::SetRemainder(const vector<BaseFloat> &input) {$/;"	f	class:delta::LinearResample
+SetWeights	transform/feats/ops/kernels/resample.cc	/^void ArbitraryResample::SetWeights(const vector<BaseFloat> &sample_points) {$/;"	f	class:delta::ArbitraryResample
+delta	transform/feats/ops/kernels/resample.cc	/^namespace delta {$/;"	n	file:
+ArbitraryResample	transform/feats/ops/kernels/resample.h	/^class ArbitraryResample {$/;"	c	namespace:delta
+DELTA_LAYERS_OPS_KERNELS_RESAMPLE_H_	transform/feats/ops/kernels/resample.h	/^#define DELTA_LAYERS_OPS_KERNELS_RESAMPLE_H_$/;"	d
+DownsampleWaveForm	transform/feats/ops/kernels/resample.h	/^inline void DownsampleWaveForm(BaseFloat orig_freq, const vector<BaseFloat> &wave,$/;"	f	namespace:delta
+GetInputSamplingRate	transform/feats/ops/kernels/resample.h	/^  inline int GetInputSamplingRate() { return samp_rate_in_; }$/;"	f	class:delta::LinearResample
+GetOutputSamplingRate	transform/feats/ops/kernels/resample.h	/^  inline int GetOutputSamplingRate() { return samp_rate_out_; }$/;"	f	class:delta::LinearResample
+LinearResample	transform/feats/ops/kernels/resample.h	/^class LinearResample {$/;"	c	namespace:delta
+NumSamplesIn	transform/feats/ops/kernels/resample.h	/^  int NumSamplesIn() const { return num_samples_in_; }$/;"	f	class:delta::ArbitraryResample
+NumSamplesOut	transform/feats/ops/kernels/resample.h	/^  int NumSamplesOut() const { return weights_.size(); }$/;"	f	class:delta::ArbitraryResample
+delta	transform/feats/ops/kernels/resample.h	/^namespace delta {$/;"	n
+filter_cutoff_	transform/feats/ops/kernels/resample.h	/^  BaseFloat filter_cutoff_;$/;"	m	class:delta::ArbitraryResample
+filter_cutoff_	transform/feats/ops/kernels/resample.h	/^  BaseFloat filter_cutoff_;$/;"	m	class:delta::LinearResample
+first_index_	transform/feats/ops/kernels/resample.h	/^  std::vector<int> first_index_;$/;"	m	class:delta::ArbitraryResample
+first_index_	transform/feats/ops/kernels/resample.h	/^  std::vector<int> first_index_;$/;"	m	class:delta::LinearResample
+input_remainder_	transform/feats/ops/kernels/resample.h	/^  vector<BaseFloat> input_remainder_;$/;"	m	class:delta::LinearResample
+input_sample_offset_	transform/feats/ops/kernels/resample.h	/^  int input_sample_offset_;$/;"	m	class:delta::LinearResample
+input_samples_in_unit_	transform/feats/ops/kernels/resample.h	/^  int input_samples_in_unit_;$/;"	m	class:delta::LinearResample
+num_samples_in_	transform/feats/ops/kernels/resample.h	/^  int num_samples_in_;$/;"	m	class:delta::ArbitraryResample
+num_zeros_	transform/feats/ops/kernels/resample.h	/^  int num_zeros_;$/;"	m	class:delta::ArbitraryResample
+num_zeros_	transform/feats/ops/kernels/resample.h	/^  int num_zeros_;$/;"	m	class:delta::LinearResample
+output_sample_offset_	transform/feats/ops/kernels/resample.h	/^  int output_sample_offset_;$/;"	m	class:delta::LinearResample
+output_samples_in_unit_	transform/feats/ops/kernels/resample.h	/^  int output_samples_in_unit_;$/;"	m	class:delta::LinearResample
+samp_rate_in_	transform/feats/ops/kernels/resample.h	/^  BaseFloat samp_rate_in_;$/;"	m	class:delta::ArbitraryResample
+samp_rate_in_	transform/feats/ops/kernels/resample.h	/^  int samp_rate_in_;$/;"	m	class:delta::LinearResample
+samp_rate_out_	transform/feats/ops/kernels/resample.h	/^  int samp_rate_out_;$/;"	m	class:delta::LinearResample
+weights_	transform/feats/ops/kernels/resample.h	/^  std::vector<vector<BaseFloat> > weights_;$/;"	m	class:delta::ArbitraryResample
+weights_	transform/feats/ops/kernels/resample.h	/^  std::vector<vector<BaseFloat> > weights_;$/;"	m	class:delta::LinearResample
+Spectrum	transform/feats/ops/kernels/spectrum.cc	/^Spectrum::Spectrum() {$/;"	f	class:delta::Spectrum
+delta	transform/feats/ops/kernels/spectrum.cc	/^namespace delta {$/;"	n	file:
+frame_length_sec	transform/feats/ops/kernels/spectrum.cc	/^const float frame_length_sec = 0.010;$/;"	m	namespace:delta	file:
+get_spc	transform/feats/ops/kernels/spectrum.cc	/^int Spectrum::get_spc(float* output) {$/;"	f	class:delta::Spectrum
+init_spc	transform/feats/ops/kernels/spectrum.cc	/^int Spectrum::init_spc(int input_size, float sample_rate) {$/;"	f	class:delta::Spectrum
+proc_spc	transform/feats/ops/kernels/spectrum.cc	/^int Spectrum::proc_spc(const float* mic_buf, int input_size) {$/;"	f	class:delta::Spectrum
+set_dither	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_dither(float dither) {i_dither = dither;}$/;"	f	class:delta::Spectrum
+set_frame_length_sec	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_frame_length_sec(float frame_length_sec) {$/;"	f	class:delta::Spectrum
+set_is_fbank	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_is_fbank(bool is_fbank) {i_is_fbank = is_fbank;}$/;"	f	class:delta::Spectrum
+set_output_type	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_output_type(int output_type) { i_OutTyp = output_type; }$/;"	f	class:delta::Spectrum
+set_preEph	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_preEph(float preEph) {f_PreEph = preEph;}$/;"	f	class:delta::Spectrum
+set_raw_energy	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_raw_energy(int raw_energy) {i_raw_energy = raw_energy;}$/;"	f	class:delta::Spectrum
+set_remove_dc_offset	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_remove_dc_offset(bool remove_dc_offset) {i_remove_dc_offset = remove_dc_offset;}$/;"	f	class:delta::Spectrum
+set_snip_edges	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_snip_edges(int snip_edges) { i_snip_edges = snip_edges; }$/;"	f	class:delta::Spectrum
+set_window_length_sec	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_window_length_sec(float window_length_sec) {$/;"	f	class:delta::Spectrum
+set_window_type	transform/feats/ops/kernels/spectrum.cc	/^void Spectrum::set_window_type(char* window_type){$/;"	f	class:delta::Spectrum
+window_length_sec	transform/feats/ops/kernels/spectrum.cc	/^const float window_length_sec = 0.025;$/;"	m	namespace:delta	file:
+write_spc	transform/feats/ops/kernels/spectrum.cc	/^int Spectrum::write_spc() {$/;"	f	class:delta::Spectrum
+DELTA_LAYERS_OPS_KERNELS_SPECTRUM_H_	transform/feats/ops/kernels/spectrum.h	/^#define DELTA_LAYERS_OPS_KERNELS_SPECTRUM_H_$/;"	d
+Spectrum	transform/feats/ops/kernels/spectrum.h	/^class Spectrum {$/;"	c	namespace:delta
+delta	transform/feats/ops/kernels/spectrum.h	/^namespace delta {$/;"	n
+eph_buf	transform/feats/ops/kernels/spectrum.h	/^  float* eph_buf;$/;"	m	class:delta::Spectrum
+f_PreEph	transform/feats/ops/kernels/spectrum.h	/^  float f_PreEph;$/;"	m	class:delta::Spectrum
+f_SamRat	transform/feats/ops/kernels/spectrum.h	/^  float f_SamRat;$/;"	m	class:delta::Spectrum
+fft_buf	transform/feats/ops/kernels/spectrum.h	/^  float* fft_buf;$/;"	m	class:delta::Spectrum
+fftwin	transform/feats/ops/kernels/spectrum.h	/^  xcomplex* fftwin;$/;"	m	class:delta::Spectrum
+frame_length_sec_	transform/feats/ops/kernels/spectrum.h	/^  float frame_length_sec_;$/;"	m	class:delta::Spectrum
+i_FFTSiz	transform/feats/ops/kernels/spectrum.h	/^  int i_FFTSiz;$/;"	m	class:delta::Spectrum
+i_FrmLen	transform/feats/ops/kernels/spectrum.h	/^  int i_FrmLen;$/;"	m	class:delta::Spectrum
+i_NumFrm	transform/feats/ops/kernels/spectrum.h	/^  int i_NumFrm;$/;"	m	class:delta::Spectrum
+i_NumFrq	transform/feats/ops/kernels/spectrum.h	/^  int i_NumFrq;$/;"	m	class:delta::Spectrum
+i_OutTyp	transform/feats/ops/kernels/spectrum.h	/^  int i_OutTyp;  \/\/ 1: PSD, 2:log(PSD)$/;"	m	class:delta::Spectrum
+i_WinLen	transform/feats/ops/kernels/spectrum.h	/^  int i_WinLen;$/;"	m	class:delta::Spectrum
+i_dither	transform/feats/ops/kernels/spectrum.h	/^  float i_dither;$/;"	m	class:delta::Spectrum
+i_is_fbank	transform/feats/ops/kernels/spectrum.h	/^  bool i_is_fbank;$/;"	m	class:delta::Spectrum
+i_raw_energy	transform/feats/ops/kernels/spectrum.h	/^  int i_raw_energy;$/;"	m	class:delta::Spectrum
+i_remove_dc_offset	transform/feats/ops/kernels/spectrum.h	/^  bool i_remove_dc_offset;$/;"	m	class:delta::Spectrum
+i_snip_edges	transform/feats/ops/kernels/spectrum.h	/^  int i_snip_edges;$/;"	m	class:delta::Spectrum
+pf_SPC	transform/feats/ops/kernels/spectrum.h	/^  float* pf_SPC;$/;"	m	class:delta::Spectrum
+pf_WINDOW	transform/feats/ops/kernels/spectrum.h	/^  float* pf_WINDOW;$/;"	m	class:delta::Spectrum
+s_WinTyp	transform/feats/ops/kernels/spectrum.h	/^  char s_WinTyp[40];$/;"	m	class:delta::Spectrum
+win	transform/feats/ops/kernels/spectrum.h	/^  xcomplex* win;$/;"	m	class:delta::Spectrum
+win_buf	transform/feats/ops/kernels/spectrum.h	/^  float* win_buf;$/;"	m	class:delta::Spectrum
+win_temp	transform/feats/ops/kernels/spectrum.h	/^  float* win_temp;$/;"	m	class:delta::Spectrum
+window_length_sec_	transform/feats/ops/kernels/spectrum.h	/^  float window_length_sec_;$/;"	m	class:delta::Spectrum
+SpecOp	transform/feats/ops/kernels/spectrum_op.cc	/^  explicit SpecOp(OpKernelConstruction* context) : OpKernel(context) {$/;"	f	class:delta::SpecOp
+SpecOp	transform/feats/ops/kernels/spectrum_op.cc	/^REGISTER_KERNEL_BUILDER(Name("Spectrum").Device(DEVICE_CPU), SpecOp);$/;"	m	namespace:delta	file:
+SpecOp	transform/feats/ops/kernels/spectrum_op.cc	/^class SpecOp : public OpKernel {$/;"	c	namespace:delta	file:
+delta	transform/feats/ops/kernels/spectrum_op.cc	/^namespace delta {$/;"	n	file:
+dither_	transform/feats/ops/kernels/spectrum_op.cc	/^  float dither_;$/;"	m	class:delta::SpecOp	file:
+frame_length_	transform/feats/ops/kernels/spectrum_op.cc	/^  float frame_length_;$/;"	m	class:delta::SpecOp	file:
+is_fbank_	transform/feats/ops/kernels/spectrum_op.cc	/^  bool is_fbank_;$/;"	m	class:delta::SpecOp	file:
+output_type_	transform/feats/ops/kernels/spectrum_op.cc	/^  int output_type_;$/;"	m	class:delta::SpecOp	file:
+preEph_coeff_	transform/feats/ops/kernels/spectrum_op.cc	/^  float preEph_coeff_;$/;"	m	class:delta::SpecOp	file:
+raw_energy_	transform/feats/ops/kernels/spectrum_op.cc	/^  int raw_energy_;$/;"	m	class:delta::SpecOp	file:
+remove_dc_offset_	transform/feats/ops/kernels/spectrum_op.cc	/^  bool remove_dc_offset_;$/;"	m	class:delta::SpecOp	file:
+snip_edges_	transform/feats/ops/kernels/spectrum_op.cc	/^  int snip_edges_;$/;"	m	class:delta::SpecOp	file:
+window_length_	transform/feats/ops/kernels/spectrum_op.cc	/^  float window_length_;$/;"	m	class:delta::SpecOp	file:
+window_type_	transform/feats/ops/kernels/spectrum_op.cc	/^  string window_type_;$/;"	m	class:delta::SpecOp	file:
+Path	transform/feats/ops/kernels/spectrum_op_test.py	/^from pathlib import Path$/;"	i
+SpecOpTest	transform/feats/ops/kernels/spectrum_op_test.py	/^class SpecOpTest(tf.test.TestCase):$/;"	c
+logging	transform/feats/ops/kernels/spectrum_op_test.py	/^from absl import logging$/;"	i
+np	transform/feats/ops/kernels/spectrum_op_test.py	/^import numpy as np$/;"	i
+os	transform/feats/ops/kernels/spectrum_op_test.py	/^import os$/;"	i
+py_x_ops	transform/feats/ops/kernels/spectrum_op_test.py	/^from athena.transform.feats.ops import py_x_ops$/;"	i
+setUp	transform/feats/ops/kernels/spectrum_op_test.py	/^    def setUp(self):$/;"	m	class:SpecOpTest
+tearDown	transform/feats/ops/kernels/spectrum_op_test.py	/^    def tearDown(self):$/;"	m	class:SpecOpTest
+test_spectrum	transform/feats/ops/kernels/spectrum_op_test.py	/^    def test_spectrum(self):$/;"	m	class:SpecOpTest
+tf	transform/feats/ops/kernels/spectrum_op_test.py	/^import tensorflow as tf$/;"	i
+SpeedOp	transform/feats/ops/kernels/speed_op.cc	/^  explicit SpeedOp(OpKernelConstruction* context) : OpKernel(context) {$/;"	f	class:delta::SpeedOp
+SpeedOp	transform/feats/ops/kernels/speed_op.cc	/^REGISTER_KERNEL_BUILDER(Name("Speed").Device(DEVICE_CPU), SpeedOp);$/;"	m	namespace:delta	file:
+SpeedOp	transform/feats/ops/kernels/speed_op.cc	/^class SpeedOp : public OpKernel {$/;"	c	namespace:delta	file:
+delta	transform/feats/ops/kernels/speed_op.cc	/^namespace delta {$/;"	n	file:
+lowpass_cutoff_	transform/feats/ops/kernels/speed_op.cc	/^  float lowpass_cutoff_;$/;"	m	class:delta::SpeedOp	file:
+lowpass_filter_width_	transform/feats/ops/kernels/speed_op.cc	/^  int lowpass_filter_width_;$/;"	m	class:delta::SpeedOp	file:
+Gcd	transform/feats/ops/kernels/support_functions.cc	/^int  Gcd(int m, int n) {$/;"	f	namespace:delta
+Lcm	transform/feats/ops/kernels/support_functions.cc	/^int Lcm(int m, int n) {$/;"	f	namespace:delta
+PI	transform/feats/ops/kernels/support_functions.cc	/^#define PI /;"	d	file:
+Rand	transform/feats/ops/kernels/support_functions.cc	/^int Rand(struct RandomState* state) {$/;"	f	namespace:delta
+RandomState	transform/feats/ops/kernels/support_functions.cc	/^RandomState::RandomState() {$/;"	f	class:delta::RandomState
+SWAP	transform/feats/ops/kernels/support_functions.cc	/^#define SWAP(/;"	d	file:
+VecVec	transform/feats/ops/kernels/support_functions.cc	/^BaseFloat VecVec(const vector<BaseFloat> &a, const vector<BaseFloat> &b){$/;"	f	namespace:delta
+add_mat_vec	transform/feats/ops/kernels/support_functions.cc	/^std::vector<BaseFloat> add_mat_vec(BaseFloat alpha, const std::vector<std::vector<BaseFloat>> &M,$/;"	f	namespace:delta
+bark2hz	transform/feats/ops/kernels/support_functions.cc	/^float bark2hz(float z) {$/;"	f	namespace:delta
+compute_autoc	transform/feats/ops/kernels/support_functions.cc	/^int compute_autoc(float* autoc, float* input, int i_size, int L) {$/;"	f	namespace:delta
+compute_delta	transform/feats/ops/kernels/support_functions.cc	/^int compute_delta(int nw, int ncep, int nfrm, float* x, float* y) {$/;"	f	namespace:delta
+compute_energy	transform/feats/ops/kernels/support_functions.cc	/^float compute_energy(const float* input, int L){$/;"	f	namespace:delta
+compute_lpc	transform/feats/ops/kernels/support_functions.cc	/^int compute_lpc(int ncep, int nfrm, int pord, float* x, float* y) {$/;"	f	namespace:delta
+compute_mean	transform/feats/ops/kernels/support_functions.cc	/^float compute_mean(float* input, int i_size) {$/;"	f	namespace:delta
+compute_sign	transform/feats/ops/kernels/support_functions.cc	/^int compute_sign(float x) { return (x > 0) - (x < 0); }$/;"	f	namespace:delta
+compute_var	transform/feats/ops/kernels/support_functions.cc	/^float compute_var(float* input, int i_size) {$/;"	f	namespace:delta
+delta	transform/feats/ops/kernels/support_functions.cc	/^namespace delta {$/;"	n	file:
+dit_r2_fft	transform/feats/ops/kernels/support_functions.cc	/^int dit_r2_fft(xcomplex* input, xcomplex* output, float* in_buf, int N, int isign) {$/;"	f	namespace:delta
+do_EqlLoudness	transform/feats/ops/kernels/support_functions.cc	/^int do_EqlLoudness(float fs, char* ftyp, int ncep, int nfrm, float* x,$/;"	f	namespace:delta
+do_ceps_mean_norm	transform/feats/ops/kernels/support_functions.cc	/^int do_ceps_mean_norm(int ncep, int nfrm, float* x, float* y) {$/;"	f	namespace:delta
+do_dither	transform/feats/ops/kernels/support_functions.cc	/^void do_dither(float* input, int i_size, float dither_value){$/;"	f	namespace:delta
+do_frame_preemphasis	transform/feats/ops/kernels/support_functions.cc	/^int do_frame_preemphasis(float* input, float* output, int i_size, float coef){$/;"	f	namespace:delta
+do_levinson	transform/feats/ops/kernels/support_functions.cc	/^int do_levinson(int pord, float* r, float* a) {$/;"	f	namespace:delta
+do_lpc2cep	transform/feats/ops/kernels/support_functions.cc	/^int do_lpc2cep(int ncep, int nfrm, float* x, float* y) {$/;"	f	namespace:delta
+do_preemphasis	transform/feats/ops/kernels/support_functions.cc	/^int do_preemphasis(float coef, float* buf, const float* input, int L) {$/;"	f	namespace:delta
+gen_dctmatrix	transform/feats/ops/kernels/support_functions.cc	/^int gen_dctmatrix(int ncep, float* dctm) {$/;"	f	namespace:delta
+gen_warpweights	transform/feats/ops/kernels/support_functions.cc	/^int gen_warpweights(float fs, int ncep, int nfrq, char* ftyp, int nfft,$/;"	f	namespace:delta
+gen_window	transform/feats/ops/kernels/support_functions.cc	/^int gen_window(float* w, int L, char* typ) {$/;"	f	namespace:delta
+hz2bark	transform/feats/ops/kernels/support_functions.cc	/^float hz2bark(float f) {$/;"	f	namespace:delta
+hz2mel	transform/feats/ops/kernels/support_functions.cc	/^float hz2mel(float f) {$/;"	f	namespace:delta
+lift_cepstrum	transform/feats/ops/kernels/support_functions.cc	/^int lift_cepstrum(float lft_exp, int ncep, int nfrm, float* x, float* y) {$/;"	f	namespace:delta
+mel2hz	transform/feats/ops/kernels/support_functions.cc	/^float mel2hz(float z) {$/;"	f	namespace:delta
+naive_dft	transform/feats/ops/kernels/support_functions.cc	/^int naive_dft(xcomplex* input, xcomplex* output, int inverse, int N) {$/;"	f	namespace:delta
+sub_matrix	transform/feats/ops/kernels/support_functions.cc	/^std::vector<std::vector<BaseFloat>> sub_matrix(const std::vector<std::vector<BaseFloat>> &input, $/;"	f	namespace:delta
+sub_vector	transform/feats/ops/kernels/support_functions.cc	/^std::vector<BaseFloat> sub_vector(const std::vector<BaseFloat> &input, int begin, int length){$/;"	f	namespace:delta
+ApproxEqual	transform/feats/ops/kernels/support_functions.h	/^static inline bool ApproxEqual(BaseFloat a, BaseFloat b,$/;"	f	namespace:delta
+BaseFloat	transform/feats/ops/kernels/support_functions.h	/^typedef float  BaseFloat;$/;"	t	namespace:delta
+DELTA_LAYERS_OPS_KERNELS_SUPPORT_FUNCTIONS_H_	transform/feats/ops/kernels/support_functions.h	/^#define DELTA_LAYERS_OPS_KERNELS_SUPPORT_FUNCTIONS_H_$/;"	d
+Log	transform/feats/ops/kernels/support_functions.h	/^inline double Log(double x) { return log(x); }$/;"	f	namespace:delta
+M_2PI	transform/feats/ops/kernels/support_functions.h	/^#define M_2PI /;"	d
+M_PI	transform/feats/ops/kernels/support_functions.h	/^#define M_PI /;"	d
+RandGauss	transform/feats/ops/kernels/support_functions.h	/^inline float RandGauss(struct RandomState* state = NULL) {$/;"	f	namespace:delta
+RandUniform	transform/feats/ops/kernels/support_functions.h	/^inline float RandUniform(struct RandomState* state = NULL) {$/;"	f	namespace:delta
+RandomState	transform/feats/ops/kernels/support_functions.h	/^struct RandomState {$/;"	s	namespace:delta
+delta	transform/feats/ops/kernels/support_functions.h	/^namespace delta {$/;"	n
+make_unique	transform/feats/ops/kernels/support_functions.h	/^std::unique_ptr<T> make_unique(Args&&... args) {$/;"	f	namespace:delta
+seed	transform/feats/ops/kernels/support_functions.h	/^  unsigned seed;$/;"	m	struct:delta::RandomState
+FbankShapeFn	transform/feats/ops/kernels/x_ops.cc	/^Status FbankShapeFn(InferenceContext* c) {$/;"	f	namespace:delta::__anon1
+PitchShapeFn	transform/feats/ops/kernels/x_ops.cc	/^Status PitchShapeFn(InferenceContext* c) {$/;"	f	namespace:delta::__anon1
+SpectrumShapeFn	transform/feats/ops/kernels/x_ops.cc	/^Status SpectrumShapeFn(InferenceContext* c) {$/;"	f	namespace:delta::__anon1
+delta	transform/feats/ops/kernels/x_ops.cc	/^namespace delta {$/;"	n	file:
+compat	transform/feats/ops/py_x_ops.py	/^import tensorflow.compat.v1 as tf$/;"	i
+delta_delta	transform/feats/ops/py_x_ops.py	/^delta_delta = gen_x_ops.delta_delta$/;"	v
+fbank	transform/feats/ops/py_x_ops.py	/^fbank = gen_x_ops.fbank$/;"	v
+frame_pow	transform/feats/ops/py_x_ops.py	/^frame_pow = gen_x_ops.frame_pow$/;"	v
+gen_x_ops	transform/feats/ops/py_x_ops.py	/^gen_x_ops = tf.load_op_library(tf.resource_loader.get_path_to_datafile(so_lib_file))$/;"	v
+logging	transform/feats/ops/py_x_ops.py	/^from absl import logging$/;"	i
+mel_spectrum	transform/feats/ops/py_x_ops.py	/^mel_spectrum = gen_x_ops.mel_spectrum$/;"	v
+mfcc	transform/feats/ops/py_x_ops.py	/^mfcc = gen_x_ops.mfcc_dct$/;"	v
+path	transform/feats/ops/py_x_ops.py	/^path = tf.resource_loader.get_path_to_datafile(so_lib_file)$/;"	v
+pitch	transform/feats/ops/py_x_ops.py	/^pitch = gen_x_ops.pitch$/;"	v
+so_lib_file	transform/feats/ops/py_x_ops.py	/^so_lib_file = tf.io.gfile.glob(tf.resource_loader.get_data_files_path() + "\/x_ops*.so")[$/;"	v
+spectrum	transform/feats/ops/py_x_ops.py	/^spectrum = gen_x_ops.spectrum$/;"	v
+speed	transform/feats/ops/py_x_ops.py	/^speed = gen_x_ops.speed$/;"	v
+tensorflow	transform/feats/ops/py_x_ops.py	/^import tensorflow.compat.v1 as tf$/;"	i
+tf	transform/feats/ops/py_x_ops.py	/^import tensorflow.compat.v1 as tf$/;"	i
+BaseFrontend	transform/feats/pitch.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+HParams	transform/feats/pitch.py	/^from athena.utils.hparam import HParams$/;"	i
+Pitch	transform/feats/pitch.py	/^class Pitch(BaseFrontend):$/;"	c
+__init__	transform/feats/pitch.py	/^    def __init__(self, config: dict):$/;"	m	class:Pitch
+call	transform/feats/pitch.py	/^    def call(self, audio_data, sample_rate):$/;"	m	class:Pitch
+dim	transform/feats/pitch.py	/^    def dim(self):$/;"	m	class:Pitch
+params	transform/feats/pitch.py	/^    def params(cls, config=None):$/;"	m	class:Pitch
+py_x_ops	transform/feats/pitch.py	/^from athena.transform.feats.ops import py_x_ops$/;"	i
+tf	transform/feats/pitch.py	/^import tensorflow as tf$/;"	i
+Path	transform/feats/pitch_test.py	/^from pathlib import Path$/;"	i
+Pitch	transform/feats/pitch_test.py	/^from athena.transform.feats.pitch import Pitch$/;"	i
+ReadWav	transform/feats/pitch_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+SpectrumTest	transform/feats/pitch_test.py	/^class SpectrumTest(tf.test.TestCase):$/;"	c
+disable_eager_execution	transform/feats/pitch_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/pitch_test.py	/^    is_eager = True$/;"	v	class:SpectrumTest
+os	transform/feats/pitch_test.py	/^import os$/;"	i
+test_spectrum	transform/feats/pitch_test.py	/^    def test_spectrum(self):$/;"	m	class:SpectrumTest
+tf	transform/feats/pitch_test.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/read_wav.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+HParams	transform/feats/read_wav.py	/^from athena.utils.hparam import HParams$/;"	i
+ReadWav	transform/feats/read_wav.py	/^class ReadWav(BaseFrontend):$/;"	c
+__init__	transform/feats/read_wav.py	/^    def __init__(self, config: dict):$/;"	m	class:ReadWav
+call	transform/feats/read_wav.py	/^    def call(self, wavfile, speed=1.0):$/;"	m	class:ReadWav
+params	transform/feats/read_wav.py	/^    def params(cls, config=None):$/;"	m	class:ReadWav
+py_x_ops	transform/feats/read_wav.py	/^from athena.transform.feats.ops import py_x_ops$/;"	i
+read_wav	transform/feats/read_wav.py	/^def read_wav(wavfile, audio_channels=1):$/;"	f
+tf	transform/feats/read_wav.py	/^import tensorflow as tf$/;"	i
+Path	transform/feats/read_wav_test.py	/^from pathlib import Path$/;"	i
+ReadWav	transform/feats/read_wav_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+ReadWavTest	transform/feats/read_wav_test.py	/^class ReadWavTest(tf.test.TestCase):$/;"	c
+disable_eager_execution	transform/feats/read_wav_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/read_wav_test.py	/^    is_eager = False$/;"	v	class:ReadWavTest
+librosa	transform/feats/read_wav_test.py	/^import librosa$/;"	i
+os	transform/feats/read_wav_test.py	/^import os$/;"	i
+test_read_wav	transform/feats/read_wav_test.py	/^    def test_read_wav(self):$/;"	m	class:ReadWavTest
+tf	transform/feats/read_wav_test.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/spectrum.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+CMVN	transform/feats/spectrum.py	/^from athena.transform.feats.cmvn import CMVN$/;"	i
+HParams	transform/feats/spectrum.py	/^from athena.utils.hparam import HParams$/;"	i
+Spectrum	transform/feats/spectrum.py	/^class Spectrum(BaseFrontend):$/;"	c
+__init__	transform/feats/spectrum.py	/^    def __init__(self, config: dict):$/;"	m	class:Spectrum
+call	transform/feats/spectrum.py	/^    def call(self, audio_data, sample_rate=None):$/;"	m	class:Spectrum
+dim	transform/feats/spectrum.py	/^    def dim(self):$/;"	m	class:Spectrum
+math	transform/feats/spectrum.py	/^import math$/;"	i
+params	transform/feats/spectrum.py	/^    def params(cls, config=None):$/;"	m	class:Spectrum
+py_x_ops	transform/feats/spectrum.py	/^from athena.transform.feats.ops import py_x_ops$/;"	i
+tf	transform/feats/spectrum.py	/^import tensorflow as tf$/;"	i
+Path	transform/feats/spectrum_test.py	/^from pathlib import Path$/;"	i
+ReadWav	transform/feats/spectrum_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+Spectrum	transform/feats/spectrum_test.py	/^from athena.transform.feats.spectrum import Spectrum$/;"	i
+SpectrumTest	transform/feats/spectrum_test.py	/^class SpectrumTest(tf.test.TestCase):$/;"	c
+disable_eager_execution	transform/feats/spectrum_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/spectrum_test.py	/^    is_eager = True$/;"	v	class:SpectrumTest
+np	transform/feats/spectrum_test.py	/^import numpy as np$/;"	i
+os	transform/feats/spectrum_test.py	/^import os$/;"	i
+test_spectrum	transform/feats/spectrum_test.py	/^    def test_spectrum(self):$/;"	m	class:SpectrumTest
+tf	transform/feats/spectrum_test.py	/^import tensorflow as tf$/;"	i
+BaseFrontend	transform/feats/write_wav.py	/^from athena.transform.feats.base_frontend import BaseFrontend$/;"	i
+HParams	transform/feats/write_wav.py	/^from athena.utils.hparam import HParams$/;"	i
+WriteWav	transform/feats/write_wav.py	/^class WriteWav(BaseFrontend):$/;"	c
+__init__	transform/feats/write_wav.py	/^    def __init__(self, config: dict):$/;"	m	class:WriteWav
+call	transform/feats/write_wav.py	/^    def call(self, filename, audio_data, sample_rate):$/;"	m	class:WriteWav
+params	transform/feats/write_wav.py	/^    def params(cls, config=None):$/;"	m	class:WriteWav
+tf	transform/feats/write_wav.py	/^import tensorflow as tf$/;"	i
+Path	transform/feats/write_wav_test.py	/^from pathlib import Path$/;"	i
+ReadWav	transform/feats/write_wav_test.py	/^from athena.transform.feats.read_wav import ReadWav$/;"	i
+WriteWav	transform/feats/write_wav_test.py	/^from athena.transform.feats.write_wav import WriteWav$/;"	i
+WriteWavTest	transform/feats/write_wav_test.py	/^class WriteWavTest(tf.test.TestCase):$/;"	c
+disable_eager_execution	transform/feats/write_wav_test.py	/^from tensorflow.python.framework.ops import disable_eager_execution$/;"	i
+is_eager	transform/feats/write_wav_test.py	/^    is_eager = True$/;"	v	class:WriteWavTest
+librosa	transform/feats/write_wav_test.py	/^import librosa$/;"	i
+os	transform/feats/write_wav_test.py	/^import os$/;"	i
+test_write_wav	transform/feats/write_wav_test.py	/^    def test_write_wav(self):$/;"	m	class:WriteWavTest
+tf	transform/feats/write_wav_test.py	/^import tensorflow as tf$/;"	i
+Checkpoint	utils/checkpoint.py	/^class Checkpoint(tf.train.Checkpoint):$/;"	c
+__call__	utils/checkpoint.py	/^    def __call__(self, loss=None, metrics=None):$/;"	m	class:Checkpoint	file:
+__init__	utils/checkpoint.py	/^    def __init__(self, checkpoint_directory=None, model=None, **kwargs):$/;"	m	class:Checkpoint
+_compare_and_save_best	utils/checkpoint.py	/^    def _compare_and_save_best(self, loss, metrics, save_path):$/;"	m	class:Checkpoint
+compute_nbest_avg	utils/checkpoint.py	/^    def compute_nbest_avg(self, model_avg_num):$/;"	m	class:Checkpoint
+logging	utils/checkpoint.py	/^from absl import logging$/;"	i
+np	utils/checkpoint.py	/^import numpy as np$/;"	i
+os	utils/checkpoint.py	/^import os$/;"	i
+restore_from_best	utils/checkpoint.py	/^    def restore_from_best(self):      $/;"	m	class:Checkpoint
+tf	utils/checkpoint.py	/^import tensorflow as tf$/;"	i
+DataQueue	utils/data_queue.py	/^class DataQueue:$/;"	c
+__del__	utils/data_queue.py	/^    def __del__(self):$/;"	m	class:DataQueue	file:
+__init__	utils/data_queue.py	/^    def __init__(self, generator, capacity=20, num_threads=4, max_index=10000, wait_time=0.0001):$/;"	m	class:DataQueue
+generator	utils/data_queue.py	/^    def generator(i):$/;"	f	function:test
+generator_task	utils/data_queue.py	/^    def generator_task(self):$/;"	m	class:DataQueue
+get	utils/data_queue.py	/^    def get(self):$/;"	m	class:DataQueue
+queue	utils/data_queue.py	/^import queue$/;"	i
+stop	utils/data_queue.py	/^    def stop(self):$/;"	m	class:DataQueue
+test	utils/data_queue.py	/^def test():$/;"	f
+threading	utils/data_queue.py	/^import threading$/;"	i
+time	utils/data_queue.py	/^import time$/;"	i
+HParams	utils/hparam.py	/^class HParams(object):$/;"	c
+PARAM_RE	utils/hparam.py	/^PARAM_RE = re.compile($/;"	v
+_HAS_DYNAMIC_ATTRIBUTES	utils/hparam.py	/^    _HAS_DYNAMIC_ATTRIBUTES = True  # Required for pytype checks.$/;"	v	class:HParams
+__contains__	utils/hparam.py	/^    def __contains__(self, key):$/;"	m	class:HParams	file:
+__init__	utils/hparam.py	/^    def __init__(self, model_structure=None, **kwargs):$/;"	m	class:HParams
+__repr__	utils/hparam.py	/^    def __repr__(self):$/;"	m	class:HParams	file:
+__str__	utils/hparam.py	/^    def __str__(self):$/;"	m	class:HParams	file:
+_cast_to_type_if_compatible	utils/hparam.py	/^def _cast_to_type_if_compatible(name, param_type, value):$/;"	f
+_get_kind_name	utils/hparam.py	/^    def _get_kind_name(param_type, is_list):$/;"	m	class:HParams
+_parse_fail	utils/hparam.py	/^def _parse_fail(name, var_type, value, values):$/;"	f
+_process_list_value	utils/hparam.py	/^def _process_list_value(name, parse_fn, var_type, m_dict, values, results_dictionary):$/;"	f
+_process_scalar_value	utils/hparam.py	/^def _process_scalar_value(name, parse_fn, var_type, m_dict, values, results_dictionary):$/;"	f
+_reuse_fail	utils/hparam.py	/^def _reuse_fail(name, values):$/;"	f
+absolute_import	utils/hparam.py	/^from __future__ import absolute_import$/;"	i
+add_hparam	utils/hparam.py	/^    def add_hparam(self, name, value):$/;"	m	class:HParams
+append	utils/hparam.py	/^    def append(self, hp):$/;"	m	class:HParams
+del_hparam	utils/hparam.py	/^    def del_hparam(self, name):$/;"	m	class:HParams
+division	utils/hparam.py	/^from __future__ import division$/;"	i
+get	utils/hparam.py	/^    def get(self, key, default=None):$/;"	m	class:HParams
+get_model_structure	utils/hparam.py	/^    def get_model_structure(self):$/;"	m	class:HParams
+instantiate	utils/hparam.py	/^    def instantiate(self):$/;"	m	class:HParams
+json	utils/hparam.py	/^import json$/;"	i
+numbers	utils/hparam.py	/^import numbers$/;"	i
+override_from_dict	utils/hparam.py	/^    def override_from_dict(self, values_dict):$/;"	m	class:HParams
+parse	utils/hparam.py	/^    def parse(self, values, ignore_unknown=False):$/;"	m	class:HParams
+parse_bool	utils/hparam.py	/^            def parse_bool(value):$/;"	f	function:parse_values
+parse_json	utils/hparam.py	/^    def parse_json(self, values_json):$/;"	m	class:HParams
+parse_values	utils/hparam.py	/^def parse_values(values, type_map, ignore_unknown=False):$/;"	f
+print_function	utils/hparam.py	/^from __future__ import print_function$/;"	i
+re	utils/hparam.py	/^import re$/;"	i
+register_and_parse_hparams	utils/hparam.py	/^def register_and_parse_hparams(default_config: dict, config=None, **kwargs):$/;"	f
+remove_callables	utils/hparam.py	/^        def remove_callables(x):$/;"	f	function:HParams.to_json
+set_hparam	utils/hparam.py	/^    def set_hparam(self, name, value):$/;"	m	class:HParams
+set_model_structure	utils/hparam.py	/^    def set_model_structure(self, model_structure):$/;"	m	class:HParams
+six	utils/hparam.py	/^import six$/;"	i
+to_json	utils/hparam.py	/^    def to_json(self, indent=None, separators=None, sort_keys=False):$/;"	m	class:HParams
+values	utils/hparam.py	/^    def values(self):$/;"	m	class:HParams
+HParamsTest	utils/hparam_test.py	/^class HParamsTest(tf.test.TestCase):$/;"	c
+absolute_import	utils/hparam_test.py	/^from __future__ import absolute_import$/;"	i
+division	utils/hparam_test.py	/^from __future__ import division$/;"	i
+f	utils/hparam_test.py	/^        def f(x):$/;"	f	function:HParamsTest.testFunction
+hparam	utils/hparam_test.py	/^from transform.utils import hparam$/;"	i
+print_function	utils/hparam_test.py	/^from __future__ import print_function$/;"	i
+testBoolParsing	utils/hparam_test.py	/^    def testBoolParsing(self):$/;"	m	class:HParamsTest
+testBoolParsingFail	utils/hparam_test.py	/^    def testBoolParsingFail(self):$/;"	m	class:HParamsTest
+testContains	utils/hparam_test.py	/^    def testContains(self):$/;"	m	class:HParamsTest
+testDel	utils/hparam_test.py	/^    def testDel(self):$/;"	m	class:HParamsTest
+testEmpty	utils/hparam_test.py	/^    def testEmpty(self):$/;"	m	class:HParamsTest
+testFunction	utils/hparam_test.py	/^    def testFunction(self):$/;"	m	class:HParamsTest
+testGet	utils/hparam_test.py	/^    def testGet(self):$/;"	m	class:HParamsTest
+testJson	utils/hparam_test.py	/^    def testJson(self):$/;"	m	class:HParamsTest
+testLists	utils/hparam_test.py	/^    def testLists(self):$/;"	m	class:HParamsTest
+testParseValuesWithBadIndexAssigment1	utils/hparam_test.py	/^    def testParseValuesWithBadIndexAssigment1(self):$/;"	m	class:HParamsTest
+testParseValuesWithBadIndexAssigment1_IgnoreUnknown	utils/hparam_test.py	/^    def testParseValuesWithBadIndexAssigment1_IgnoreUnknown(self):$/;"	m	class:HParamsTest
+testParseValuesWithBadIndexAssigment2	utils/hparam_test.py	/^    def testParseValuesWithBadIndexAssigment2(self):$/;"	m	class:HParamsTest
+testParseValuesWithBadIndexAssigment2_IgnoreUnknown	utils/hparam_test.py	/^    def testParseValuesWithBadIndexAssigment2_IgnoreUnknown(self):$/;"	m	class:HParamsTest
+testParseValuesWithBadIndexAssigment3	utils/hparam_test.py	/^    def testParseValuesWithBadIndexAssigment3(self):$/;"	m	class:HParamsTest
+testParseValuesWithBadIndexAssigment3_IgnoreUnknown	utils/hparam_test.py	/^    def testParseValuesWithBadIndexAssigment3_IgnoreUnknown(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment1	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment1(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment1_IgnoreUnknown	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment1_IgnoreUnknown(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment2	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment2(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment2_IgnoreUnknown	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment2_IgnoreUnknown(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment3	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment3(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment3_IgnoreUnknown	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment3_IgnoreUnknown(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment4	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment4(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment4_IgnoreUnknown	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment4_IgnoreUnknown(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment5	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment5(self):$/;"	m	class:HParamsTest
+testParseValuesWithIndexAssigment5_IgnoreUnknown	utils/hparam_test.py	/^    def testParseValuesWithIndexAssigment5_IgnoreUnknown(self):$/;"	m	class:HParamsTest
+testSetFromMap	utils/hparam_test.py	/^    def testSetFromMap(self):$/;"	m	class:HParamsTest
+testSetHParam	utils/hparam_test.py	/^    def testSetHParam(self):$/;"	m	class:HParamsTest
+testSetHParamListNonListMismatch	utils/hparam_test.py	/^    def testSetHParamListNonListMismatch(self):$/;"	m	class:HParamsTest
+testSetHParamTypeMismatch	utils/hparam_test.py	/^    def testSetHParamTypeMismatch(self):$/;"	m	class:HParamsTest
+testSomeValues	utils/hparam_test.py	/^    def testSomeValues(self):$/;"	m	class:HParamsTest
+testWithPeriodInVariableName	utils/hparam_test.py	/^    def testWithPeriodInVariableName(self):$/;"	m	class:HParamsTest
+testWithReusedVariables	utils/hparam_test.py	/^    def testWithReusedVariables(self):$/;"	m	class:HParamsTest
+test_append	utils/hparam_test.py	/^    def test_append(self):$/;"	m	class:HParamsTest
+test_parse_dict	utils/hparam_test.py	/^    def test_parse_dict(self):$/;"	m	class:HParamsTest
+tf	utils/hparam_test.py	/^import tensorflow as tf$/;"	i
+ExponentialDecayAdam	utils/learning_rate.py	/^class ExponentialDecayAdam(tf.keras.optimizers.Adam):$/;"	c
+ExponentialDecayLearningRateSchedule	utils/learning_rate.py	/^class ExponentialDecayLearningRateSchedule(tf.keras.optimizers.schedules.LearningRateSchedule):$/;"	c
+WarmUpAdam	utils/learning_rate.py	/^class WarmUpAdam(tf.keras.optimizers.Adam):$/;"	c
+WarmUpLearningSchedule	utils/learning_rate.py	/^class WarmUpLearningSchedule(tf.keras.optimizers.schedules.LearningRateSchedule):$/;"	c
+__call__	utils/learning_rate.py	/^    def __call__(self, step):$/;"	m	class:ExponentialDecayLearningRateSchedule	file:
+__call__	utils/learning_rate.py	/^    def __call__(self, step):$/;"	m	class:WarmUpLearningSchedule	file:
+__init__	utils/learning_rate.py	/^    def __init__(self, config=None, beta_1=0.9, beta_2=0.999, epsilon=1e-6,$/;"	m	class:ExponentialDecayAdam
+__init__	utils/learning_rate.py	/^    def __init__(self, config=None, beta_1=0.9, beta_2=0.999, epsilon=1e-7,$/;"	m	class:WarmUpAdam
+__init__	utils/learning_rate.py	/^    def __init__(self, initial_lr=0.005, decay_steps=10000, decay_rate=0.5,$/;"	m	class:ExponentialDecayLearningRateSchedule
+__init__	utils/learning_rate.py	/^    def __init__(self, model_dim=512, warmup_steps=4000, k=1.0,$/;"	m	class:WarmUpLearningSchedule
+default_config	utils/learning_rate.py	/^    default_config = {$/;"	v	class:ExponentialDecayAdam
+default_config	utils/learning_rate.py	/^    default_config = {$/;"	v	class:WarmUpAdam
+register_and_parse_hparams	utils/learning_rate.py	/^from ..utils.hparam import register_and_parse_hparams$/;"	i
+tf	utils/learning_rate.py	/^import tensorflow as tf$/;"	i
+MetricChecker	utils/metric_check.py	/^class MetricChecker:$/;"	c
+__call__	utils/metric_check.py	/^    def __call__(self, loss, metrics, evaluate_epoch=-1):$/;"	m	class:MetricChecker	file:
+__init__	utils/metric_check.py	/^    def __init__(self, optimizer):$/;"	m	class:MetricChecker
+summary_evaluate	utils/metric_check.py	/^    def summary_evaluate(self, loss, metrics, epoch=-1):$/;"	m	class:MetricChecker
+summary_train	utils/metric_check.py	/^    def summary_train(self, loss, metrics):$/;"	m	class:MetricChecker
+tf	utils/metric_check.py	/^import tensorflow as tf$/;"	i
+time	utils/metric_check.py	/^import time$/;"	i
+create_multihead_mask	utils/misc.py	/^def create_multihead_mask(x, x_length, y, reverse=False):$/;"	f
+gated_linear_layer	utils/misc.py	/^def gated_linear_layer(inputs, gates, name=None):$/;"	f
+generate_square_subsequent_mask	utils/misc.py	/^def generate_square_subsequent_mask(size):$/;"	f
+get_wave_file_length	utils/misc.py	/^def get_wave_file_length(wave_file):$/;"	f
+insert_eos_in_labels	utils/misc.py	/^def insert_eos_in_labels(input_labels, eos, labels_length):$/;"	f
+insert_sos_in_labels	utils/misc.py	/^def insert_sos_in_labels(labels, sos):$/;"	f
+logging	utils/misc.py	/^from absl import logging$/;"	i
+mask_index_from_labels	utils/misc.py	/^def mask_index_from_labels(labels, index):$/;"	f
+np	utils/misc.py	/^import numpy as np$/;"	i
+os	utils/misc.py	/^import os$/;"	i
+remove_eos_in_labels	utils/misc.py	/^def remove_eos_in_labels(input_labels, labels_length):$/;"	f
+set_default_summary_writer	utils/misc.py	/^def set_default_summary_writer(summary_directory=None):$/;"	f
+splice_numpy	utils/misc.py	/^def splice_numpy(x, context):$/;"	f
+tensor_shape	utils/misc.py	/^def tensor_shape(tensor):$/;"	f
+tf	utils/misc.py	/^import tensorflow as tf$/;"	i
+validate_seqs	utils/misc.py	/^def validate_seqs(seqs, eos):$/;"	f
+wave	utils/misc.py	/^import wave$/;"	i

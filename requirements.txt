@@ -1,0 +1,14 @@
+sox
+absl-py
+yapf
+pylint
+flake8
+tqdm
+sentencepiece
+librosa
+jieba
+pandas<=0.25.1 
+kaldiio
+rarfile
+inflect
+https://github.com/kpu/kenlm/archive/master.zip
