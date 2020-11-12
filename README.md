@@ -334,7 +334,7 @@ Mandarin | Transformer | [AISHELL Dataset](http://www.openslr.org/33/) | 178 h |
 
 To compare with other published results, see [wer_are_we.md](docs/tutorials/wer_are_we.md).
 
-This is my experiment result for Conformer [Conformer: Convolution-augmented Transformer for Speech Recognition](http://arxiv.org/abs/2005.08100):
+This is my intermediate DEV result with Conformer [Conformer: Convolution-augmented Transformer for Speech Recognition](http://arxiv.org/abs/2005.08100):
 
 | CTC   | Attention | Macaron | RelPos | Swish | Conv | Size  | EncLayers | Epochs |
 | ----- | --------- | ------- | ------ | ----- | ---- | ----- | --------- | ------ |
