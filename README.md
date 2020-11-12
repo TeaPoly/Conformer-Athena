@@ -334,6 +334,20 @@ Mandarin | Transformer | [AISHELL Dataset](http://www.openslr.org/33/) | 178 h |
 
 To compare with other published results, see [wer_are_we.md](docs/tutorials/wer_are_we.md).
 
+This is my experiment result for Conformer [Conformer: Convolution-augmented Transformer for Speech Recognition](http://arxiv.org/abs/2005.08100):
+
+| CTC   | Attention | Macaron | RelPos | Swish | Conv | Size  | EncLayers | Epochs |
+| ----- | --------- | ------- | ------ | ----- | ---- | ----- | --------- | ------ |
+| 8.22% | 6.27%     | ✕       | ✕      | ✕     | ✕    | 27.3M | 12        | 11     |
+| 8.84% | 6.32%     | ✕       | ✕      | ✓     | ✕    | 27.3M | 12        | 11     |
+| 7.31% | 6.00%     | ✕       | ✕      | ✕     | ✓    | 29.7M | 12        | 10     |
+| 7.83% | 6.03%     | ✓       | ✕      | ✕     | ✕    | 39.9M | 12        | 11     |
+| 9.80% | 6.71%     | ✓       | ✓      | ✕     | ✕    | 40.7M | 12        | 11     |
+| 6.71% | 5.58%     | ✓       | ✕      | ✕     | ✓    | 42.3M | 12        | 11     |
+| 7.23% | 6.09%     | ✓       | ✓      | ✕     | ✓    | 43.1M | 12        | 9      |
+| 7.41% | 6.19%     | ✕       | ✕      | ✕     | ✓    | 41.8M | 20        | 11     |
+
+
 ## 8) Directory Structure
 
 Below is the basic directory structure for Athena
