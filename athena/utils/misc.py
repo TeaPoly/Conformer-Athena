@@ -23,6 +23,27 @@ from absl import logging
 import numpy as np
 
 
+def shape_list(x):
+    """Deal with dynamic shape in tensorflow cleanly."""
+    static = x.shape.as_list()
+    dynamic = tf.shape(x)
+    return [dynamic[i] if s is None else s for i, s in enumerate(static)]
+
+def create_input_masks(x, x_length):
+    """Generate a square mask for the sequence for mult-head attention.
+       The masked positions are filled with float(1.0).
+       Unmasked positions are filled with float(0.0).
+    """
+    return tf.sequence_mask(
+        x_length, tf.shape(x)[1], dtype=tf.float32)
+
+def create_input_paddings(x, x_length):
+    """Generate a square mask for the sequence for mult-head attention.
+       The masked positions are filled with float(1.0).
+       Unmasked positions are filled with float(0.0).
+    """
+    return 1. - create_input_masks(x, x_length)
+
 def mask_index_from_labels(labels, index):
     mask = tf.math.logical_not(tf.math.equal(labels, index))
     mask = tf.cast(mask, dtype=labels.dtype)
@@ -88,6 +109,20 @@ def create_multihead_mask(x, x_length, y, reverse=False):
             y_mask = tf.maximum(y_mask, look_ahead_mask)
         y_mask.set_shape([None, None, None, None])
     return x_mask, y_mask
+
+
+def create_multihead_y_mask(y, reverse=False):
+    """Generate a square mask for the sequence for mult-head attention.
+       The masked positions are filled with float(1.0).
+       Unmasked positions are filled with float(0.0).
+    """
+    y_mask = tf.cast(tf.math.equal(y, 0), tf.float32)
+    y_mask = y_mask[:, tf.newaxis, tf.newaxis, :]
+    if not reverse:
+        look_ahead_mask = generate_square_subsequent_mask(tf.shape(y)[1])
+        y_mask = tf.maximum(y_mask, look_ahead_mask)
+    y_mask.set_shape([None, None, None, None])
+    return y_mask
 
 
 def gated_linear_layer(inputs, gates, name=None):
@@ -216,3 +251,149 @@ def apply_label_smoothing(inputs, num_classes, smoothing_rate=0.1):
     ```
     '''
     return ((1.0 - smoothing_rate) * inputs) + (smoothing_rate / num_classes)
+
+def subsequent_chunk_mask(size, chunk_size, history_chunk_size=-1):
+    """Create mask for subsequent steps (size, size) with chunk size,
+       this is for streaming encoder
+
+    Args:
+        size (int): size of mask
+        chunk_size (int): size of chunk
+        history_chunk_size (int): size of history chunk
+
+    Returns:
+        torch.Tensor: mask
+
+    Examples:
+        >>> subsequent_mask(4, 2, 1)
+        [[1, 1, 0, 0],
+         [1, 1, 0, 0],
+         [0, 1, 1, 1],
+         [0, 1, 1, 1]]
+    """
+    '''
+    ret = np.zeros((size, size), dtype=np.int32)
+    for i in range(size):
+        ending = min((i // chunk_size + 1) * chunk_size, size)
+        ret[i, 0:ending] = 1
+        if history_chunk_size != -1:
+            padding_zero_ending = max(0, (i // chunk_size)* chunk_size-history_chunk_size)
+            ret[i, 0:padding_zero_ending] = 0.0
+    return ret
+    '''
+    x = tf.broadcast_to(
+        tf.cast(tf.range(size), dtype=tf.int32), (size, size))
+
+    chunk_current = tf.math.floordiv(x, chunk_size) * chunk_size
+    chunk_ending = tf.math.minimum(chunk_current+chunk_size, size)
+    chunk_ending_ = tf.transpose(chunk_ending)
+    ret = tf.cast(tf.math.less_equal(
+        chunk_ending, chunk_ending_), dtype=tf.float32)
+    if history_chunk_size != -1:
+        chunk_start = tf.math.maximum(
+            0, tf.transpose(chunk_current)-history_chunk_size)
+        history_mask = tf.cast(
+            tf.math.greater_equal(x, chunk_start), dtype=tf.float32)
+        ret = history_mask*ret
+
+    return ret
+
+
+def add_optional_chunk_mask(xs, masks, training,
+                            use_dynamic_chunk: bool, decoding_chunk_size: int,
+                            static_chunk_size: int, history_chunk_size: int = -1,
+                            dynamic_max_chunk: int = 25, dynamic_include_fullcontext: bool = True):
+    """ Apply optional mask for encoder.
+
+    Args:
+        xs (torch.Tensor): padded input, (B, L, D), L for max length
+        mask (torch.Tensor): mask for xs, (B, 1, L)
+        use_dynamic_chunk (bool): whether to use dynamic chunk or not
+        decoding_chunk_size (int): decoding chunk size for dynamic chunk.
+        static_chunk_size (int): chunk size for static chunk training/decoding
+            if it's greater than 0, if use_dynamic_chunk is true,
+            this parameter will be ignored
+
+    Returns:
+        torch.Tensor: chunk mask of the input xs.
+    """
+    # masks = ~make_pad_mask(xs_lens).unsqueeze(1)  # (B, 1, L)
+    # (B, L) -> (B, 1, L)
+    masks = tf.expand_dims(masks, 1)
+    # Whether to use chunk mask or not
+    if use_dynamic_chunk:
+        max_len = shape_list(xs)[1]
+        chunk_size = tf.random.uniform(
+            shape=(), minval=1, maxval=max_len, dtype=tf.int32)
+
+        if dynamic_include_fullcontext:
+            # chunk size is either [1, 25] or full context(max_len).
+            # Since we use 4 times subsampling and allow up to 1s(100 frames)
+            # delay, the maximum frame is 100 / 4 = 25.
+
+            '''
+            chunk_size = torch.randint(1, max_len, (1, )).item()
+            if chunk_size > max_len // 2:
+                chunk_size = max_len
+            else:
+                chunk_size = chunk_size % 25 + 1
+            '''
+            chunk_size = tf.cond(
+                tf.math.greater(chunk_size, tf.math.floordiv(max_len, 2)),
+                lambda: max_len,
+                lambda: tf.math.floormod(chunk_size, dynamic_max_chunk) + 1
+            )
+        else:
+            # chunk size is either [1, 25].
+            # Since we use 4 times subsampling and allow up to 1s(100 frames)
+            # delay, the maximum frame is 100 / 4 = 25.
+            chunk_size = tf.math.floormod(
+                chunk_size, dynamic_max_chunk) + 1
+
+        # Use chunk 1 when testing in dynamic chunk mode.
+        chunk_size = tf.cond(training,
+                             lambda: chunk_size,
+                             lambda: decoding_chunk_size)
+
+        # history chunk size is either [1, 25] or full context.
+        # Since we use 4 times subsampling and allow up to 1s(100 frames)
+        # delay, the maximum frame is 100 / 4 = 25.
+        chunk_masks = subsequent_chunk_mask(
+            shape_list(xs)[1], chunk_size, history_chunk_size)  # (L, L)
+
+        # chunk_masks = chunk_masks.unsqueeze(0)  # (1, L, L)
+        chunk_masks = tf.expand_dims(chunk_masks, 0)
+        chunk_masks = masks * chunk_masks  # (B, L, L)
+    elif static_chunk_size > 0:
+        # history chunk size is either [1, 25] or full context.
+        # Since we use 4 times subsampling and allow up to 1s(100 frames)
+        # delay, the maximum frame is 100 / 4 = 25.
+        chunk_masks = subsequent_chunk_mask(
+            shape_list(xs)[1], static_chunk_size, history_chunk_size)  # (L, L)
+
+        # chunk_masks = chunk_masks.unsqueeze(0)  # (1, L, L)
+        chunk_masks = tf.expand_dims(chunk_masks, 0)
+        chunk_masks = masks * chunk_masks  # (B, L, L)
+    else:
+        chunk_masks = masks
+    return chunk_masks
+
+def create_multihead_chunk_mask(xs, seq_len, training,
+                                use_dynamic_chunk: bool, decoding_chunk_size: int,
+                                static_chunk_size: int = 0, history_chunk_size: int = -1,
+                                dynamic_max_chunk: int = 25, dynamic_include_fullcontext: bool = True):
+
+    # (B, L)
+    masks = 1.0 - create_input_paddings(xs, seq_len)
+
+    # (B, L, L)
+    chunk_masks = add_optional_chunk_mask(xs, masks, training,
+                                          use_dynamic_chunk, decoding_chunk_size,
+                                          static_chunk_size, history_chunk_size=history_chunk_size,
+                                          dynamic_max_chunk=dynamic_max_chunk,
+                                          dynamic_include_fullcontext=dynamic_include_fullcontext)
+    chunk_masks = 1.0-chunk_masks
+
+    # (B, 1, L, L)
+    return tf.expand_dims(chunk_masks, 1)
+

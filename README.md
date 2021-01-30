@@ -46,6 +46,8 @@ All of our models are implemented in Tensorflow>=2.0.1. For ease of use, we prov
 - Transformer based TTS and FastSpeech
 - WFST creation and WFST-based decoding
 - Deployment with Tensorflow C++
+- Conformer (https://arxiv.org/abs/2005.08100)
+- Dynamic chunk-based attention for streaming (https://arxiv.org/abs/2012.05481)
 
 ## 3) Installation
 

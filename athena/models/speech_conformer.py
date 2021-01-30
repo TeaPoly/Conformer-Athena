@@ -34,6 +34,12 @@ from ..utils.hparam import register_and_parse_hparams
 class SpeechConformer(BaseModel):
     """ ESPnet implementation of a Conformer. Model mainly consists of three parts:
     the x_net for input preparation, the y_net for output preparation and the conformer itself
+
+    Dynmaic Chunk Conformer inspired by <Unified Streaming and Non-streaming Two-pass End-to-end Model for Speech Recognition>.
+
+    Ref: https://arxiv.org/abs/2012.05481
+    Repo: https://github.com/mobvoi/wenet
+
     """
     default_config = {
         "return_encoder_output": False,
@@ -54,7 +60,9 @@ class SpeechConformer(BaseModel):
         "positional_rate": 0.1,
         "label_smoothing_rate": 0.0,
         "unidirectional": False,
-        "look_ahead": 0
+        "look_ahead": 0,
+        "use_dynamic_chunk": False,
+        "decoding_chunk_size": -1,
     }
 
     def __init__(self, data_descriptions, config=None):
@@ -148,7 +156,15 @@ class SpeechConformer(BaseModel):
         x = self.x_net(x0, training=training)
         y = self.y_net(y0, training=training)
         input_length = self.compute_logit_length(samples)
-        input_mask, output_mask = create_multihead_mask(x, input_length, y0)
+        if self.hparams.use_dynamic_chunk:
+            input_mask = create_multihead_chunk_mask(
+                            x, input_length, 
+                            training=training,
+                            use_dynamic_chunk=True, 
+                            decoding_chunk_size=self.hparams.decoding_chunk_size)
+            output_mask = create_multihead_y_mask(y0)
+        else:
+            input_mask, output_mask = create_multihead_mask(x, input_length, y0)
         y, encoder_output = self.conformer(
             x,
             y,
