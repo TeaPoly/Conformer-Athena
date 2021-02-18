@@ -63,6 +63,7 @@ class SpeechConformer(BaseModel):
         "look_ahead": 0,
         "use_dynamic_chunk": False,
         "decoding_chunk_size": -1,
+        "conv_module_norm": 'batch_norm', # layer_norm or batch_norm
     }
 
     def __init__(self, data_descriptions, config=None):
@@ -141,7 +142,8 @@ class SpeechConformer(BaseModel):
             encode_activation=self.hparams.encode_activation,
             decode_activation=self.hparams.decode_activation,
             unidirectional=self.hparams.unidirectional,
-            look_ahead=self.hparams.look_ahead
+            look_ahead=self.hparams.look_ahead,
+            conv_module_norm=self.hparams.conv_module_norm,
         )
 
         # last layer for output

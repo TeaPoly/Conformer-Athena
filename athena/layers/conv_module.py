@@ -28,6 +28,7 @@ class ConvModule(tf.keras.layers.Layer):
                  d_model,
                  kernel_size=32,
                  depth_multiplier=1,
+                 norm='batch_norm',
                  activation='swish'):
         super(ConvModule, self).__init__()
 
@@ -48,7 +49,14 @@ class ConvModule(tf.keras.layers.Layer):
             depth_multiplier=1, 
             name="depthwise_conv"
         )
-        self.bn = tf.keras.layers.BatchNormalization()
+
+        if norm == 'layer_norm':
+            self.norm = tf.keras.layers.LayerNormalization(epsilon=1e-8)
+        elif norm == 'batch_norm':
+            self.norm = tf.keras.layers.BatchNormalization()
+        else:
+            raise Exception('unexpected normalization method.')
+
         self.activation = ACTIVATIONS[activation] 
  
         self.pointwise_conv2 = tf.keras.layers.Conv1D(
@@ -75,7 +83,7 @@ class ConvModule(tf.keras.layers.Layer):
 
         # 1D Depthwise Conv
         outputs = self.depthwise_conv(outputs, training=training) # (batch, time, channel)
-        outputs = self.activation(self.bn(outputs, training=training)) # (batch, time, channel)
+        outputs = self.activation(self.norm(outputs, training=training)) # (batch, time, channel)
 
         outputs = self.pointwise_conv2(outputs, training=training) # (batch, time, channel)
         return outputs

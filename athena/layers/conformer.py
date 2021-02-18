@@ -64,7 +64,8 @@ class Conformer(tf.keras.layers.Layer):
         encode_activation="swish",
         decode_activation="relu",
         unidirectional=False,
-        look_ahead=0
+        look_ahead=0,
+        conv_module_norm='batch_norm',
     ):
         super().__init__()
 
@@ -75,7 +76,7 @@ class Conformer(tf.keras.layers.Layer):
         encoder_layers = [
             ConformerEncoderLayer(
                 d_model, nhead, kernel_size, depth_multiplier, dim_feedforward,
-                dropout, attention_dropout_rate, encode_activation, unidirectional, look_ahead
+                dropout, attention_dropout_rate, encode_activation, unidirectional, look_ahead, conv_module_norm=conv_module_norm
             )
             for _ in range(num_encoder_layers)
         ]
@@ -266,7 +267,8 @@ class ConformerEncoderLayer(tf.keras.layers.Layer):
 
     def __init__(
         self, d_model, nhead,  kernel_size=16, depth_multiplier=1, dim_feedforward=2048, dropout=0.1, attention_dropout_rate=0.0, activation="swish",
-            unidirectional=False, look_ahead=0, ffn=None
+            unidirectional=False, look_ahead=0, ffn=None,
+            conv_module_norm='batch_norm'
     ):
         super().__init__()
         self.self_attn = RelMultiHeadAttention(d_model, nhead, unidirectional, look_ahead=look_ahead)
@@ -327,6 +329,7 @@ class ConformerEncoderLayer(tf.keras.layers.Layer):
 
         self.conv_module = ConvModule(d_model, 
             kernel_size=kernel_size, depth_multiplier=depth_multiplier,
+            norm=conv_module_norm,
             activation=activation)
 
     def call(self, src, pos_emb, src_mask=None, training=None):
