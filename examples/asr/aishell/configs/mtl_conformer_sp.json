@@ -1,0 +1,94 @@
+{
+	"batch_size": 32,
+	"num_epochs": 50,
+	"sorta_epoch": 1,
+	"ckpt": "examples/asr/aishell/ckpts/mtl_consformer_ctc/",
+	"summary_dir": "examples/asr/aishell/ckpts/mtl_consformer_ctc/event",
+
+	"solver_gpu": [0],
+	"solver_config": {
+		"clip_norm": 5,
+		"log_interval": 10,
+		"enable_tf_function": true
+	},
+
+	"model": "mtl_transformer_ctc",
+	"num_classes": null,
+	"pretrained_model": null,
+	"model_config": {
+		"model": "speech_conformer",
+		"model_config": {
+			"return_encoder_output": true,
+			"num_filters": 256,
+			"d_model": 256,
+			"kernel_size": 15,
+			"depth_multiplier": 1,
+			"self_attention_dropout_rate": 0.0,
+			"attention_dropout_rate": 0.0,
+			"src_attention_dropout_rate": 0.0,
+			"encode_activation": "relu",
+			"decode_activation": "relu",
+			"num_heads": 4,
+			"num_encoder_layers": 12,
+			"num_decoder_layers": 6,
+			"dff": 2048,
+			"rate": 0.1,
+			"positional_rate": 0.1,
+			"label_smoothing_rate": 0.1,
+			"unidirectional": false,
+			"look_ahead": 0,
+			"conv_module_norm": "layer_norm"
+		},
+		"mtl_weight": 0.5
+	},
+
+	"inference_config": {
+		"decoder_type": "beam_search_decoder",
+		"model_avg_num": 10,
+		"beam_size": 10,
+		"ctc_weight": 0.5,
+		"lm_weight": 0.7,
+		"lm_type": "rnn",
+		"lm_path": "examples/asr/aishell/configs/rnnlm.json"
+	},
+
+	"optimizer": "warmup_adam",
+	"optimizer_config": {
+		"d_model": 256,
+		"warmup_steps": 25000,
+		"k": 1.0,
+		"decay_steps": 100000000,
+		"decay_rate": 0.1
+	},
+
+	"dataset_builder": "speech_recognition_dataset",
+	"num_data_threads": 6,
+	"trainset_config": {
+		"data_csv": "examples/asr/aishell/data/train.csv",
+		"audio_config": { "type": "Fbank", "filterbank_channel_count": 80 },
+		"cmvn_file": "examples/asr/aishell/data/cmvn",
+		"text_config": { "type": "vocab", "model": "examples/asr/aishell/data/vocab" },
+		"input_length_range": [10, 8000],
+		"speed_permutation": [0.9, 1.0, 1.1],
+		"spec_augment_config": {
+			"time_warping": 5,
+			"time_masking": 40,
+			"frequency_masking": 30,
+			"mask_cols": 2,
+			"mask_type": "zeros"
+		}
+	},
+	"devset_config": {
+		"data_csv": "examples/asr/aishell/data/dev.csv",
+		"audio_config": { "type": "Fbank", "filterbank_channel_count": 80 },
+		"cmvn_file": "examples/asr/aishell/data/cmvn",
+		"text_config": { "type": "vocab", "model": "examples/asr/aishell/data/vocab" },
+		"input_length_range": [10, 8000]
+	},
+	"testset_config": {
+		"data_csv": "examples/asr/aishell/data/test.csv",
+		"audio_config": { "type": "Fbank", "filterbank_channel_count": 80 },
+		"cmvn_file": "examples/asr/aishell/data/cmvn",
+		"text_config": { "type": "vocab", "model": "examples/asr/aishell/data/vocab" }
+	}
+}
