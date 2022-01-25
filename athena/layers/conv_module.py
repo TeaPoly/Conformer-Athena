@@ -29,7 +29,8 @@ class ConvModule(tf.keras.layers.Layer):
                  kernel_size=32,
                  depth_multiplier=1,
                  norm='batch_norm',
-                 activation='swish'):
+                 activation='swish',
+                 causal=False):
         super(ConvModule, self).__init__()
 
         self.pointwise_conv1 = tf.keras.layers.Conv1D(
@@ -45,7 +46,7 @@ class ConvModule(tf.keras.layers.Layer):
             filters=d_model, 
             kernel_size=kernel_size,
             strides=1,
-            padding="same", 
+            padding="causal" if causal else "same", 
             depth_multiplier=1, 
             name="depthwise_conv"
         )
